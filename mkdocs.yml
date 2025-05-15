@@ -165,6 +165,7 @@ plugins:
   - redirects:
       redirect_maps:
         'index.md': 'system_overview.md'
+        'SparkPNT_GNSS_Flex_Module_mosaic-X5/index.md': 'SparkPNT_GNSS_Flex_Module_mosaic-X5/hardware_overview.md'
 
   # Enables improved security for external links
   - privacy:
@@ -419,6 +420,8 @@ nav:
     - Design Standards: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
     - Software Overview: software_overview.md
+  - GNSS Flex Modules:
+    - mosaic-X5: '!include ./flex_boards/SparkPNT_GNSS_Flex_Module_mosaic-X5/mkdocs.yml'
   - Resources & Support:
     - Resources: resources.md
     - Troubleshooting Tips: troubleshooting_tips.md
