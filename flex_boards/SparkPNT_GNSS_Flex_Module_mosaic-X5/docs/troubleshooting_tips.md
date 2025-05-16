@@ -1,3 +1,19 @@
+---
+icon: sfe
+---
+
+!!! warning "Need Help?"
+	If you need technical assistance or more information on a product that is not working as you expected, we recommend heading over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance) page for some initial troubleshooting.
+
+	<center>
+	[SparkFun Technical Assistance Page](https://www.sparkfun.com/technical_assistance){ .md-button .md-button--primary }
+	</center>
+
+	If you can't find what you need there, the [SparkFun GNSS Forum](https://forum.sparkfun.com/viewforum.php?f=116) is a great place to ask questions.
+
+	!!! info "Account Registration Required"
+		If this is your first visit to our forum, you'll need to create a [Forum Account](https://forum.sparkfun.com/ucp.php?mode=register) to post questions.
+
 ### Electrostatic Discharge
 The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.
 
@@ -7,6 +23,7 @@ The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electro
 
 
 	<center>
+	![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width=100 }
 	<div class="video-500px">
 	<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>

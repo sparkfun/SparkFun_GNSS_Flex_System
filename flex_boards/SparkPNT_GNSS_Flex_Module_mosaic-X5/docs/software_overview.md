@@ -187,7 +187,7 @@ Users should install the [RXTools software suite](https://www.septentrio.com/en/
 		For users who are having trouble installing the USB driver, we have an archived version *(v3.0.2[^9])* of the installation file. Users can download [**version 3.0.2**](./assets/component_documentation/driver/USB_driver_3_0_2_Installer.exe) of the driver, by clicking on the button below.
 
 		[^9]:
-			For the latest USB driver from Septentrio, please install their driver through the [RxTools software suite](../rxtools).<br>
+			For the latest USB driver from Septentrio, please install their driver through the [RxTools software suite](rxtools.md).<br>
 			*This is driver version, was archived at the time that this guide was written. Please do not request for the file to be updated.*
 
 		<center>
@@ -219,6 +219,7 @@ With the USB driver installed, the mosaic-X5 module supports Ethernet-over-USB. 
 <div markdown>
 
 <center>
+![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width=100 }
 <article class="video-500px">
 <iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8" title="Septentrio: Getting started with the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>

@@ -7,6 +7,7 @@
 			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module. For example, users can utilize the [iFixit Anti-Static Wrist Strap](https://www.sparkfun.com/ifixit-anti-static-wrist-strap.html).
 
 			<div class="video-500px" align="center">
+			![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width=100 }
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 
@@ -341,6 +342,7 @@ The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./a
 <div markdown>
 
 <center>
+![QR code to product video](./assets/img/qr_code/video-septentrio_mosaic-x5.png){ .qr width=100 }
 <article class="video-500px">
 <iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
@@ -529,6 +531,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 
 </div>
 
+
 <div markdown>
 
 <center>
@@ -561,6 +564,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 
 		**Real-Time Kinematics Explained**</a>
 
+
 	-   <a href="https://www.sparkfun.com/news/7138">
 		<figure markdown>
 		![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/home_page_posts/7/1/3/8/SparkFun_RTK_Facet_-_Surveying_Monopod.jpg)
@@ -569,6 +573,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 		---
 
 		**What is Correction Data?**</a>
+
 
 	-   <a href="https://www.septentrio.com/en/learn-more/insights/gnss-corrections-demystified">
 		<figure markdown>
@@ -584,6 +589,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 
 !!! tip
 	For the best performance, we highly recommend that users configure the module to utilize/provide RTK corrections with a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable.
+
 
 
 ## GNSS Flex Headers
@@ -654,12 +660,12 @@ Below, are the features that are available from the mosaic-X5 GNSS receiver.
 
 
 === "UART Ports"
-	The mosaic-X5 has four UARTs that are organized into separate `COM` ports. The operation for each of these ports can be configured separately.
+	The mosaic-X5 has four UARTs ports, which can be operated and configured separately.
 
 
 	<figure markdown>
 	[![UART interface](./assets/img/hookup_guide/headers-uart.png){ width="400" }](./assets/img/hookup_guide/headers-uart.png "Click to enlarge")
-	<figcaption markdown>The `COM` ports on the mosaic-X5 GNSS Flex module.</figcaption>
+	<figcaption markdown>The UART ports on the mosaic-X5 GNSS Flex module.</figcaption>
 	</figure>
 
 
@@ -671,8 +677,8 @@ Below, are the features that are available from the mosaic-X5 GNSS receiver.
 	</div>
 
 
-	???+ info
-		By default, the `COM` ports will be configured with the following settings: 
+	!!! info "Default Configuration"
+		By default, the UART ports are configured with the following settings: 
 
 		- Baudrate: 115200bps
 		- Data Bits: 8
@@ -687,7 +693,7 @@ Below, are the features that are available from the mosaic-X5 GNSS receiver.
 
 	<figure markdown>
 	[![I/O for PPS signal](./assets/img/hookup_guide/headers-pps.png){ width="400" }](./assets/img/hookup_guide/headers-pps.png "Click to enlarge")
-	<figcaption markdown>The `PPS` signal's outputs on the mosaic-X5 GNSS Flex module.</figcaption>
+	<figcaption markdown>The `PPS` signal's output on the mosaic-X5 GNSS Flex module.</figcaption>
 	</figure>
 
 
@@ -777,7 +783,7 @@ In addition to the GNSS Flex headers, an extra 2x10 pin, 2mm pitch female header
 
 
 ## U.FL Connector
-Users will need to connect a compatible GPS antenna to the `L1/L2/L5/L6 Antenna` U.FL connector. The type of antenna used with the mosaic-X5 module affects the overall accuracy of the positions calculated by the GNSS receiver.
+Users will need to connect a compatible GPS antenna to the `ANT1` U.FL connector. The type of antenna used with the mosaic-X5 module affects the overall accuracy of the positions calculated by the GNSS receiver.
 
 - An active antenna often features a [LNA](https://en.wikipedia.org/wiki/Low-noise_amplifier "low-noise amplifier"). This allows the module to boost the signal received by the GNSS module without degrading the [SNR](https://en.wikipedia.org/wiki/Signal-to-noise_ratio Signal-to-noise ratio).
 - The more bands an antenna supports, the greater the performance.
@@ -795,7 +801,7 @@ There are some key parameters related to an antenna that can make or break the s
 
 <figure markdown>
 [![GPS antenna input](./assets/img/hookup_guide/ant.png){ width="400" }](./assets/img/hookup_guide/ant.png "Click to enlarge")
-<figcaption markdown>The SMA connector to attach a GPS antenna to the mosaic-X5 GNSS Flex module.</figcaption>
+<figcaption markdown>The U.FL connector to attach an external GNSS antenna to the mosaic-X5 GNSS Flex module.</figcaption>
 </figure>
 
 
