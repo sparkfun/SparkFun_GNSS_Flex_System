@@ -21,7 +21,7 @@ In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "G
 <div markdown>
 
 <figure markdown>
-[![Antenna connection](./assets/img/hookup_guide/assembly-sma_adapter.jpg){ width="400" }](./assets/img/hookup_guide/assembly-antenna.jpg "Click to enlarge")
+[![Antenna connection](./assets/img/hookup_guide/assembly-sma_adapter.jpg){ width="400" }](./assets/img/hookup_guide/assembly-sma_adapter.jpg "Click to enlarge")
 <figcaption markdown>Attaching an antenna directly to the GNSS Flex board.</figcaption>
 </figure>
 
