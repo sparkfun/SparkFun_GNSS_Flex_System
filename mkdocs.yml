@@ -424,6 +424,8 @@ nav:
   - GNSS Flex Modules:
     - mosaic-X5: '!include ./flex_boards/SparkPNT_GNSS_Flex_Module_mosaic-X5/mkdocs.yml'
     - LG290P: '!include ./flex_boards/SparkPNT_GNSS_Flex_Module_LG290P/mkdocs.yml'
+  - Carrier Boards:
+    - pHAT: '!include ./flex_boards/SparkFun_GNSS_pHAT/mkdocs.yml'
   - Resources & Support:
     - Resources: resources.md
     - Troubleshooting Tips: troubleshooting_tips.md
