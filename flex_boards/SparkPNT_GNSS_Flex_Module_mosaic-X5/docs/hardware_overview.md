@@ -339,19 +339,16 @@ The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./a
 
 <div class="grid cards" markdown>
 
--   <div markdown>
-	<center>
-	![QR code to product video](./assets/img/qr_code/video-septentrio_mosaic-x5.png){ .qr width=100 }
-	</center>
-	</div>
+<div markdown>
 
--   <div markdown>
-	<center>
-	<article class="video-500px">
-	<iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</article>
-	</center>
-	</div>
+<center>
+<article class="video-500px">
+<iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</article>
+</center>
+
+</div>
+
 
 -   <figure markdown>
 	[![mosaic-X5 module](./assets/img/hookup_guide/mosaic-X5.png){ width="400" }](./assets/img/hookup_guide/mosaic-X5.png "Click to enlarge")
@@ -359,7 +356,6 @@ The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./a
 	</figure>
 
 </div>
-
 
 <div class="grid" markdown>
 
