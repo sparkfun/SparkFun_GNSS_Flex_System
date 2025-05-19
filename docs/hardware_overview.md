@@ -1,8 +1,6 @@
 ## Board Layout
+
 The boards of the GNSS Flex system have the following features:
-
- including the layout of the primary components.
-
 
 <div class="grid" markdown>
 
@@ -43,7 +41,7 @@ The boards of the GNSS Flex system have the following features:
 1. **GNSS Flex Male Headers**
 :	The *carrier* boards host GNSS Flex modules on the two 2x10-pin, 2mm pitch male headers. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows board to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the USB, UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
 1. **Status LED**
-:	Often *carrier* board will include status LEDs to indicate the board is powered, the RTK status, a PPS signal, and a GNSS fix.
+:	Often *carrier* boards will include status LEDs to indicate the board is powered, the RTK status, a PPS signal, and a GNSS fix.
 1. **Other Features**
 :	 The designs of the *carrier* boards usually have a specific purpose; therefore, they will often include other features. *(For more details, users can refer to the hardware information of the board they are interested in.)*
 
@@ -54,7 +52,7 @@ The boards of the GNSS Flex system have the following features:
 
 
 ## Header Pins
-The GNSS Flex ecosystem is designed around two 2x10-pin, 2mm pitch headers used mate its two board types. Depending on the capabilities of the GNSS receiver on the GNSS Flex module, these pins breakout the USB, UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
+The GNSS Flex ecosystem is designed around two 2x10-pin, 2mm pitch headers used mate the two board types. Depending on the capabilities of the GNSS receiver on the GNSS Flex module, these pins breakout the USB, UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
 
 
 <figure markdown>

@@ -299,7 +299,7 @@ For the users who prefer a command-line interface, Septentrio has you covered. U
 
 
 ## Board Layout
-The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows board to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
+The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used to mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
 
 The mosaic-X5 GNSS Flex module has the following features:
 
@@ -339,17 +339,19 @@ The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./a
 
 <div class="grid cards" markdown>
 
-<div markdown>
+-   <figure markdown>
+	<center>
+	![QR code to product video](./assets/img/qr_code/video-septentrio_mosaic-x5.png){ .qr width=100 }
+	</center>
+	</figure>
 
-<center>
-![QR code to product video](./assets/img/qr_code/video-septentrio_mosaic-x5.png){ .qr width=100 }
-<article class="video-500px">
-<iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
-</center>
-
-</div>
-
+-   <figure markdown>
+	<center>
+	<article class="video-500px">
+	<iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</article>
+	</center>
+	</figure>
 
 -   <figure markdown>
 	[![mosaic-X5 module](./assets/img/hookup_guide/mosaic-X5.png){ width="400" }](./assets/img/hookup_guide/mosaic-X5.png "Click to enlarge")
@@ -800,7 +802,7 @@ There are some key parameters related to an antenna that can make or break the s
 
 
 <figure markdown>
-[![GPS antenna input](./assets/img/hookup_guide/ant.png){ width="400" }](./assets/img/hookup_guide/ant.png "Click to enlarge")
+[![GPS antenna input](./assets/img/hookup_guide/ant-ufl.png){ width="400" }](./assets/img/hookup_guide/ant.png "Click to enlarge")
 <figcaption markdown>The U.FL connector to attach an external GNSS antenna to the mosaic-X5 GNSS Flex module.</figcaption>
 </figure>
 
