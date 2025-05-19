@@ -187,7 +187,7 @@ Users should install the [RXTools software suite](https://www.septentrio.com/en/
 		For users who are having trouble installing the USB driver, we have an archived version *(v3.0.2[^9])* of the installation file. Users can download [**version 3.0.2**](./assets/component_documentation/driver/USB_driver_3_0_2_Installer.exe) of the driver, by clicking on the button below.
 
 		[^9]:
-			For the latest USB driver from Septentrio, please install their driver through the [RxTools software suite](rxtools.md).<br>
+			For the latest USB driver from Septentrio, please install their driver through the RxTools software suite.<br>
 			*This is driver version, was archived at the time that this guide was written. Please do not request for the file to be updated.*
 
 		<center>
