@@ -339,19 +339,19 @@ The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./a
 
 <div class="grid cards" markdown>
 
--   <figure markdown>
+-   <div markdown>
 	<center>
 	![QR code to product video](./assets/img/qr_code/video-septentrio_mosaic-x5.png){ .qr width=100 }
 	</center>
-	</figure>
+	</div>
 
--   <figure markdown>
+-   <div markdown>
 	<center>
 	<article class="video-500px">
 	<iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 	</center>
-	</figure>
+	</div>
 
 -   <figure markdown>
 	[![mosaic-X5 module](./assets/img/hookup_guide/mosaic-X5.png){ width="400" }](./assets/img/hookup_guide/mosaic-X5.png "Click to enlarge")
@@ -723,7 +723,7 @@ Below, are the features that are available from the mosaic-X5 GNSS receiver.
 	<div markdown>
 
 	!!! success "Initial Configuration"
-		Before data logging can occur, it is necessary to create a *logging stream* from the **Logging** tab of the web interface or using the **RxTools** software suite. Streams can contain NMEA or SBF (Septentrio Binary Format) data; SBF can contain RTCM and/or RINEX. *(see the [Data Logging](web_interface.md#data-logging) section)*
+		Before data logging can occur, it is necessary to create a *logging stream* from the **Logging** tab of the web interface or using the **RxTools** software suite. Streams can contain NMEA or SBF (Septentrio Binary Format) data; SBF can contain RTCM and/or RINEX.
 
 
 	!!! info "SD Card Specifications"
@@ -802,7 +802,7 @@ There are some key parameters related to an antenna that can make or break the s
 
 
 <figure markdown>
-[![GPS antenna input](./assets/img/hookup_guide/ant-ufl.png){ width="400" }](./assets/img/hookup_guide/ant.png "Click to enlarge")
+[![GPS antenna input](./assets/img/hookup_guide/ant-ufl.png){ width="400" }](./assets/img/hookup_guide/ant-ufl.png "Click to enlarge")
 <figcaption markdown>The U.FL connector to attach an external GNSS antenna to the mosaic-X5 GNSS Flex module.</figcaption>
 </figure>
 
