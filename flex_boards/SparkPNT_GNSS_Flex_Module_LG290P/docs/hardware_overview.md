@@ -49,17 +49,17 @@ The built-in NIC anti-jamming unit provides professional-grade interference sign
 -   <!-- Boxes in tabs -->
 
 	=== "3D Model"
-		<center>
+		<article style="text-align: center;" markdown>
 		<model-viewer src="../assets/3d_model/web_model.glb" camera-controls poster="../assets/3d_model/poster.png" tone-mapping="neutral" shadow-intensity="2" shadow-softness="0.2" camera-orbit="0deg 75deg 0.103m" field-of-view="25.11deg" style="width: 100%; height: 450px;">
 		</model-viewer>
 
 		[Download the `*.step` File](./assets/3d_model/cad_model.step "Click download"){ .md-button .md-button--primary width="250px" }
 
-		</center>
+		</article>
 
 
 		???+ tip "Manipulate 3D Model"
-			<center>
+			<article style="text-align: center;" markdown>
 
 			| Controls       | Mouse                    | Touchscreen    |
 			| :------------- | :----------------------: | :------------: |
@@ -67,16 +67,16 @@ The built-in NIC anti-jamming unit provides professional-grade interference sign
 			| Rotate         | ++"Left-Click"++ & Drag  | 1-Finger Drag  |
 			| Move/Translate | ++"Right-Click"++ & Drag | 2-Finger Drag  |
 
-			</center>
+			</article>
 
 
 	=== "Dimensions"
-		<center>
+		<article style="text-align: center;" markdown>
 		[![Board Dimensions](./assets/board_files/dimensions.png){ width="450" }](./assets/board_files/dimensions.png "Click to enlarge")
 		<figcaption markdown>
 		Dimensions of the LG290P GNSS Flex module.
 		</figcaption>
-		</center>
+		</article>
 
 
 		???+ tip "Need more measurements?"
@@ -86,20 +86,20 @@ The built-in NIC anti-jamming unit provides professional-grade interference sign
 			!!! info ":octicons-download-16:{ .heart } KiCad - Free Download!"
 				KiCad is free, open-source [CAD]("computer-aided design") program for electronics. Click on the button below to download their software. *(\*Users can find out more information about KiCad from their [website](https://www.kicad.org/).)*
 
-				<center>
+				<article style="text-align: center;" markdown>
 				[Download :kicad-primary:{ .enlarge-logo }](https://www.kicad.org/download/ "Go to downloads page"){ .md-button .md-button--primary width="250px" }
-				</center>
+				</article>
 
 	
 			???+ info ":straight_ruler: Measuring Tool"
 				This video demonstrates how to utilize the dimensions tool in KiCad, to include additional measurements:
 
-				<center>
+				<article style="text-align: center;" markdown>
 				<article class="video-500px">
 				<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</article>
 				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
-				</center>
+				</article>
 
 </div>
 
@@ -149,12 +149,12 @@ The centerpiece of the LG290P GNSS Flex module, is the [LG290P GNSS module](./as
 
 <div markdown>
 
-<center>
+<article style="text-align: center;" markdown>
 ![QR code to product video](./assets/img/qr_code/video-quectel_lg290p.png){ .qr width=100 }
 <article class="video-500px">
 <iframe src="https://player.vimeo.com/video/1000742664?dnt=1&amp;app_id=122963" title="Quectel: Product Intro for LG290P GNSS Module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
-</center>
+</article>
 
 </div>
 
@@ -234,7 +234,7 @@ The centerpiece of the LG290P GNSS Flex module, is the [LG290P GNSS module](./as
 ### Power Consumption
 The power consumption of the LG290P GNSS module depends on the GNSS signals enabled and the positioning mode.
 
-<center>
+<article style="text-align: center;" markdown>
 
 | Mode        | Power (mW) | Current (mA) |
 | :---------- | :--------: | :----------: |
@@ -242,9 +242,7 @@ The power consumption of the LG290P GNSS module depends on the GNSS signals enab
 | Tracking    | 300.3      | 91           |
 | Backup      | 39.6       | 0.012        |
 
-</center>
-
-
+</article>
 
 ### Frequency Bands
 The LG290P module is a multi-band, multi-constellation GNSS receiver. Below, is a chart illustrating the frequency bands utilized by all the global navigation satellite systems; along with a list of the frequency bands and GNSS systems supported by the LG290P GNSS module.
@@ -351,15 +349,14 @@ The accuracy of the position reported from the LG290P GNSS module, can be improv
 
 <div markdown>
 
-<center>
+<article style="text-align: center;" markdown>
 
-| Correction Method                                                                             | Horizontal                   | Vertical                | Velocity                                |
-| :-------------------------------------------------------------------------------------------- | :--------------------------: | :---------------------: | :-------------------------------------: |
-| Standalone                                                                                    | 0.7m<br>~2.3'                | 2.5m<br>~8.2'           | 3cm/s (0.108kph)<br>~1.2in/s (0.067mph) |
-| [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic")    | **0.8cm** *(+1ppm)*<br>~0.3" | 1.5cm *(+1ppm)*<br>~.6" |                                         |
+| Correction Method | Horizontal                   | Vertical                | Velocity                                |
+| :---------------- | :--------------------------: | :---------------------: | :-------------------------------------: |
+| Standalone        | 0.7m<br>~2.3'                | 2.5m<br>~8.2'           | 3cm/s (0.108kph)<br>~1.2in/s (0.067mph) |
+| RTK               | **0.8cm** *(+1ppm)*<br>~0.3" | 1.5cm *(+1ppm)*<br>~.6" |                                         |
 
-
-</center>
+</article>
 
 </div>
 
@@ -494,7 +491,7 @@ Below, are the features that are available from the LG290P GNSS receiver.
 
 
 			??? abstract "List of Standard NMEA Messages"
-				<center>
+				<article style="text-align: center;" markdown>
 
 				| Message | Type Mode | Message Description               |
 				| :-----: | :-------: | :-------------------------------- |
@@ -505,7 +502,7 @@ Below, are the features that are available from the LG290P GNSS receiver.
 				| VTG | Output | Course Over Ground & Ground Speed        |
 				| GLL | Output | Geographic Position – Latitude/Longitude |
 
-				</center>
+				</article>
 
 
 		=== "PQTM"
@@ -513,7 +510,7 @@ Below, are the features that are available from the LG290P GNSS receiver.
 
 
 			??? abstract "List of Proprietary Quectel Messages"
-				<center>
+				<article style="text-align: center;" markdown>
 
 				| Message            | Type Mode    | Message Description                              |
 				| :----------------- | :----------: | :----------------------------------------------- |
@@ -557,7 +554,7 @@ Below, are the features that are available from the LG290P GNSS receiver.
 				| PQTMCFGRSID        | Input/Output | Sets/gets the reference station ID               |
 				| PQTMCFGRTCM        | Input/Output | Sets/gets RTCM                                   |
 
-				</center>
+				</article>
 
 
 		=== "RTCM"
@@ -565,7 +562,7 @@ Below, are the features that are available from the LG290P GNSS receiver.
 
 
 			??? abstract "List of Supported RTCMv3 *(MSM)* Messages"
-				<center>
+				<article style="text-align: center;" markdown>
 
 				| Message | Type Mode | Message Description                              |
 				| :--: | :----------: | :----------------------------------------------- |
@@ -608,7 +605,7 @@ Below, are the features that are available from the LG290P GNSS receiver.
 				| 1136 | Input/Output | NavIC/IRNSS MSM6 |
 				| 1137 | Input/Output | NavIC/IRNSS MSM7 |
 
-				</center>
+				</article>
 
 
 

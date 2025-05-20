@@ -242,17 +242,17 @@ For the users who prefer a command-line interface, Septentrio has you covered. U
 -   <!-- Boxes in tabs -->
 
 	=== "3D Model"
-		<center>
+		<article style="text-align: center;" markdown>
 		<model-viewer src="../assets/3d_model/web_model.glb" camera-controls poster="../assets/3d_model/poster.png" tone-mapping="neutral" shadow-intensity="2" shadow-softness="0.2" camera-orbit="0deg 75deg 0.103m" field-of-view="25.11deg" style="width: 100%; height: 450px;">
 		</model-viewer>
 
 		[Download the `*.step` File](./assets/3d_model/cad_model.step "Click download"){ .md-button .md-button--primary width="250px" }
 
-		</center>
+		</article>
 
 
 		???+ tip "Manipulate 3D Model"
-			<center>
+			<article style="text-align: center;" markdown>
 
 			| Controls       | Mouse                    | Touchscreen    |
 			| :------------- | :----------------------: | :------------: |
@@ -260,16 +260,16 @@ For the users who prefer a command-line interface, Septentrio has you covered. U
 			| Rotate         | ++"Left-Click"++ & Drag  | 1-Finger Drag  |
 			| Move/Translate | ++"Right-Click"++ & Drag | 2-Finger Drag  |
 
-			</center>
+			</article>
 
 
 	=== "Dimensions"
-		<center>
+		<article style="text-align: center;" markdown>
 		[![Board Dimensions](./assets/board_files/dimensions.png){ width="450" }](./assets/board_files/dimensions.png "Click to enlarge")
 		<figcaption markdown>
 		Dimensions of the mosaic-X5 GNSS Flex module.
 		</figcaption>
-		</center>
+		</article>
 
 
 		???+ tip "Need more measurements?"
@@ -279,20 +279,20 @@ For the users who prefer a command-line interface, Septentrio has you covered. U
 			!!! info ":octicons-download-16:{ .heart } KiCad - Free Download!"
 				KiCad is free, open-source [CAD]("computer-aided design") program for electronics. Click on the button below to download their software. *(\*Users can find out more information about KiCad from their [website](https://www.kicad.org/).)*
 
-				<center>
+				<article style="text-align: center;" markdown>
 				[Download :kicad-primary:{ .enlarge-logo }](https://www.kicad.org/download/ "Go to downloads page"){ .md-button .md-button--primary width="250px" }
-				</center>
+				</article>
 
 	
 			???+ info ":straight_ruler: Measuring Tool"
 				This video demonstrates how to utilize the dimensions tool in KiCad, to include additional measurements:
 
-				<center>
+				<article style="text-align: center;" markdown>
 				<article class="video-500px">
 				<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</article>
 				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
-				</center>
+				</article>
 
 </div>
 
@@ -341,11 +341,12 @@ The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./a
 
 <div markdown>
 
-<center>
+<article style="text-align: center;" markdown>
+![QR code to product video](./assets/img/qr_code/video-septentrio_mosaic-x5.png){ .qr width=100 }
 <article class="video-500px">
 <iframe src="https://www.youtube.com/embed/Co8hrVeklAA" title="Septentrio: Mosaic - GNSS / GPS module receiver range" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
-</center>
+</article>
 
 </div>
 
@@ -394,7 +395,7 @@ The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./a
 - Timing Precision: 5ns
 - Position Accuracy
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	| Correction | Horizontal                             | Vertical                     |
 	| :--------- | :------------------------------------: | :--------------------------: |
@@ -403,7 +404,7 @@ The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./a
 	| SBAS       | 60cm<br>~2'                            | 80cm<br>~2.6'                |
 	| Standalone | 1.2m<br>~4'                            | 1.9m<br>~6.2'                |
 
-	</center>
+	</article>
 
 </div>
 
@@ -456,7 +457,7 @@ The mosaic-X5 module operates in three different power states.
 #### Power Consumption
 The power consumption of the mosaic-X5 module depends on the GNSS signals enabled and the positioning mode. The table below, lists the average power consumption for common configurations. The current listed, is based on a supply voltage of 3.3V.
 
-<center>
+<article style="text-align: center;" markdown>
 
 | GNSS Signals | Positioning Mode | Power (mW) | Current (mA) |
 | :----------- | :--------------- | :--------: | :----------: |
@@ -471,7 +472,8 @@ The power consumption of the mosaic-X5 module depends on the GNSS signals enable
 | All signals from all GNSS constellations +L-band | Static (100Hz) | 1080 | 327 |
 
 *Source: [mosaic-X5 Hardware Manual](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf)*
-</center>
+
+</article>
 
 
 
@@ -532,7 +534,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 
 <div markdown>
 
-<center>
+<article style="text-align: center;" markdown>
 
 | Correction                                                                                    | Horizontal                             | Vertical                     |
 | :-------------------------------------------------------------------------------------------- | :------------------------------------: | :--------------------------: |
@@ -541,7 +543,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 | [SBAS](https://en.wikipedia.org/wiki/GNSS_augmentation "Satellite-Based Augmentation System") | 60cm<br>~2'                            | 80cm<br>~2.6'                |
 | Standalone                                                                                    | 1.2m<br>~4'                            | 1.9m<br>~6.2'                |
 
-</center>
+</article>
 
 </div>
 

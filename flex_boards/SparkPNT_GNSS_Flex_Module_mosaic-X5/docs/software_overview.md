@@ -16,9 +16,9 @@ Users should install the [RXTools software suite](https://www.septentrio.com/en/
 [^1]: On Linux, the standard Linux CDC-ACM driver is suitable.
 
 
-<center>
+<article style="text-align: center;" markdown>
 [:octicons-download-16:{ .heart } Download the RxTools Software from Septentrio](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools){ .md-button .md-button--primary target="blank" }
-</center>
+</article>
 
 
 ??? info "System Requirements[^2]"
@@ -190,9 +190,9 @@ Users should install the [RXTools software suite](https://www.septentrio.com/en/
 			For the latest USB driver from Septentrio, please install their driver through the RxTools software suite.<br>
 			*This is driver version, was archived at the time that this guide was written. Please do not request for the file to be updated.*
 
-		<center>
+		<article style="text-align: center;" markdown>
 		[:octicons-download-16:{ .heart } Download USB Driver *(v3.0.2)*](./assets/component_documentation/driver/USB_driver_3_0_2_Installer.exe){ .md-button .md-button--primary target="blank" }
-		</center>
+		</article>
 
 
 === "Linux"
@@ -218,12 +218,12 @@ With the USB driver installed, the mosaic-X5 module supports Ethernet-over-USB. 
 
 <div markdown>
 
-<center>
+<article style="text-align: center;" markdown>
 ![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width=100 }
 <article class="video-500px">
 <iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8" title="Septentrio: Getting started with the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
-</center>
+</article>
 
 </div>
 
