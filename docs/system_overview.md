@@ -11,7 +11,7 @@ The SparkPNT GNSS Flex modules function as *plug-in* boards that feature differe
 
 
 ## Ecosystem Boards
-Below are general examples of a GNSS Flex module and *carrier* board.
+Below are two generic examples of a GNSS Flex *module* and *carrier* board.
 
 
 <!-- Import the component -->
