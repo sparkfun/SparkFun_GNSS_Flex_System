@@ -167,7 +167,7 @@ plugins:
         'index.md': 'system_overview.md'
         'SparkPNT_GNSS_Flex_Module_mosaic-X5/index.md': 'SparkPNT_GNSS_Flex_Module_mosaic-X5/hardware_overview.md'
         'SparkPNT_GNSS_Flex_Module_LG290P/index.md': 'SparkPNT_GNSS_Flex_Module_LG290P/hardware_overview.md'
-        'SparkFun_GNSS_Flex_pHAT/index.md': 'SparkFun_GNSS_Flex_pHAT/hardware_overview.md'
+        'SparkFun_GNSS_pHAT/index.md': 'SparkFun_GNSS_pHAT/hardware_overview.md'
 
   # Enables improved security for external links
   - privacy:
