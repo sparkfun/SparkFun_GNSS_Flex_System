@@ -44,10 +44,10 @@
 	---
 
 	- :material-folder-cog: Design Files:
-		- :fontawesome-solid-file-pdf: [Schematic](../flex_boards/SparkFun_GNSS_pHAT/docs/assets/board_files/schematic.pdf)
-		- :fontawesome-solid-file-pdf: [Board Dimensions](../flex_boards/SparkFun_GNSS_pHAT/docs/assets/board_files/dimensions.pdf)
-		- :material-folder-zip: [KiCad Files](../flex_boards/SparkFun_GNSS_pHAT/docs/assets/board_files/kicad_files.zip)
-		- :material-cube-outline: [STEP File](../flex_boards/SparkFun_GNSS_pHAT/docs/assets/3d_model/cad_model-pHAT.step)
+		- :fontawesome-solid-file-pdf: [Schematic](SparkFun_GNSS_Flex_pHAT/assets/board_files/schematic.pdf)
+		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkFun_GNSS_Flex_pHAT/assets/board_files/dimensions.pdf)
+		- :material-folder-zip: [KiCad Files](SparkFun_GNSS_Flex_pHAT/assets/board_files/kicad_files.zip)
+		- :material-cube-outline: [STEP File](SparkFun_GNSS_Flex_pHAT/assets/3d_model/cad_model-pHAT.step)
 	- Design Specifications:
 		- [Design Requirements](https://datasheets.raspberrypi.com/hat/hat-plus-specification.pdf)
 		- [Mechanical Specifications](https://raw.githubusercontent.com/raspberrypi/hats/refs/heads/master/hat-board-mechanical.pdf)
