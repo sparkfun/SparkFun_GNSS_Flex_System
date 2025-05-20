@@ -23,11 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
           submodules: true
-
-      - name: Fetch correct submodule shas
-        run: git submodule foreach 'git fetch --tags --depth 1 origin $sha1 && git checkout -q $sha1'
 
       - name: Install pgnquant for optimize plugin
         run: sudo apt-get install pngquant
