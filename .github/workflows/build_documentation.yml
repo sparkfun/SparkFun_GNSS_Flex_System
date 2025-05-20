@@ -23,7 +23,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive
+
+      - name: Update submodules
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
 
       - name: Install pgnquant for optimize plugin
         run: sudo apt-get install pngquant
