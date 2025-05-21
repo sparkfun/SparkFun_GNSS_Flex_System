@@ -809,7 +809,7 @@ There are some key parameters related to an antenna that can make or break the s
 
 
 <figure markdown>
-[![GPS antenna input](./assets/img/hookup_guide/ant-ufl.png){ width="400" }](./assets/img/hookup_guide/ant-ufl.png "Click to enlarge")
+[![GPS antenna input](./assets/img/hookup_guide/ant.png){ width="400" }](./assets/img/hookup_guide/ant.png "Click to enlarge")
 <figcaption markdown>The U.FL connector to attach an external GNSS antenna to the mosaic-X5 GNSS Flex module.</figcaption>
 </figure>
 
