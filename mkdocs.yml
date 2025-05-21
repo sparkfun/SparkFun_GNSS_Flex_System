@@ -426,6 +426,7 @@ nav:
     - Hardware Assembly: hardware_assembly.md
     - Software Overview: software_overview.md
   - GNSS Flex Modules:
+    - modules.md
     - mosaic-X5: '!include ./flex_boards/SparkPNT_GNSS_Flex_Module_mosaic-X5/mkdocs.yml'
     - LG290P: '!include ./flex_boards/SparkPNT_GNSS_Flex_Module_LG290P/mkdocs.yml'
   - Carrier Boards:

@@ -1,12 +1,39 @@
+<article style="text-align: center;" markdown>
+![Banner](./assets/img/banner-hookup_guide.png){ width="650px" }
+</article>
+
+
 ## Introduction
-This SparkPNT GNSS Flex module features the Quectel LG290P GNSS receiver. The LG290P module is a quad-band, multi-constellation, high-precision, RTK GNSS receiver. The module can simultaneously receive signals from the `L1`, `L2`, `L5`, and `L6`/`E6` frequency bands of the GPS, GLONASS, Galileo, BDS, QZSS, and NavIC GNSS constellations. In addition, the module supports SBAS augmentation systems (WASS, EGNOS, BDSBAS, MSAS, GAGAN, and SDCM), PPP services (Feature is still under development) (BDS PPP-B2b, QZSS CLAS, MADOCA-PPP, and Galileo HAS), RTCM, and RTK corrections for precision navigation with a fast convergence time and reliable performance.
 
-The built-in NIC anti-jamming unit provides professional-grade interference signal detection and elimination algorithms, effectively mitigating multiple narrow-band interference sources and significantly improving signal reception performance in complex electromagnetic environments. Additionally, the embedded algorithms ensure reliable positioning in complex scenarios such as urban environments and deep tree cover.
+<div class="grid cards desc" markdown>
+
+-   <a href="https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p.html">
+	**SparkPNT GNSS Flex Module - LG290P**<br>
+	**SKU:** GPS-28139
+
+	---
+
+	<figure markdown>
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/9/7/5/2/28929-LG290P-Module-Feature.jpg)
+	</figure></a>
+
+	<article style="text-align: center;" markdown>
+	![QR code to product page](./assets/img/qr_code/product.png){ .tinyqr }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p.html){ .md-button .md-button--primary }
+	</article>
 
 
-!!! warning "Features Under Development"
-	- **I^2^C/SPI** - Currently, only the UART interface is supported by the module.
-	- **PPP Services** - Corrections for some of the PPP services have not been implemented.
+-	This SparkPNT GNSS Flex module features the Quectel LG290P GNSS receiver. The LG290P module is a quad-band, multi-constellation, high-precision, RTK GNSS receiver. The module can simultaneously receive signals from the `L1`, `L2`, `L5`, and `L6`/`E6` frequency bands of the GPS, GLONASS, Galileo, BDS, QZSS, and NavIC GNSS constellations. In addition, the module supports SBAS augmentation systems (WASS, EGNOS, BDSBAS, MSAS, GAGAN, and SDCM), PPP services (Feature is still under development) (BDS PPP-B2b, QZSS CLAS, MADOCA-PPP, and Galileo HAS), RTCM, and RTK corrections for precision navigation with a fast convergence time and reliable performance.
+
+	The built-in NIC anti-jamming unit provides professional-grade interference signal detection and elimination algorithms, effectively mitigating multiple narrow-band interference sources and significantly improving signal reception performance in complex electromagnetic environments. Additionally, the embedded algorithms ensure reliable positioning in complex scenarios such as urban environments and deep tree cover.
+
+
+	!!! warning "Features Under Development"
+		- **I^2^C/SPI** - Currently, only the UART interface is supported by the module.
+		- **PPP Services** - Corrections for some of the PPP services have not been implemented.
+
+
+</div>
 
 
 

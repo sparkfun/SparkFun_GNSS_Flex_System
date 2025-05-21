@@ -1,3 +1,8 @@
+<article style="text-align: center;" markdown>
+![Banner](./assets/img/banner-hookup_guide.png){ width="650px" }
+</article>
+
+
 !!! danger
 	!!! warning "ESD Sensitivity"
 		The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.
@@ -18,11 +23,32 @@
 
 
 ## Introduction
-This SparkPNT GNSS Flex module features the [Septentrio mosaic-X5](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-x5), a compact, ultra-low power, multi-band, multi-constellation, high-precision GNSS receiver. The receiver supports the GPS (USA), GLONASS (Russia), Beidou (China), Galileo (Europe), and NavIC (India) constellations, including regional systems *(i.e. SBAS and QZSS)*. With its [**Real Time Kinematics**](https://learn.sparkfun.com/tutorials/813) (RTK) capabilities, the module can achieve a horizontal accuracy of 6mm (~0.25in), vertical accuracy of 1cm (~0.4in) using RTK, and timing precision of 5ns (5 billionths of a second). It also features Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-jamming-protection) for interference mitigation and anti-spoofing, ensuring best-in-class reliability and scalable position accuracy.
 
-The mosaic-X5 is a sophisticated module with an internal web server that can be utilized with any web browser. On the GNSS Flex module, the web server is accessed through either the USB data pins from the standard GNSS Flex headers; or the Ethernet PHY of the mosaic-X5, which is broken out on an third 2x10 pin, 2mm pitch female header. To guide users through the configuration options, Septentrio provides dozens of [video tutorials](https://www.youtube.com/@SeptentrioGNSS/videos) about the web interface.
+<div class="grid cards desc" markdown>
 
-For the users who prefer a command-line interface, Septentrio has you covered. Users can still control and configure the mosaic-X5 module through a CLI, which is useful for scenarios such as production line testing *(in fact, that is how we test this board)* or remote access.
+-   <a href="https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html">
+	**SparkPNT GNSS Flex Module - LG290P**<br>
+	**SKU:** GPS-28138
+
+	---
+
+	<figure markdown>
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/9/7/5/0/28138-GNSS-Flex-Module-Mosaic-X5-Feature-fixed.jpg)
+	</figure></a>
+
+	<article style="text-align: center;" markdown>
+	![QR code to product page](./assets/img/qr_code/product.png){ .tinyqr }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html){ .md-button .md-button--primary }
+	</article>
+
+
+-	This SparkPNT GNSS Flex module features the [Septentrio mosaic-X5](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-x5), a compact, ultra-low power, multi-band, multi-constellation, high-precision GNSS receiver. The receiver supports the GPS (USA), GLONASS (Russia), Beidou (China), Galileo (Europe), and NavIC (India) constellations, including regional systems *(i.e. SBAS and QZSS)*. With its [**Real Time Kinematics**](https://learn.sparkfun.com/tutorials/813) (RTK) capabilities, the module can achieve a horizontal accuracy of 6mm (~0.25in), vertical accuracy of 1cm (~0.4in) using RTK, and timing precision of 5ns (5 billionths of a second). It also features Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-jamming-protection) for interference mitigation and anti-spoofing, ensuring best-in-class reliability and scalable position accuracy.
+
+	The mosaic-X5 is a sophisticated module with an internal web server that can be utilized with any web browser. On the GNSS Flex module, the web server is accessed through either the USB data pins from the standard GNSS Flex headers; or the Ethernet PHY of the mosaic-X5, which is broken out on an third 2x10 pin, 2mm pitch female header. To guide users through the configuration options, Septentrio provides dozens of [video tutorials](https://www.youtube.com/@SeptentrioGNSS/videos) about the web interface.
+
+	For the users who prefer a command-line interface, Septentrio has you covered. Users can still control and configure the mosaic-X5 module through a CLI, which is useful for scenarios such as production line testing *(in fact, that is how we test this board)* or remote access.
+
+</div>
 
 
 ??? question "mosaic-X5 Product Comparison"
