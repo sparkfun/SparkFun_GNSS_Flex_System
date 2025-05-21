@@ -1,10 +1,27 @@
+<!-- Import the component -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+
 ## GNSS Flex System
 The GNSS Flex system is designed to be modular with a standardized pin layout that keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. The ecosystem is comprised of two boards, which mate through two 2x10-pin, 2mm pitch headers.
 
 <figure markdown>
-![Utilizing the GNSS Flex System](./assets/img/hookup_guide/animation-attach_module.gif){ width="500" }
+<model-viewer alt="Utilizing the GNSS Flex System" src="../assets/3d_model/GNSS_Flex-Stack_Animation.glb" poster="./assets/img/hookup_guide/animation-attach_module.gif" camera-controls autoplay tone-mapping="neutral" shadow-intensity="2" shadow-softness="0.2" camera-orbit="0deg 70deg 16.7m" field-of-view="18deg" camera-target="2.93m 1.16m -1.29m" style="width: 500px; height: 300px;">
+</model-viewer>
 <figcaption markdown>Attaching a GNSS Flex module to a GNSS Flex *carrier* board.</figcaption>
 </figure>
+
+
+???+ tip "Manipulate 3D Model"
+	<article style="text-align: center;" markdown>
+
+	| Controls       | Mouse                    | Touchscreen    |
+	| :------------- | :----------------------: | :------------: |
+	| Zoom           | Scroll Wheel             | 2-Finger Pinch |
+	| Rotate         | ++"Left-Click"++ & Drag  | 1-Finger Drag  |
+	| Move/Translate | ++"Right-Click"++ & Drag | 2-Finger Drag  |
+
+	</article>
+
 
 The SparkPNT GNSS Flex modules function as *plug-in* boards that feature different GNSS receivers. They are designed to mate with *carrier* boards for various purposes; such as a breakout board, Raspberry Pi pHAT, SparkPNT product line, etc.
 
@@ -12,10 +29,6 @@ The SparkPNT GNSS Flex modules function as *plug-in* boards that feature differe
 
 ## Ecosystem Boards
 Below are two generic examples of a GNSS Flex *module* and *carrier* board.
-
-
-<!-- Import the component -->
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
 
 <div class="grid cards" align="center" markdown>
@@ -38,17 +51,6 @@ Below are two generic examples of a GNSS Flex *module* and *carrier* board.
 
 </div>
 
-
-???+ tip "Manipulate 3D Model"
-	<article style="text-align: center;" markdown>
-
-	| Controls       | Mouse                    | Touchscreen    |
-	| :------------- | :----------------------: | :------------: |
-	| Zoom           | Scroll Wheel             | 2-Finger Pinch |
-	| Rotate         | ++"Left-Click"++ & Drag  | 1-Finger Drag  |
-	| Move/Translate | ++"Right-Click"++ & Drag | 2-Finger Drag  |
-
-	</article>
 
 
 
