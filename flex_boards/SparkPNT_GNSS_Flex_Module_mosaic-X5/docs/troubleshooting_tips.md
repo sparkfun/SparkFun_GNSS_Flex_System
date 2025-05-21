@@ -22,11 +22,9 @@ The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electro
 	As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
 
 
-	<article style="text-align: center;" markdown>
+	<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 	![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width=100 }
-	<div class="video-500px">
 	<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
 	</article>
 
 

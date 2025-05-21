@@ -104,10 +104,8 @@
 			???+ info ":straight_ruler: Measuring Tool"
 				This video demonstrates how to utilize the dimensions tool in KiCad, to include additional measurements:
 
-				<article style="text-align: center;" markdown>
-				<article class="video-500px">
+				<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 				<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</article>
 				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
 				</article>
 
@@ -159,11 +157,9 @@ The centerpiece of the LG290P GNSS Flex module, is the [LG290P GNSS module](./as
 
 <div markdown>
 
-<article style="text-align: center;" markdown>
+<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 ![QR code to product video](./assets/img/qr_code/video-quectel_lg290p.png){ .qr width=100 }
-<article class="video-500px">
 <iframe src="https://player.vimeo.com/video/1000742664?dnt=1&amp;app_id=122963" title="Quectel: Product Intro for LG290P GNSS Module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
 </article>
 
 </div>
