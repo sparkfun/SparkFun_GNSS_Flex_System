@@ -1,7 +1,7 @@
 ## Product Resources
 
 - Product Pages
-	- :sfe: [SparkPNT GNSS Flex Module - LG290P](https://www.sparkfun.com/sparkfun-gnss-flex-module-lg290p.html)
+	- :sfe: [SparkPNT GNSS Flex Module - LG290P](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p.html)
 	- :sfe: [SparkFun GNSS Flex pHAT - LG290P](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html)
 - :material-folder-cog: Design Files:
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
@@ -16,6 +16,7 @@
 	- :fontawesome-solid-file-pdf: [Base Station Mode Application Note](./assets/component_documentation/quectel_lg290p03_base_station_mode_application_note_v1-0.pdf)
 	- :fontawesome-solid-file-pdf: [Hardware Design](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf)
 	- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](./assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf)
+- :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 - :material-github: [GitHub Repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System)
 
 

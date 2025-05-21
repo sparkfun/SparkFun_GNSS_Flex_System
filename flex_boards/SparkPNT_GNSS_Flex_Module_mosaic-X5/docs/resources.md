@@ -1,7 +1,7 @@
 ## Product Resources
 
 - Product Pages
-	- :sfe: [SparkPNT GNSS Flex Module - mosaic-X5](https://www.sparkfun.com/sparkfun-gnss-flex-module-mosaic-x5.html)
+	- :sfe: [SparkPNT GNSS Flex Module - mosaic-X5](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html)
 	- :sfe: [SparkFun GNSS Flex pHAT - mosaic-X5](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html)
 - :material-folder-cog: Design Files:
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
@@ -12,6 +12,7 @@
 	- :fontawesome-solid-file-pdf: [mosaic-X5 Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf)
 	- :fontawesome-solid-file-pdf: [mosaic-X5 Brochure](./assets/component_documentation/Septentrio_mosaic-X5_LR.pdf)
 	- :fontawesome-solid-file-pdf: [Firmware Manual *(v4.14.10.1)*](./assets/component_documentation/firmware/mosaic-X5_firmware_v4.14.10.1_reference_guide.pdf)
+- :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 - :material-github: [GitHub Repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System)
 
 
