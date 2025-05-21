@@ -57,7 +57,7 @@ Below are two generic examples of a GNSS Flex *module* and *carrier* board.
 
 
 ???+ tip "Manipulate 3D Model"
-	<center>
+	<article style="text-align: center;" markdown>
 
 	| Controls       | Mouse                    | Touchscreen    |
 	| :------------- | :----------------------: | :------------: |
@@ -65,7 +65,7 @@ Below are two generic examples of a GNSS Flex *module* and *carrier* board.
 	| Rotate         | ++"Left-Click"++ & Drag  | 1-Finger Drag  |
 	| Move/Translate | ++"Right-Click"++ & Drag | 2-Finger Drag  |
 
-	</center>
+	</article>
 
 
 
