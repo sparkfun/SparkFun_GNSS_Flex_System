@@ -61,18 +61,12 @@ theme:
     # Keeps tabs visible in the header when scrolling
     - navigation.tabs.sticky
 
-    # Expands all the collapsible subsections in the navigation (left) sidebar
-    - navigation.expand
-
     # Adds pop-up button just below the header (when the user starts to scroll up)
     # i.e. Allows users to easily jump to the beginning of the page
     - navigation.top
 
     # Renders path for page navigation at the top of the page (makes page navigation more mobile friendly)
     - navigation.path
-
-    # Enables instant previews globally, for all internal links
-    - navigation.instant.preview
 
     # Highlights all occurrences of a search result when clicked on
     - search.highlight
@@ -167,7 +161,7 @@ plugins:
         'index.md': 'system_overview.md'
         'SparkPNT_GNSS_Flex_Module_mosaic-X5/index.md': 'SparkPNT_GNSS_Flex_Module_mosaic-X5/hardware_overview.md'
         'SparkPNT_GNSS_Flex_Module_LG290P/index.md': 'SparkPNT_GNSS_Flex_Module_LG290P/hardware_overview.md'
-        'SparkFun_GNSS_pHAT/index.md': 'SparkFun_GNSS_pHAT/hardware_overview.md'
+        'SparkFun_GNSS_Flex_pHAT/index.md': 'SparkFun_GNSS_Flex_pHAT/hardware_overview.md'
 
   # Enables improved security for external links
   - privacy:
@@ -260,6 +254,16 @@ markdown_extensions:
         # - https://raw.githubusercontent.com/santaimpersonator/git-test/main/glossary-sparkfun.md
         # - glossary-sparkfun.md
         # - glossary-local.md
+
+  # Enables page previews
+  - material.extensions.preview:
+      configurations:
+        - targets:
+            exclude:
+              - modules.md
+              - carriers.md
+              - resources.md
+              - troubleshooting_tips.md
 
   # Allows embedding of code blocks in other elements
   - pymdownx.superfences:
