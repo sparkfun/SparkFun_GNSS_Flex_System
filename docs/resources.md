@@ -33,6 +33,7 @@
 		- :fontawesome-solid-file-pdf: [RTK Application Note](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_gnss_rtk_application_note_v1-0.pdf)
 		- :fontawesome-solid-file-pdf: [Hardware Design](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf)
 		- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf)
+	- :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 
 </div>
 
@@ -52,6 +53,7 @@
 	- Design Specifications:
 		- [Design Requirements](https://datasheets.raspberrypi.com/hat/hat-plus-specification.pdf)
 		- [Mechanical Specifications](https://raw.githubusercontent.com/raspberrypi/hats/refs/heads/master/hat-board-mechanical.pdf)
+	- :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 	- :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT)
 
 </div>
