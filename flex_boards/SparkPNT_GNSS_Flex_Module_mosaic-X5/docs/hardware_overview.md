@@ -282,7 +282,7 @@ For the users who prefer a command-line interface, Septentrio has you covered. U
 
 
 ## Board Layout
-The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used to mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
+The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used to mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the USB, UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
 
 The mosaic-X5 GNSS Flex module has the following features:
 
@@ -576,7 +576,7 @@ The accuracy of the position reported from the mosaic-X5 module, can be improved
 
 
 ## GNSS Flex Headers
-The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
+The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. For the mosaic-X5 GNSS receiver, these pins will breakout the USB, UART (x4), and SD card interfaces along with a configurable PPS signal, two event signals, and two LED status indication signals from the GNSS receiver.
 
 
 <div class="grid" markdown>
