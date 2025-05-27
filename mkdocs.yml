@@ -1,7 +1,7 @@
 # Documentation page information
 site_name: SparkFun GNSS Flex System Hookup Guide
 site_description: A hookup guide for all the components of the SparkFun GNSS Flex ecosystem.
-site_url: https://sparkfun.github.io/SparkFun_GNSS_Flex_System
+site_url: https://docs.sparkfun.com/SparkFun_GNSS_Flex_System
 site_author: SparkFun Electronics
 
 repo_url: https://github.com/sparkfun/SparkFun_GNSS_Flex_System
