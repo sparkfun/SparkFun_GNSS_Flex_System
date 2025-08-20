@@ -18,7 +18,7 @@
 	<article style="text-align: center;" markdown>
 	[Hookup Guide](./SparkPNT_GNSS_Flex_Module_mosaic-X5/index.md){ .md-button .md-button--primary }
 
-	![QR code to product page](./SparkPNT_GNSS_Flex_Module_mosaic-X5/assets/img/qr_code/product.png){ .qr }
+	![QR code to product page](./SparkPNT_GNSS_Flex_Module_mosaic-X5/assets/img/qr_code/product.png){ .tinyqr }
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html){ .md-button .md-button--primary }
 	</article>
 
@@ -35,7 +35,7 @@
 	<article style="text-align: center;" markdown>
 	[Hookup Guide](./SparkPNT_GNSS_Flex_Module_LG290P/index.md){ .md-button .md-button--primary }
 
-	![QR code to product page](./SparkPNT_GNSS_Flex_Module_LG290P/assets/img/qr_code/product.png){ .qr }
+	![QR code to product page](./SparkPNT_GNSS_Flex_Module_LG290P/assets/img/qr_code/product.png){ .tinyqr }
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p.html){ .md-button .md-button--primary }
 	</article>
 
