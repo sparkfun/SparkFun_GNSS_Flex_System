@@ -17,5 +17,6 @@ nav:
   - Software Overview: software_overview.md
   - Advanced Configurations:
     - Enable GNSS Signals: gnss_signals.md
+    - Web Interface: web_interface.md
   - Troubleshooting Tips: troubleshooting_tips.md
   - Resources: resources.md
