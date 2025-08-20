@@ -216,10 +216,11 @@ With the USB driver installed, the mosaic-X5 module supports Ethernet-over-USB. 
 </div>
 
 
-<div markdown>
+<div style="text-align: center;" markdown>
 
-<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 ![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width=100 }
+
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8" title="Septentrio: Getting started with the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
 

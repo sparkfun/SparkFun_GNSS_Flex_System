@@ -13,6 +13,7 @@
 }
 
 
+/* Rotate objects */
 .rotate-90 {
   transform: rotate(90deg); /* Equal to rotateZ(90deg) */
 }
@@ -28,7 +29,7 @@
 
 @media screen and (min-width: 45em) {
   .md-social.generator-right {
-      padding: .2rem 0 0
+    padding: .2rem 0 0
   }
 }
 
@@ -45,6 +46,7 @@
     padding: 0 0 .2rem;
       width:auto
   }
+}
 
 
 /* SparkFun dark brand color: #3c464d */
@@ -195,24 +197,27 @@
 .md-typeset .github > .admonition-title,
 .md-typeset .github > summary {
   /* background-image: linear-gradient(to bottom, #8241f9, #4e277b); */
-  background-color: rgba(130, 80, 223, 0.1);
+  background-color: rgba(130, 80, 223, 0.4);
+  /* background-color: rgb(110, 64, 201); */
 }
 .md-typeset .github > .admonition-title::before,
 .md-typeset .github > summary::before {
-  /* background-color: #1B1F24; */
   background-color: var(--md-typeset-color);
   -webkit-mask-image: var(--md-admonition-icon--github);
           mask-image: var(--md-admonition-icon--github);
 }
 
+
 /* Arduino ========================================================================== */
 .md-typeset .admonition.arduino,
 .md-typeset details.arduino {
   border-color: #62AEB2;
+  /* border-color: #005c5f; */
 }
 .md-typeset .arduino > .admonition-title,
 .md-typeset .arduino > summary {
   background-color: #00878F;
+  /* background-color: rgba(0, 135, 143, 0.8); */
 }
 .md-typeset .arduino > .admonition-title::before,
 .md-typeset .arduino > summary::before {
@@ -224,6 +229,7 @@
 .md-typeset .arduino > summary {
   /* color: #E5AD24; */
   /* color: #E47128; */
+  /* color: #8C7965; */
   color: white;
 }
 
@@ -255,6 +261,7 @@
 .md-typeset .admonition.python,
 .md-typeset details.python {
   border-color: #646464;
+  /* border-color: #4B8BBE; */
 }
 .md-typeset .python > .admonition-title,
 .md-typeset .python > summary {
@@ -264,12 +271,15 @@
 .md-typeset .python > .admonition-title::before,
 .md-typeset .python > summary::before {
   background-color: #FFD43B;
+  /* background-color: #4B8BBE; */
   -webkit-mask-image: var(--md-admonition-icon--python);
           mask-image: var(--md-admonition-icon--python);
 }
 .md-typeset .python > .admonition-title,
 .md-typeset .python > summary {
-  color: #FFE873;
+  color: white;
+  /* color: #646464; */
+  /* color: #FFE873; */
 }
 
 
@@ -418,12 +428,25 @@
 
 
 /* ================================================================================== */
-/* YouTube Videos                                                                    */
+/* YouTube Videos                                                                     */
 /* ================================================================================== */
 
 /* Auto adjust embedded youtube videos size */
 /* Aspect ratio: height = 56.25% of width */
 /* 90vw = 90% of (viewport width) */
+
+.video {
+  position: relative;
+  width: 100%;
+}
+.video iframe {
+  position: relative;
+  top: 0;
+  width: 60vw;
+  height: 33.75vw;
+  border: 0;
+  overflow: hidden;
+}
 
 .video-container {
   position: relative;
@@ -470,6 +493,8 @@
   overflow: hidden;
 }
 
+
+
 /* Add compatibility for mobile devices */
 /* ================================================================================== */
 /* ================================================================================== */
@@ -513,12 +538,12 @@
 
 /* No ToC */
 /* ================================================================================== */
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
   .video-container iframe {
     width: 60vw;
     height: 33.75vw;
   }
-}
+} */
 
 
 /* ================================================================================== */
@@ -556,26 +581,27 @@
   }
   
   /* Sets images size in tables */
-  .md-typeset table:not([class]) td img {
-    width: 100%;
-    max-width: 150px;
-    max-height: 150px;
+  .md-typeset table:not([class]) * + figure img {
+    max-width: 75px;
   }
 
-
   /* ================================================================================== */
-  /* YoutTube Videos                                                                    */
+  /* YouTube Videos                                                                     */
   /* ================================================================================== */
 
-  .video-container iframe {
+  .video {
     display: none;
   }
 
-  .video-500px iframe {
+  .video-container {
     display: none;
   }
 
-  .video-300px iframe {
+  .video-500px {
+    display: none;
+  }
+
+  .video-300px {
     display: none;
   }
 
@@ -606,42 +632,6 @@
     max-height: 500px;
   }
 
-
-
-  /* Fixes positioning of admonition icon */
-  /* .md-typeset :is(.admonition-title,summary):before {
-    top: 0.6rem;
-    left: 0.6rem; 
-  } */
-  /* Fixes appearance of admonition icon */
-  /* .md-typeset :is(.admonition,details)>:last-child {
-    background-color: transparent; 
-  } */
-
-  /* Fixes margin spacing for lists */
-  /* .md-typeset ol,ul {
-    margin-left: 1.5rem;
-  } */
-
-  /* Adjusts page break for PDF generator */
-  article h2,h3,h4,h5,h6,ol,ul {
-    page-break-before: avoid;
-  }
-  article div.admonition {
-    page-break-before: avoid;
-  }
-  article table,ol,ul {
-    page-break-inside: auto !important;
-  }
-
-  /* Displays first tab (workaround to rendering issue) */
-  /* * + .tabbed-content {
-    display: contents;
-  }
-  * + .tabbed-content .tabbed-block {
-    display: contents;
-    page-break-after: always;
-  } */
 
   /* Prevents page break when tabs are embedded in an admonition*/
   /* article details.note {

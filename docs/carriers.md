@@ -18,7 +18,7 @@
 	<article style="text-align: center;" markdown>
 	[Hookup Guide](./SparkFun_GNSS_Flex_pHAT/index.md){ .md-button .md-button--primary }
 
-	![QR code to product page](./SparkFun_GNSS_Flex_pHAT/assets/img/qr_code/product.png){ .qr }
+	![QR code to product page](./SparkFun_GNSS_Flex_pHAT/assets/img/qr_code/product.png){ .tinyqr }
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html){ .md-button .md-button--primary }
 	</article>
 
