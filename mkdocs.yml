@@ -341,8 +341,6 @@ markdown_extensions:
 
 
 extra:
-  # Configures the hyperlink for the logo in the header
-  homepage: https://www.sparkfun.com
 
   generator: right
 
