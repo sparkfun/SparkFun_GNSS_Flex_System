@@ -21,8 +21,7 @@ Files that are inherently included for all GNSS Flex modules
 - `headers-flex_module.png` - Template for pin connections of the GNSS Flex headers
 - `headers-flex_module+gap.png` - Template for pin connections of the GNSS Flex headers w/ gap for 3rd header
 - `headers-flex_module+opt.png` - Template for pin connections of the GNSS Flex headers w/ box for 3rd header
-- `module-pinout.png` - Pin connections of the GNSS Flex headers with the board
-- `module-pinout2.png` - Pin connections of the GNSS Flex headers with the board w/ alignment marker
+- `module-pinout.png` - Pin connections of the GNSS Flex headers with the board w/ alignment marker
 - `module-pinout-carrier_height.png` - Pin connections of the GNSS Flex headers with the board, sized to carrier board template
 - `module-pinout-carrier_height2.png` - Pin connections of the GNSS Flex headers with the board, sized to carrier board template w/ alignment marker
 
