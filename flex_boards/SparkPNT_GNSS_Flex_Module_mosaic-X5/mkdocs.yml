@@ -15,5 +15,7 @@ nav:
   - Hardware Overview: hardware_overview.md
   - Hardware Assembly: hardware_assembly.md
   - Software Overview: software_overview.md
+  - Advanced Configurations:
+    - Enable GNSS Signals: gnss_signals.md
   - Troubleshooting Tips: troubleshooting_tips.md
   - Resources: resources.md
