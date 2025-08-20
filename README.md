@@ -71,7 +71,7 @@ Product Variants
 
 Version History
 ---------------
-- [r2025-05](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-05) - Initial Release
+- [r2025-08](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-08) - Initial Release
 
 
 > [!NOTE]
