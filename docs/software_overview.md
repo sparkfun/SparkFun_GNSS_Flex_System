@@ -24,6 +24,19 @@ The software requirements of the GNSS Flex modules are usually specific to the G
 	- [Download & User Manual](https://www.quectel.com/download/qgnss_v2-1_en/)
 	- [GitHub Repository](https://github.com/quectel-open-source/GNSSTool)
 
+
+- **u-blox**
+
+	---
+
+	On Windows platforms, u-blox provides the [u-center 2](https://www.u-blox.com/en/u-center-2) software application for their GNSS products:
+
+	- [Software Page](https://www.u-blox.com/en/product/u-center)
+	- [Download](https://u-center2-updates.u-blox.com/u-center2-installer.exe)
+	- [User Manual](https://www.u-blox.com/en/info/u-center-2-user-guide)
+	- [Webinar](https://www.youtube.com/watch?v=ZYttFyZ_7Uo)
+	- [Tutorial Videos](https://www.youtube.com/watch?v=UY2XTb72SXA&list=PLSzSoRUA4EXuo9NTsbTnK84MiKvbVCEKt)
+
 </div>
 
 
