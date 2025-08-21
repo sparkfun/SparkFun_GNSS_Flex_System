@@ -237,7 +237,7 @@ The [SparkFun LG290P Quadband RTK GNSS Arduino Library](https://github.com/spark
 <div markdown>
 
 <figure markdown>
-[![](./assets/img/hookup_guide/arduino_library.png "Click to enlarge"){ width="400" }](./assets/img/hookup_guide/arduino_library.png)
+[![Library listed in the library manager of the Arduino IDE](./assets/img/hookup_guide/arduino_library.png "Click to enlarge"){ width="400" }](./assets/img/hookup_guide/arduino_library.png)
 <figcaption markdown>
 SparkFun LG290P Quadband RTK GNSS Arduino Library in the library manager of the Arduino IDE.
 </figcaption>
