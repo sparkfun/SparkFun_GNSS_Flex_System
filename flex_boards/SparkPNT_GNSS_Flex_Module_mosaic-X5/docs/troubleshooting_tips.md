@@ -9,10 +9,10 @@ icon: sfe
 	[SparkFun Technical Assistance Page](https://www.sparkfun.com/technical_assistance){ .md-button .md-button--primary }
 	</article>
 
-	If you can't find what you need there, the [SparkFun GNSS Forum](https://forum.sparkfun.com/viewforum.php?f=116) is a great place to ask questions.
+	If you can't find what you need there, the [SparkFun GNSS Forum](https://community.sparkfun.com/) is a great place to ask questions.
 
 	!!! info "Account Registration Required"
-		If this is your first visit to our forum, you'll need to create a [Forum Account](https://forum.sparkfun.com/ucp.php?mode=register) to post questions.
+		If this is your first visit to our forum, you'll need to create a [Forum Account](https://community.sparkfun.com/signup) to post questions.
 
 ### Electrostatic Discharge
 The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.
@@ -23,7 +23,7 @@ The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electro
 
 
 	<article style="text-align: center;" markdown>
-	![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width=100 }
+	![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width="85px" }
 	</article>
 
 	<article class="video-500px" style="margin: auto;" markdown>

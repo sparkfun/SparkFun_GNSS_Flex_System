@@ -2,7 +2,7 @@
 Users can easily upgrade the firmware for the mosaic-X5 module through its webserver interface. This is useful for updating various features, such as the antenna calibration list.
 
 <article style="text-align: center;" markdown>
-![QR code - video](./assets/img/qr_code/video-update_firmware.png){ .qr width="75px" }
+![QR code - video](./assets/img/qr_code/video-update_firmware.png){ .qr width="85px" }
 </article>
 
 <div class="video-500px" style="margin: auto;">
@@ -48,7 +48,7 @@ This video illustrates how users can configure the settings for data logging to 
 
 
 <article style="text-align: center;" markdown>
-![QR code - video](./assets/img/qr_code/video-log_data.png){ .qr width="75px" }
+![QR code - video](./assets/img/qr_code/video-log_data.png){ .qr width="85px" }
 </article>
 
 
@@ -67,7 +67,7 @@ This video illustrates how users can configure and enable a data stream for a TC
 
 
 <article style="text-align: center;" markdown>
-![QR code - video](./assets/img/qr_code/video-data_stream.png){ .qr width="75px" }
+![QR code - video](./assets/img/qr_code/video-data_stream.png){ .qr width="85px" }
 </article>
 
 
@@ -81,7 +81,7 @@ This video illustrates how users can configure and enable a data stream for a TC
 
 
 	<article style="text-align: center;" markdown>
-	![QR code - video](./assets/img/qr_code/video-data_stream2.png){ .qr width="75px" }
+	![QR code - video](./assets/img/qr_code/video-data_stream2.png){ .qr width="85px" }
 	</article>
 
 
@@ -105,7 +105,7 @@ For users with multiple RTK capable GNSS receivers, users can configure their mo
 
 
 <article style="text-align: center;" markdown>
-![QR code - video](./assets/img/qr_code/video-ip_connection.png){ .qr width="75px" }
+![QR code - video](./assets/img/qr_code/video-ip_connection.png){ .qr width="85px" }
 </article>
 
 
@@ -124,7 +124,7 @@ Without having to setup a personal base station, users can receive RTK correctio
 
 
 <article style="text-align: center;" markdown>
-![QR code - video](./assets/img/qr_code/video-ntrip_connection.png){ .qr width="75px" }
+![QR code - video](./assets/img/qr_code/video-ntrip_connection.png){ .qr width="85px" }
 </article>
 
 
@@ -138,7 +138,7 @@ Without having to setup a personal base station, users can receive RTK correctio
 
 
 	<article style="text-align: center;" markdown>
-	![QR code - video](./assets/img/qr_code/video-polaris_rtk.png){ .qr width="75px" }
+	![QR code - video](./assets/img/qr_code/video-polaris_rtk.png){ .qr width="85px" }
 	</article>
 
 
@@ -162,7 +162,7 @@ By default, the mosaic-X5 GNSS receiver is not configured to access the internet
 
 
 <article style="text-align: center;" markdown>
-![QR code - video](./assets/img/qr_code/video-usb_eth.png){ .qr width="75px" }
+![QR code - video](./assets/img/qr_code/video-usb_eth.png){ .qr width="85px" }
 </article>
 
 

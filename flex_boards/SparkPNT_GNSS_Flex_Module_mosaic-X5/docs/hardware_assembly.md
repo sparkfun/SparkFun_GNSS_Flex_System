@@ -18,7 +18,7 @@
 			<div markdown>
 
 			<article class="video-500px" style="text-align: center; margin: auto;" markdown>
-			![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width=100 }
+			![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width="85px" }
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</article>
 

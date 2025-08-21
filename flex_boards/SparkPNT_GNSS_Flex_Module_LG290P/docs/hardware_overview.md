@@ -106,7 +106,7 @@
 
 				<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 				<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
+				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr width="85px" }
 				</article>
 
 </div>
@@ -157,7 +157,7 @@ The centerpiece of the LG290P GNSS Flex module, is the [LG290P GNSS module](./as
 
 <div style="text-align: center;" markdown>
 
-![QR code to product video](./assets/img/qr_code/video-quectel_lg290p.png){ .qr width=100 }
+![QR code to product video](./assets/img/qr_code/video-quectel_lg290p.png){ .qr width="85px" }
 
 <article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://player.vimeo.com/video/1000742664?dnt=1&amp;app_id=122963" title="Quectel: Product Intro for LG290P GNSS Module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

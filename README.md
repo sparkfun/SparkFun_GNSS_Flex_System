@@ -58,7 +58,6 @@ Repository Contents
 
 Product Variants
 ----------------
-
 - GNSS Flex pHAT:
   - [GPS-28137](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html)
 - Kits:
@@ -94,7 +93,7 @@ This product is ***open source***!
 
 Please review the [`LICENSE.md`](./LICENSE.md) file for license information.
 
-If you have any questions or concerns about licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
+If you have any questions or concerns about licensing, please contact technical support on our [SparkFun forums](https://community.sparkfun.com/c/community/general-chit-chat/37).
 
 Distributed as-is; no warranty is given.
 

@@ -11,7 +11,7 @@
 	If you can't find what you need there, the [SparkFun Forums](https://forum.sparkfun.com) is a great place to search the product forums and ask questions.
 
 	!!! info "Account Registration Required"
-		For your first visit to our forum, you'll need to create a [Forum Account](https://forum.sparkfun.com/ucp.php?mode=register) to post questions.
+		For your first visit to our forum, you'll need to create a [Forum Account](https://community.sparkfun.com/signup) to post questions.
 
 
 ## Did we make a mistake?
