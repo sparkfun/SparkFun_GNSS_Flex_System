@@ -35,6 +35,24 @@
 		- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf)
 	- :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 
+
+- **DAN-F10N**
+
+	---
+
+	- :material-folder-cog: Design Files:
+		- :fontawesome-solid-file-pdf: [Schematic](SparkPNT_GNSS_Flex_Module_DAN-F10N/assets/board_files/schematic.pdf)
+		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkPNT_GNSS_Flex_Module_DAN-F10N/assets/board_files/dimensions.pdf)
+		- :material-folder-zip: [KiCad Files](SparkPNT_GNSS_Flex_Module_DAN-F10N/assets/board_files/kicad_files.zip)
+		- :material-cube-outline: [STEP File](SparkPNT_GNSS_Flex_Module_DAN-F10N/assets/3d_model/cad_model.step)
+	- :fontawesome-solid-computer: [u-center 2 Software](https://www.u-blox.com/en/product/u-center)
+		- :material-cloud-download: [Download](https://u-center2-updates.u-blox.com/u-center2-installer.exe)
+		- :material-book-open-variant: [User Manual](https://www.u-blox.com/en/info/u-center-2-user-guide)
+	- Component Documentation
+		- :fontawesome-solid-file-pdf: [Datasheet](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_DataSheet_UBXDOC-963802114-13074.pdf)
+		- :fontawesome-solid-file-pdf: [Product Summary](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_ProductSummary_UBXDOC-963802114-13162.pdf)
+		- :fontawesome-solid-file-pdf: [Integration Manual](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_IntegrationManual_UBXDOC-963802114-13252.pdf)
+
 </div>
 
 ## Carrier Boards

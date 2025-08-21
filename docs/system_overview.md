@@ -79,7 +79,7 @@ Below, are all the available GNSS Flex boards in our ecosystem.
 
 <div class="grid cards" markdown>
 
---8<-- "./modules.md:9:40"
+--8<-- "./modules.md:9:57"
 
 --8<-- "./carriers.md:9:23"
 

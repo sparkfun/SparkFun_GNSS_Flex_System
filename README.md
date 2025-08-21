@@ -64,14 +64,18 @@ Product Variants
 - Kits:
   - [GPS-28766](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html) - GNSS Flex pHAT w/ the Septentrio mosaic-X5 GNSS Flex module
   - [GPS-28929](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html) - GNSS Flex pHAT w/ the Quectel LG290P GNSS Flex module
+  - [GPS-29491](https://www.sparkfun.com/sparkfun-gnss-flex-phat-dan-f10n.html) - GNSS Flex pHAT w/ the u-blox DAN-F10N GNSS Flex module
 - GNSS Modules:
   - [GPS-28138](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html) - Septentrio mosaic-X5 GNSS Flex module
   - [GPS-28139](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p.html) - Quectel LG290P GNSS Flex module
+  - [GPS-29061](https://www.sparkfun.com/sparkpnt-gnss-flex-module-dan-f10n.html) - u-blox DAN-F10N GNSS Flex module
 
 
 Version History
 ---------------
 - [r2025-08](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-08) - Initial Release
+- [r2025-08a](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-08a) - Docs Update
+- [r2025-08b](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-08b) - Adds DAN-F10N GNSS Flex module
 
 
 > [!NOTE]
