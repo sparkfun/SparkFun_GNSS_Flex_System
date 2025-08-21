@@ -7,7 +7,7 @@ Our GNSS Flex system is designed to be modular with two board types:
 
 - *Plug-in Modules*
 
-    Each SparkPNT GNSS Flex module features a different GNSS receiver. These boards breakout the various interfaces of a GNSS receiver to the standardized female headers of the GNSS Flex system. This allows users to easily repair and upgrade their system's GNSS receiver.
+    Each SparkPNT GNSS Flex module features a different GNSS receiver. These boards breakout the various interfaces of a GNSS receiver to the standardized pin configuration for the female headers of the GNSS Flex system. This allows users to easily repair and upgrade their system's GNSS receiver.
 
 - *Carrier Boards*
 
@@ -25,7 +25,7 @@ The entire ecosystem is centered around two 2x10-pin, 2mm pitch headers that mat
 >
 > Users will have two options for connecting an external GNSS antenna to their GNSS receiver.
 >
-> - The GNSS Flex modules will usually come with a U.FL connector for external antenna.
+> - The GNSS Flex modules will usually come with a U.FL connector for an external antenna.
 > - For a sturdier connection, a SMA connector on a *carrier board* can utilized. Users can simply jumper the U.FL connectors between the SparkPNT GNSS Flex module and the *carrier board* with a short U.FL cable.
 
 
