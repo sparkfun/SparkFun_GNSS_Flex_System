@@ -35,11 +35,11 @@ The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electro
 ### USB Driver
 A USB driver is only required for Windows PCs *(see the [USB Driver](software_overview.md#usb-driver) section)*.
 
-### GPS Antenna
+### GNSS antenna
 
 #### Power Input
 !!! danger "Active Antenna"
-	Never inject an external DC voltage into the SMA connector for the GPS antenna, as it may damage the mosaic-X5 module. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
+	Never inject an external DC voltage into the SMA connector for the GNSS antenna, as it may damage the mosaic-X5 module. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
 
 #### Supported Frequency Bands
 For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable. Utilizing an antenna that doesn't match all the supported frequency bands of the mosaic-X5, will result in reduced performance and capabilities.

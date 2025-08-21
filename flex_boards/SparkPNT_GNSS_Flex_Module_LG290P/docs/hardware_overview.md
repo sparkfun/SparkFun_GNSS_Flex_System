@@ -669,19 +669,19 @@ Below, are the features that are available from the LG290P GNSS receiver.
 
 
 ## U.FL Connector
-Users will need to connect a compatible GPS antenna to the `L1/L2/L5/E6 Antenna` U.FL connector. The type of antenna used with the LG290P module affects the overall accuracy of the positions calculated by the GNSS receiver.
+Users will need to connect a compatible GNSS antenna to the `Antenna L1/L2/L5/E6` U.FL connector. The type of antenna used with the LG290P module affects the overall accuracy of the positions calculated by the GNSS receiver.
 
 - Passive antennas are not recommended for the LG290P GNSS module.
 - To mitigate the impact of out-of-band signals, utilize an active antenna whose SAW filter is placed in front of the LNA in the internal framework.
-	- **DO NOT** select and antenna with the LNA placed in the front.
+	- **DO NOT** select an antenna with the LNA placed in the front.
 - There is no need to inject an external DC voltage into the SMA connector for the GNSS antenna. Power is already provided from the LG290P module for the LNA of an active antenna.
 
 
 <figure markdown>
-[![GPS antenna input](./assets/img/hookup_guide/ant.png){ width="400" }](./assets/img/hookup_guide/ant.png "Click to enlarge")
+[![GNSS antenna input](./assets/img/hookup_guide/ant.png){ width="400" }](./assets/img/hookup_guide/ant.png "Click to enlarge")
 <figcaption markdown>The U.FL connector to attach an external GNSS antenna to the LG290P GNSS Flex module.</figcaption>
 </figure>
 
 
 !!! tip
-	For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable.
+	For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable. Also, don't forget that GNSS signals are fairly weak and can't penetrate buildings or dense vegetation. The GNSS antenna should have an unobstructed view of the sky.

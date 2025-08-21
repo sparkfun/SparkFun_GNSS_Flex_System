@@ -789,7 +789,7 @@ In addition to the GNSS Flex headers, an extra 2x10 pin, 2mm pitch female header
 
 
 ## U.FL Connector
-Users will need to connect a compatible GPS antenna to the `ANT1` U.FL connector. The type of antenna used with the mosaic-X5 module affects the overall accuracy of the positions calculated by the GNSS receiver.
+Users will need to connect a compatible GNSS antenna to the `ANT1` U.FL connector. The type of antenna used with the mosaic-X5 module affects the overall accuracy of the positions calculated by the GNSS receiver.
 
 - An active antenna often features a [LNA](https://en.wikipedia.org/wiki/Low-noise_amplifier "low-noise amplifier"). This allows the module to boost the signal received by the GNSS module without degrading the [SNR](https://en.wikipedia.org/wiki/Signal-to-noise_ratio Signal-to-noise ratio).
 - The more bands an antenna supports, the greater the performance.
@@ -799,14 +799,14 @@ Users will need to connect a compatible GPS antenna to the `ANT1` U.FL connector
 
 
 !!! tip
-	For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable.
+	For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable. Also, don't forget that GNSS signals are fairly weak and can't penetrate buildings or dense vegetation. The GNSS antenna should have an unobstructed view of the sky.
 
 
 There are some key parameters related to an antenna that can make or break the signal reception from the satellites. These include the operation frequency, gain, polarization, efficiency and overall loss.
 
 
 <figure markdown>
-[![GPS antenna input](./assets/img/hookup_guide/ant.png){ width="400" }](./assets/img/hookup_guide/ant.png "Click to enlarge")
+[![GNSS antenna input](./assets/img/hookup_guide/ant.png){ width="400" }](./assets/img/hookup_guide/ant.png "Click to enlarge")
 <figcaption markdown>The U.FL connector to attach an external GNSS antenna to the mosaic-X5 GNSS Flex module.</figcaption>
 </figure>
 
@@ -815,7 +815,7 @@ There are some key parameters related to an antenna that can make or break the s
 	The `VANT` pin provides **3.3V** of external power for an active antenna.
 
 	!!! danger
-		Never inject an external DC voltage into the SMA connector for the GPS antenna, as it may damage the mosaic-X5 module. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
+		Never inject an external DC voltage into the SMA connector for the GNSS antenna, as it may damage the mosaic-X5 module. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
 
 
 
