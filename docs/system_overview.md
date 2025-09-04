@@ -77,11 +77,11 @@ Below, are two generic examples of a GNSS Flex *module* and *carrier* board.
 ### Ecosystem Boards
 Below, are all the available GNSS Flex boards in our ecosystem.
 
-<div class="grid cards" markdown>
+<div class="grid cards" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
 
---8<-- "./modules.md:9:57"
+--8<-- "./modules.md:9:51"
 
---8<-- "./carriers.md:9:23"
+--8<-- "./carriers.md:9:21"
 
 </div>
 

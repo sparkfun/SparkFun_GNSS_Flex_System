@@ -10,8 +10,6 @@
 
 	---
 
-	<!-- [![](./SparkFun_GNSS_Flex_pHAT/assets/img/banner-hookup_guide.png)](./SparkFun_GNSS_Flex_pHAT/index.md) -->
-
 	<model-viewer src="../SparkFun_GNSS_Flex_pHAT/assets/3d_model/web_model.glb" camera-controls poster="../SparkFun_GNSS_Flex_pHAT/assets/3d_model/poster.png" tone-mapping="neutral" shadow-intensity="2" shadow-softness="0.2" camera-orbit="0deg 75deg 0.1623m" field-of-view="25.11deg" style="width: 100%; height: 250px;">
 	</model-viewer>
 
