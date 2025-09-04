@@ -1,7 +1,3 @@
-!!! note
-	The mosaic-X5 module has numerous capabilities and a multitude of ways to configure and interface with them. Without regurgitating all the information that is documented in Septentrio's user manuals and videos, we have tried to highlight a good majority of the module's aspects.
-
-
 ## RxTools Software Suite
 
 !!! tip

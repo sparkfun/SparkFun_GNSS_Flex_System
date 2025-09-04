@@ -1,21 +1,3 @@
-## GNSS Software
-!!! tip
-	While it is not required, we highly recommend that users configure their LG290P GNSS module with the [QGNSS software provided by Quectel](#qgnss-software). This is due to the unique data structure of the UART command messages, utilized to configure the LG290P module.
-
-
-	??? warning "Windows Only"
-		Currently, the QGNSS software is only available for Windows operating systems.
-
-
-	??? success "Windows, MacOS, or Linux"
-		For users with computers that run on MacOS or Linux, we have found alternative software option for viewing the data from the NMEA messages. However, this GUI interface is currently limited to only receiving UART messages and cannot send messages to configure the LG290P module.
-
-		- :material-github: [GitHub Repository](https://github.com/semuconsulting/PyGPSClient)
-		- [Installation Instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#installation)
-		- [PyPI Project](https://pypi.org/project/pygpsclient/)
-
-
-
 ## QGNSS Software
 !!! warning "Windows Only"
 	Currently, the QGNSS software is only available for Windows operating systems.
@@ -25,7 +7,7 @@ QGNSS is highly intuitive GNSS evaluation software that is easy to use, personal
 
 
 <article style="text-align: center;" markdown>
-[:octicons-download-16:{ .heart } Download the QGNSS Software *(v2.0)* from Quectel](https://www.quectel.com/download/qgnss_v2-0_en/){ .md-button .md-button--primary target="blank" }
+[:octicons-download-16:{ .heart } Download the QGNSS Software *(v2.x)* from Quectel](https://www.quectel.com/download/qgnss_v2-0_en/){ .md-button .md-button--primary target="blank" }
 </article>
 
 

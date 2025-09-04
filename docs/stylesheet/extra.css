@@ -174,8 +174,8 @@
 
 .md-typeset .twemoji.icon-max-width svg {
   display: inline-flex;
-  max-height: 1rem;
   width: 100%;
+  max-height: var(--md-icon-size);
 }
 
 
@@ -581,8 +581,10 @@
   }
   
   /* Sets images size in tables */
-  .md-typeset table:not([class]) * + figure img {
-    max-width: 75px;
+  .md-typeset table:not([class]) td img {
+    width: 100%;
+    max-width: 150px;
+    max-height: 150px;
   }
 
   /* ================================================================================== */

@@ -27,7 +27,7 @@
 <div class="grid cards desc" markdown>
 
 -   <a href="https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html">
-	**SparkPNT GNSS Flex Module - LG290P**<br>
+	**SparkPNT GNSS Flex Module - mosaic-X5**<br>
 	**SKU:** GPS-28138
 
 	---

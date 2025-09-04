@@ -16,7 +16,6 @@
 		- :fontawesome-solid-file-pdf: [Datasheet](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_DataSheet_UBXDOC-963802114-13074.pdf)
 		- :fontawesome-solid-file-pdf: [Product Summary](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_ProductSummary_UBXDOC-963802114-13162.pdf)
 		- :fontawesome-solid-file-pdf: [Integration Manual](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_IntegrationManual_UBXDOC-963802114-13252.pdf)
-- :material-youtube: [Product Showcase](
 - :material-github: [GitHub Repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System)
 
 

@@ -11,7 +11,7 @@ The GNSS Flex system is designed to be modular with a standardized pin layout th
 <div markdown>
 
 <figure markdown>
-<model-viewer alt="Utilizing the GNSS Flex System" src="../assets/3d_model/GNSS_Flex-Stack_Animation.glb" poster="./assets/img/hookup_guide/animation-attach_module.gif" camera-controls autoplay tone-mapping="neutral" shadow-intensity="2" shadow-softness="0.2" camera-orbit="0deg 70deg 16.7m" field-of-view="18deg" camera-target="2.93m 1.16m -1.29m" style="width: 500px; height: 300px;">
+<model-viewer alt="Utilizing the GNSS Flex System" src="../assets/3d_model/GNSS_Flex-Stack_Animation.glb" poster="../assets/img/hookup_guide/animation-attach_module.gif" camera-controls autoplay tone-mapping="neutral" shadow-intensity="2" shadow-softness="0.2" camera-orbit="0deg 70deg 16.7m" field-of-view="18deg" camera-target="2.93m 1.16m -1.29m" style="width: 500px; height: 300px;">
 </model-viewer>
 <figcaption markdown>Attaching a GNSS Flex module to a GNSS Flex *carrier* board.</figcaption>
 </figure>

@@ -1,4 +1,9 @@
 ## u-center 2 Software
+
+!!! warning "Windows Only"
+	Currently, the u-center 2 software is only available for Windows operating systems.
+
+
 [u-center 2](https://www.u-blox.com/en/product/u-center) is u-blox's software application for configuration, evaluation, and debugging of u-blox GNSS receivers and services. The software provides a relatively, simple graphics user interface to assess and test u-blox GNSS modules for navigation and positioning performance. It also allows users to define or apply GNSS product configurations for specific use cases. Saving, restoring, or sharing configurations between different products is easy.
 
 

@@ -157,10 +157,24 @@ The centerpiece of the DAN-F10N GNSS Flex module, is the [DAN-F10N GNSS receiver
 The DAN-F10N GNSS module comes with a 20 x 20 x 8 mm, integrated, Right Hand Circular Polarized (RHCP), L1/L5 dual-band patch antenna that offers the best compromise between size and performance. The patch antenna's wide beamwidth provides flexibility in the device's orientation; while alternatively, the module also has an antenna switch function to give users the option to utilize an external dual-band antenna, further increasing its utility.
 
 
-<figure markdown>
-[![DAN-F10N module](./assets/img/hookup_guide/DAN-F10N.png){ width="400" }](./assets/img/hookup_guide/DAN-F10N.png "Click to enlarge")
-<figcaption markdown>The DAN-F10N module on the breakout board.</figcaption>
-</figure>
+<div class="grid cards" markdown>
+
+<div markdown>
+
+<article class="video-500px" style="text-align: center; margin: auto;" markdown>
+<iframe src="https://www.youtube.com/embed/7_Pxe2rVFIQ" title="u-blox F10 GNSS platform for meter-level accuracy in urban environments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![QR code](./assets/img/qr_code/video-ublox_f10.png){ .qr width="85" }
+</article>
+
+</div>
+
+
+-   <figure markdown>
+	[![DAN-F10N module](./assets/img/hookup_guide/DAN-F10N.png){ width="400" }](./assets/img/hookup_guide/DAN-F10N.png "Click to enlarge")
+	<figcaption markdown>The DAN-F10N GNSS receiver on the GNSS Flex module.</figcaption>
+	</figure>
+
+</div>
 
 
 <div class="grid" markdown>
@@ -357,6 +371,7 @@ The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mat
 Below, are the features that are available from the DAN-F10N GNSS receiver.
 
 <article class="annotate" markdown>
+
 **Supported Interfaces:**
 
 - 1x UART

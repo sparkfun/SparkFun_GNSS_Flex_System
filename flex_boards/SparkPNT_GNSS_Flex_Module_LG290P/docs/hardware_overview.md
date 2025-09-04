@@ -138,8 +138,6 @@ The LG290P GNSS Flex module has the following features:
 :	The Quectel LG290P GNSS receiver
 1. **GNSS Flex Headers**
 :	Two sets of 2x10 pin, 2mm pitch female headers for connecting a GNSS Flex module to *carrier boards*
-1. **Ethernet PHY Header**
-:	A 2x10 pin, 2mm pitch female header that breaks out the Ethernet PHY pins of the LG290P
 1. **`ANT1` U.FL Connector**
 :	An U.FL connector for attaching an external GNSS antenna
 
