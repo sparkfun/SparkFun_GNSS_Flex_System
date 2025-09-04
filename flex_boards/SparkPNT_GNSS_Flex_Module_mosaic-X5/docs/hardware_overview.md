@@ -93,6 +93,13 @@
 		![Product Thumbnail](./assets/img/product_comparison/mosaic-flex-module.png){ width="200" }
 		</figure>
 	</th>
+	<th markdown style="text-align:center">
+		SparkPNT RTK Facet mosaic<br>
+		<hr>
+		<figure markdown>
+		![Product Thumbnail](./assets/img/product_comparison/mosaic-facet.png){ width="200" }
+		</figure>
+	</th>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">GNSS Antenna</td>
@@ -104,6 +111,7 @@
 		<td style="text-align:center; vertical-align:middle;">Single</td>
 		<td style="text-align:center; vertical-align:middle;">Single</td>
 		<td style="text-align:center; vertical-align:middle;">Single</td>
+		<td style="text-align:center; vertical-align:middle;">Integrated</td>
 	</tr>
 	<tr>
 		<td>USB Connector</td>
@@ -112,6 +120,7 @@
 		<td style="text-align:center">Type-C</td>
 		<td style="text-align:center">Type-C</td>
 		<td style="text-align:center">N/A*</td>
+		<td style="text-align:center">Type-C</td>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">Ethernet</td>
@@ -126,6 +135,7 @@
 			<i>10/100 Base-T</i>
 		</td>
 		<td style="text-align:center; vertical-align:middle;">2x10 Header*</td>
+		<td style="text-align:center; vertical-align:middle;">No</td>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">WiFi</td>
@@ -137,6 +147,10 @@
 			<i>10 Base-T</i>
 		</td>
 		<td style="text-align:center; vertical-align:middle;">No</td>
+		<td style="text-align:center">
+			Yes - Network Bridge<br>
+			<i>10 Base-T</i>
+		</td>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">COM Ports</td>
@@ -148,6 +162,10 @@
 			1 - ESP32
 		</td>
 		<td style="text-align:center">4</td>
+		<td style="text-align:center">
+			1 - mosaic-X5<br>
+			1 - ESP32
+		</td>
 	</tr>
 	<tr>
 		<td>&micro;SD Card Slot</td>
@@ -156,6 +174,7 @@
 		<td style="text-align:center">Yes</td>
 		<td style="text-align:center">Yes</td>
 		<td style="text-align:center">2x10 Header*</td>
+		<td style="text-align:center">Yes</td>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">Reset/Log Buttons</td>
@@ -164,6 +183,7 @@
 		<td style="text-align:center; vertical-align:middle;">Yes</td>
 		<td style="text-align:center; vertical-align:middle;">Yes</td>
 		<td style="text-align:center; vertical-align:middle;">No</td>
+		<td style="text-align:center; vertical-align:middle;">Yes</td>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">Logic-Level</td>
@@ -178,6 +198,7 @@
 			5V
 		</td>
 		<td style="text-align:center; vertical-align:middle;">3.3V</td>
+		<td style="text-align:center; vertical-align:middle;">3.3V</td>
 	</tr>
 	<tr>
 		<td>PPS Signal</td>
@@ -186,6 +207,7 @@
 		<td style="text-align:center">SMA Connector</td>
 		<td style="text-align:center">Screw Terminal</td>
 		<td style="text-align:center">2x10 Header*</td>
+		<td style="text-align:center">No</td>
 	</tr>
 	<tr>
 		<td>Enclosure Material</td>
@@ -194,6 +216,7 @@
 		<td style="text-align:center; vertical-align:middle;">N/A</td>
 		<td style="text-align:center; vertical-align:middle;">Aluminum</td>
 		<td style="text-align:center; vertical-align:middle;">N/A</td>
+		<td style="text-align:center; vertical-align:middle;">Plastic</td>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">Dimensions</td>
@@ -205,6 +228,7 @@
 			<i>Enclosure Only</i>
 		</td>
 		<td style="text-align:center; vertical-align:middle;"></td>
+		<td style="text-align:center; vertical-align:middle;"></td>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">Weight</td>
@@ -215,6 +239,7 @@
 			415.15g<br>
 			<i>Enclosure Only</i>
 		</td>
+		<td style="text-align:center; vertical-align:middle;"></td>
 		<td style="text-align:center; vertical-align:middle;"></td>
 	</tr>
 	
@@ -306,7 +331,7 @@
 
 
 ## Board Layout
-The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used to mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the USB, UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
+The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used to mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the USB, UART (x4), I^2^C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
 
 The mosaic-X5 GNSS Flex module has the following features:
 
