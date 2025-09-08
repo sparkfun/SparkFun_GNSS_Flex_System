@@ -66,13 +66,13 @@ theme:
     - navigation.path
 
     # Clicks on all internal links will be intercepted and dispatched via XHR without fully reloading the page
-    - navigation.instant
+    # - navigation.instant
 
     # Enables instant loading of pages (when a user hovers over a link, the page starts to load in the background)
-    - navigation.instant.prefetch
+    # - navigation.instant.prefetch
 
     # Adds a progress bar at the top of the page when loading a new page
-    - navigation.instant.progress
+    # - navigation.instant.progress
 
     # Highlights all occurrences of a search result when clicked on
     - search.highlight
