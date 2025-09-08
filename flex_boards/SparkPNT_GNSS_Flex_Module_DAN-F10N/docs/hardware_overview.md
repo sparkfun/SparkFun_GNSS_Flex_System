@@ -86,9 +86,7 @@
 	=== "Dimensions"
 		<article style="text-align: center;" markdown>
 		[![Board Dimensions](./assets/board_files/dimensions.png){ width="450" }](./assets/board_files/dimensions.png "Click to enlarge")
-		<figcaption markdown>
-		Dimensions of the DAN-F10N GNSS Flex module.
-		</figcaption>
+		<figcaption markdown>Dimensions of the DAN-F10N GNSS Flex module.</figcaption>
 		</article>
 
 

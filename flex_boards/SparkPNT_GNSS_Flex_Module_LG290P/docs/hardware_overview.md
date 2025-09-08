@@ -83,9 +83,7 @@
 	=== "Dimensions"
 		<article style="text-align: center;" markdown>
 		[![Board Dimensions](./assets/board_files/dimensions.png){ width="450" }](./assets/board_files/dimensions.png "Click to enlarge")
-		<figcaption markdown>
-		Dimensions of the LG290P GNSS Flex module.
-		</figcaption>
+		<figcaption markdown>Dimensions of the LG290P GNSS Flex module.</figcaption>
 		</article>
 
 
@@ -255,9 +253,7 @@ The LG290P module is a multi-band, multi-constellation GNSS receiver. Below, is 
 
 <figure markdown>
 [![GNSS frequency bands](https://www.tallysman.com/app/uploads/2021/07/Tallysman-GNSS-Frequencies-v8.0_Chart-1-1024x425.png){ width="800" style="background-color:white"}](https://www.tallysman.com/app/uploads/2021/07/Tallysman-GNSS-Frequencies-v8.0_Chart-1-1024x425.png "Click to enlarge")
-<figcaption markdown>
-Frequency bands of the global navigation satellite systems. (Source: [Tallysman](https://www.tallysman.com/gnss-constellations-radio-frequencies-and-signals/))
-</figcaption>
+<figcaption markdown>Frequency bands of the global navigation satellite systems. (Source: [Tallysman](https://www.tallysman.com/gnss-constellations-radio-frequencies-and-signals/))</figcaption>
 </figure>
 
 
@@ -342,7 +338,7 @@ Frequency bands of the global navigation satellite systems. (Source: [Tallysman]
 
 <div markdown>
 
-The accuracy of the position reported from the LG290P GNSS module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/	Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
+The accuracy of the position reported from the LG290P GNSS module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
 
 - RTK technique requires real-time correction data from a reference station or network of base stations.
 	- RTK corrections usually come from RTCM messages that are signal specific *(i.e. an RTK network may only provide corrections for specific signals; only `E5b` and not `E5a`)*.
@@ -485,9 +481,7 @@ Below, are the features that are available from the LG290P GNSS receiver.
 
 		<figure markdown>
 		[![NMEA data structure](./assets/img/hookup_guide/nmea_protocol.png){ width="600" }](./assets/img/hookup_guide/nmea_protocol.png "Click to enlarge")
-		<figcaption markdown>
-		The data structure of Quectel messages for the `NMEA` protocol.
-		</figcaption>
+		<figcaption markdown>The data structure of Quectel messages for the `NMEA` protocol.</figcaption>
 		</figure>
 
 

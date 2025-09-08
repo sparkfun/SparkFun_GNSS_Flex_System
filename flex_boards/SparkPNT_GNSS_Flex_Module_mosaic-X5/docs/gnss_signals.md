@@ -124,9 +124,7 @@ Below, are instructions to configure the mosaic-X5 module to track any of the su
 
 		<figure markdown>
 		[![Enable use of unhealthy satellites](./assets/img/hookup_guide/gnss_signals/health_masks-off.png){ width="400" }](./assets/img/hookup_guide/gnss_signals/health_masks-off.png "Click to enlarge")
-		<figcaption markdown>
-		Enabling the tracking and PVT use of satellites (and their signals), which would be considered "unhealthy".
-		</figcaption>
+		<figcaption markdown>Enabling the tracking and PVT use of satellites (and their signals), which would be considered "unhealthy".</figcaption>
 		</figure>
 
 		!!! tip
@@ -157,9 +155,7 @@ Through the web interface, users will need to access the advanced settings of th
 
 	<figure markdown>
 	[![Enable signal tracking](./assets/img/hookup_guide/gnss_signals/signal_tracking-all.png)](./assets/img/hookup_guide/gnss_signals/signal_tracking-all.png "Click to enlarge")
-	<figcaption markdown>
-	Enabling the tracking of all the signals from all the GNSS constellations.
-	</figcaption>
+	<figcaption markdown>Enabling the tracking of all the signals from all the GNSS constellations.</figcaption>
 	</figure>
 
 
@@ -171,9 +167,7 @@ Through the web interface, users will need to access the advanced settings of th
 
 	<figure markdown>
 	[![Enable signal utilization](./assets/img/hookup_guide/gnss_signals/signal_usage-all.png)](./assets/img/hookup_guide/gnss_signals/satellite_usage-all.png "Click to enlarge")
-	<figcaption markdown>
-	Enabling the utilization of all the GNSS signals for PVT computations and navigational data outputs.
-	</figcaption>
+	<figcaption markdown>Enabling the utilization of all the GNSS signals for PVT computations and navigational data outputs.</figcaption>
 	</figure>
 
 </article>
@@ -218,9 +212,7 @@ Through the web interface, users will need to access the advanced settings of th
 
 	<figure markdown>
 	[![Enable satellite tracking](./assets/img/hookup_guide/gnss_signals/satellite_tracking-all.png)](./assets/img/hookup_guide/gnss_signals/satellite_tracking-all.png "Click to enlarge")
-	<figcaption markdown>
-	Enabling the tracking of all satellites from every GNSS constellations.
-	</figcaption>
+	<figcaption markdown>Enabling the tracking of all satellites from every GNSS constellations.</figcaption>
 	</figure>
 
 
@@ -232,9 +224,7 @@ Through the web interface, users will need to access the advanced settings of th
 
 	<figure markdown>
 	[![Enable satellite usage](./assets/img/hookup_guide/gnss_signals/satellite_usage-all.png)](./assets/img/hookup_guide/gnss_signals/satellite_usage-all_expanded.png "Click to enlarge")
-	<figcaption markdown>
-	Enabling the utilization of all the satellites from every GNSS constellation.
-	</figcaption>
+	<figcaption markdown>Enabling the utilization of all the satellites from every GNSS constellation.</figcaption>
 	</figure>
 
 </div>

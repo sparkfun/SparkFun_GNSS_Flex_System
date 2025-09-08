@@ -165,9 +165,7 @@ Before users can connect to the DAN-F10N GNSS Flex module, they will need to spe
 
 <figure markdown>
 [![UART Settings in PyGPSClient](./assets/img/hookup_guide/pygpsclient-uart_settings-small.png){ width="400" }](./assets/img/hookup_guide/pygpsclient-uart_settings-small.png "Click to enlarge")
-<figcaption markdown>
-Specify the settings for the UART port in PyGPSClient.
-</figcaption>
+<figcaption markdown>Specify the settings for the UART port in PyGPSClient.</figcaption>
 </figure>
 
 </div>

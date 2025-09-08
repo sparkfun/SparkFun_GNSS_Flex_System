@@ -22,9 +22,7 @@ In order to connect to the LG290P properly, users will need USB-to-Serial conver
 
 <figure markdown>
 [![Configure UART Settings](./assets/img/hookup_guide/qgnss-uart_settings-button.png){ width="400" }](./assets/img/hookup_guide/qgnss-uart_settings-button.png "Click to enlarge")
-<figcaption markdown>
-Click the <kbd>:material-cog:</kbd> button to configure the UART settings.
-</figcaption>
+<figcaption markdown>Click the <kbd>:material-cog:</kbd> button to configure the UART settings.</figcaption>
 </figure>
 
 
@@ -42,9 +40,7 @@ Before users can connect to the LG290P GNSS Flex module, they will need to speci
 
 <figure markdown>
 [![UART Settings in QGNSS](./assets/img/hookup_guide/qgnss-uart_settings.png){ width="400" }](./assets/img/hookup_guide/qgnss-uart_settings.png "Click to enlarge")
-<figcaption markdown>
-Specify the settings for the UART port in QGNSS.
-</figcaption>
+<figcaption markdown>Specify the settings for the UART port in QGNSS.</figcaption>
 </figure>
 
 </div>
@@ -75,9 +71,7 @@ By default, the UART ports are configured to transmit and receive `NMEA 0183` an
 
 	<figure markdown>
 	[![NMEA data structure](./assets/img/hookup_guide/nmea_protocol.png){ width="600" }](./assets/img/hookup_guide/nmea_protocol.png "Click to enlarge")
-	<figcaption markdown>
-	The data structure of Quectel messages for the `NMEA` protocol.
-	</figcaption>
+	<figcaption markdown>The data structure of Quectel messages for the `NMEA` protocol.</figcaption>
 	</figure>
 
 
@@ -97,9 +91,7 @@ In the QGNSS software, users can click on the ++"Advance"++ button, at the botto
 
 <figure markdown>
 [![NMEA message setting](./assets/img/hookup_guide/qgnss-message_settings.png){ width="600" }](./assets/img/hookup_guide/qgnss-message_settings.png "Click to enlarge")
-<figcaption markdown>
-The settings for the messages transmitted from the QConsole.
-</figcaption>
+<figcaption markdown>The settings for the messages transmitted from the QConsole.</figcaption>
 </figure>
 
 
@@ -109,9 +101,7 @@ The settings for the messages transmitted from the QConsole.
 
 	<figure markdown>
 	[![QConsole Toolbar](./assets/img/hookup_guide/qgnss-toolbar.gif){ width="400" }](./assets/img/hookup_guide/qgnss-toolbar.gif "Click to enlarge")
-	<figcaption markdown>
-	++"Right-click"++ on the mouse and select the `Show Tool` option, inside the QConsole.
-	</figcaption>
+	<figcaption markdown>	++"Right-click"++ on the mouse and select the `Show Tool` option, inside the QConsole.</figcaption>
 	</figure>
 
 
@@ -129,9 +119,7 @@ The settings for the messages transmitted from the QConsole.
 
 	<figure markdown>
 	[![PQTM demo](./assets/img/hookup_guide/qgnss-pqtm_message.png){ width="400" }](./assets/img/hookup_guide/qgnss-pqtm_message.png "Click to enlarge")
-	<figcaption markdown>
-	Example of utilizing the Quectel PQTM messages in the QConsole.
-	</figcaption>
+	<figcaption markdown>Example of utilizing the Quectel PQTM messages in the QConsole.</figcaption>
 	</figure>
 
 
@@ -184,9 +172,7 @@ Before users can connect to the LG290P GNSS Flex module, they will need to speci
 
 <figure markdown>
 [![UART Settings in PyGPSClient](./assets/img/hookup_guide/pygpsclient-uart_settings-small.png){ width="400" }](./assets/img/hookup_guide/pygpsclient-uart_settings-small.png "Click to enlarge")
-<figcaption markdown>
-Specify the settings for the UART port in QGNSS.
-</figcaption>
+<figcaption markdown>Specify the settings for the UART port in QGNSS.</figcaption>
 </figure>
 
 </div>
@@ -220,9 +206,7 @@ The [SparkFun LG290P Quadband RTK GNSS Arduino Library](https://github.com/spark
 
 <figure markdown>
 [![Library listed in the library manager of the Arduino IDE](./assets/img/hookup_guide/arduino_library.png "Click to enlarge"){ width="400" }](./assets/img/hookup_guide/arduino_library.png)
-<figcaption markdown>
-SparkFun LG290P Quadband RTK GNSS Arduino Library in the library manager of the Arduino IDE.
-</figcaption>
+<figcaption markdown>SparkFun LG290P Quadband RTK GNSS Arduino Library in the library manager of the Arduino IDE.</figcaption>
 </figure>
 
 </div>
