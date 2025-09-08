@@ -666,7 +666,7 @@ Users will need to connect a compatible GNSS antenna to the `Antenna L1/L2/L5/E6
 - Passive antennas are not recommended for the LG290P GNSS module.
 - To mitigate the impact of out-of-band signals, utilize an active antenna whose SAW filter is placed in front of the LNA in the internal framework.
 	- **DO NOT** select an antenna with the LNA placed in the front.
-- There is no need to inject an external DC voltage into the SMA connector for the GNSS antenna. Power is already provided from the LG290P module for the LNA of an active antenna.
+- There is no need to inject an external DC voltage for the GNSS antenna. Power is already provided from the LG290P module for the LNA of an active antenna.
 
 
 <figure markdown>
