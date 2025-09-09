@@ -451,6 +451,9 @@ nav:
   - Carrier Boards:
     - carriers.md
     - pHAT: '!include ./flex_boards/SparkFun_GNSS_Flex_pHAT/mkdocs.yml'
+  - Applications:
+    - Tilt Compensation:
+      - IM19 Attitude Module: im19.md
   - Resources & Support:
     - Resources: resources.md
     - Troubleshooting Tips: troubleshooting_tips.md
