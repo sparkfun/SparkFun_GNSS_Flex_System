@@ -69,7 +69,6 @@ Product Variants
     - [GPS-28997](https://www.sparkfun.com/sparkpnt-gnss-flex-module-zed-x20p-im19-imu.html) - u-blox ZED-X20P GNSS Flex module + IM19 IMU
 - Carrier Boards:
   - [GPS-28137](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html) - GNSS Flex pHAT
-  - [GPS-28962](https://www.sparkfun.com/sparkfun-gnss-flex-breakout.html) - GNSS Flex Breakout Board
 - Kits:
   - pHAT + GNSS Module *(only)*:
     - [GPS-28766](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html) - GNSS Flex pHAT w/ the Septentrio mosaic-X5 GNSS Flex module

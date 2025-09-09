@@ -56,18 +56,6 @@
 		- :fontawesome-solid-file-pdf: [Product Summary](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_ProductSummary_UBXDOC-963802114-13162.pdf)
 		- :fontawesome-solid-file-pdf: [Integration Manual](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_IntegrationManual_UBXDOC-963802114-13252.pdf)
 
-
-- **LG580P**
-
-	---
-
-	- :material-folder-cog: Design Files:
-		- :fontawesome-solid-file-pdf: [Schematic](SparkPNT_GNSS_Flex_Module_LG580P/assets/board_files/schematic.pdf)
-		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkPNT_GNSS_Flex_Module_LG580P/assets/board_files/dimensions.pdf)
-		- :material-folder-zip: [KiCad Files](SparkPNT_GNSS_Flex_Module_LG580P/assets/board_files/kicad_files.zip)
-		- :material-cube-outline: [STEP File](SparkPNT_GNSS_Flex_Module_LG580P/assets/3d_model/cad_model.step)
-
-
 </div>
 
 
