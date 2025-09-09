@@ -55,7 +55,7 @@ Below, are two generic examples of a GNSS Flex *module* and *carrier* board.
 	</model-viewer>
 
 	<article style="text-align: center;" markdown>
-	[All GNSS Flex Modules](modules.md){ .md-button .md-button--primary }
+	[See All GNSS Flex Module Variants](modules.md){ .md-button .md-button--primary }
 	</article>
 
 
@@ -67,7 +67,7 @@ Below, are two generic examples of a GNSS Flex *module* and *carrier* board.
 	</model-viewer>
 
 	<article style="text-align: center;" markdown>
-	[All GNSS Flex *Carrier* Boards](carriers.md){ .md-button .md-button--primary }
+	[See All GNSS Flex *Carrier* Board Variants](carriers.md){ .md-button .md-button--primary }
 	</article>
 
 </div>
@@ -77,9 +77,11 @@ Below, are two generic examples of a GNSS Flex *module* and *carrier* board.
 ### Ecosystem Boards
 Below, are all the available GNSS Flex boards in our ecosystem.
 
-<div class="grid cards" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
+<div class="grid cards" markdown>
 
---8<-- "./modules.md:9:51"
+--8<-- "./modules.md:12:54"
+
+--8<-- "./modules.md:64:111"
 
 --8<-- "./carriers.md:9:21"
 

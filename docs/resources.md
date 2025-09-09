@@ -1,5 +1,8 @@
 ## GNSS Flex Modules
 
+
+### GNSS Module *(only)*
+
 <div class="grid cards" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
 
 - **mosaic-X5**
@@ -53,7 +56,75 @@
 		- :fontawesome-solid-file-pdf: [Product Summary](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_ProductSummary_UBXDOC-963802114-13162.pdf)
 		- :fontawesome-solid-file-pdf: [Integration Manual](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_IntegrationManual_UBXDOC-963802114-13252.pdf)
 
+
+- **LG580P**
+
+	---
+
+	- :material-folder-cog: Design Files:
+		- :fontawesome-solid-file-pdf: [Schematic](SparkPNT_GNSS_Flex_Module_LG580P/assets/board_files/schematic.pdf)
+		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkPNT_GNSS_Flex_Module_LG580P/assets/board_files/dimensions.pdf)
+		- :material-folder-zip: [KiCad Files](SparkPNT_GNSS_Flex_Module_LG580P/assets/board_files/kicad_files.zip)
+		- :material-cube-outline: [STEP File](SparkPNT_GNSS_Flex_Module_LG580P/assets/3d_model/cad_model.step)
+
+
 </div>
+
+
+
+## GNSS Module w/ Optional IMU
+
+<div class="grid cards" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
+
+- **LG290P**
+
+	---
+
+	- :material-folder-cog: Design Files:
+		- :fontawesome-solid-file-pdf: [Schematic](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/board_files/schematic.pdf)
+		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/board_files/dimensions.pdf)
+		- :material-folder-zip: [KiCad Files](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/board_files/kicad_files.zip)
+		- :material-cube-outline: [STEP File](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/3d_model/cad_model.step)
+	- Component Documentation
+		- LG290P GNSS Module
+			- :fontawesome-solid-file-pdf: [Product Specifications](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/Quectel_LG290P03_GNSS_Module_Specification_V1.2.pdf)
+			- :fontawesome-solid-file-pdf: [Protocol Specification](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03_gnss_protocol_specification_v1-0.pdf)
+			- :fontawesome-solid-file-pdf: [RTK Application Note](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_gnss_rtk_application_note_v1-0.pdf)
+			- :fontawesome-solid-file-pdf: [Base Station Mode Application Note](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03_base_station_mode_application_note_v1-0.pdf)
+			- :fontawesome-solid-file-pdf: [Hardware Design](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf)
+			- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf)
+		- IM19 Attitude Module
+			- :fontawesome-solid-file-pdf: [Datasheet](./assets/component_documentation/IM19.pdf)
+			- :fontawesome-solid-file-pdf: [Integration Guide](./assets/component_documentation/IM19EI_v1.4.1.pdf)
+
+
+- **ZED-X20P**
+
+	---
+
+	- :material-folder-cog: Design Files:
+		- :fontawesome-solid-file-pdf: [Schematic](SparkPNT_GNSS_Flex_Module_ZED-X20P-Tilt/assets/board_files/schematic.pdf)
+		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkPNT_GNSS_Flex_Module_ZED-X20P-Tilt/assets/board_files/dimensions.pdf)
+		- :material-folder-zip: [KiCad Files](SparkPNT_GNSS_Flex_Module_ZED-X20P-Tilt/assets/board_files/kicad_files.zip)
+		- :material-cube-outline: [STEP File](SparkPNT_GNSS_Flex_Module_ZED-X20P-Tilt/assets/3d_model/cad_model.step)
+	- Component Documentation
+		- ZED-X20P GNSS Module
+			- :fontawesome-solid-file-pdf: [Datasheet](https://www.u-blox.com/sites/default/files/documents/ZED-X20P-00B_DataSheet_UBXDOC-963802114-12690.pdf)
+			- :fontawesome-solid-file-pdf: [Product Summary](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_ProductSummary_UBXDOC-304424225-18238.pdf)
+			- :fontawesome-solid-file-pdf: [Integration Manual](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_IntegrationManual_UBXDOC-963802114-12901.pdf)
+			- Application Notes
+				- :fontawesome-solid-file-pdf: [GPS L5 Configuration](https://www.u-blox.com/sites/default/files/documents/GPS-L5-configuration_AppNote_UBX-21038688.pdf)
+			- Firmware *(HPG 2.00)*
+				- :octicons-file-binary-16: [Firmware File](https://content.u-blox.com/sites/default/files/2025-05/UBX_20_HPG200_ZED-X20P.cbadd47b7f0eb6224338ae146252eedb.bin)
+				- :fontawesome-solid-file-pdf: [Interface Manual](https://www.u-blox.com/sites/default/files/documents/u-blox-20-HPG-2.00_InterfaceDescription_UBXDOC-304424225-19888.pdf)
+				- :fontawesome-solid-file-pdf: [Release Notes](https://www.u-blox.com/sites/default/files/documents/HPG200_RN_UBXDOC-304424225-19895.pdf)
+		- IM19 Attitude Module
+			- :fontawesome-solid-file-pdf: [Datasheet](./assets/component_documentation/IM19.pdf)
+			- :fontawesome-solid-file-pdf: [Integration Guide](./assets/component_documentation/IM19EI_v1.4.1.pdf)
+
+</div>
+
+
 
 ## Carrier Boards
 
