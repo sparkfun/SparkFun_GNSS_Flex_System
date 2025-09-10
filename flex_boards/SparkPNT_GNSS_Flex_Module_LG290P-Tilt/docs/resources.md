@@ -1,8 +1,8 @@
 ## Product Resources
 
 - Product Pages
-	- :sfe: [SparkPNT GNSS Flex Module - LG290P & IMU](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p-im19-imu.html)
-	- :sfe: [SparkFun GNSS Flex pHAT - LG290P & IMU](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p-im19-imu.html)
+	- :sfe: [SparkPNT GNSS Flex Module - LG290P & IM19](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p-im19-imu.html)
+	- :sfe: [SparkFun GNSS Flex pHAT - LG290P & IM19](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p-im19-imu.html)
 - :material-folder-cog: Design Files:
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
 	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)
