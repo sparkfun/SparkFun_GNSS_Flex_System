@@ -32,10 +32,11 @@
 		- :material-cube-outline: [STEP File](SparkPNT_GNSS_Flex_Module_LG290P/assets/3d_model/cad_model.step)
 	- Component Documentation
 		- :fontawesome-solid-file-pdf: [Product Specifications](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/Quectel_LG290P03_GNSS_Module_Specification_V1.2.pdf)
-		- :fontawesome-solid-file-pdf: [Protocol Specification](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03_gnss_protocol_specification_v1-0.pdf)
-		- :fontawesome-solid-file-pdf: [RTK Application Note](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_gnss_rtk_application_note_v1-0.pdf)
+		- :fontawesome-solid-file-pdf: [Protocol Specification](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf)
+		- :fontawesome-solid-file-pdf: [RTK Application Note](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p03_rtk_application_note_v1-1.pdf)
+		- :fontawesome-solid-file-pdf: [Base Station Mode Application Note](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p_series_base_station_mode_application_note_v1-1.pdf)
 		- :fontawesome-solid-file-pdf: [Hardware Design](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf)
-		- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf)
+		- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p03_firmware_upgrade_guide_v1-1.pdf)
 	- :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 
 

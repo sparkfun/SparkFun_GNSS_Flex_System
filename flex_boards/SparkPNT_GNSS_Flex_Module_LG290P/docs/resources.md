@@ -11,11 +11,11 @@
 - :fontawesome-solid-computer: [QGNSS Software *(v2.x)*](https://www.quectel.com/download/qgnss_v2-0_en/)
 - Component Documentation
 	- :fontawesome-solid-file-pdf: [Product Specifications](./assets/component_documentation/Quectel_LG290P03_GNSS_Module_Specification_V1.2.pdf)
-	- :fontawesome-solid-file-pdf: [Protocol Specification](./assets/component_documentation/quectel_lg290p03_gnss_protocol_specification_v1-0.pdf)
-	- :fontawesome-solid-file-pdf: [RTK Application Note](./assets/component_documentation/quectel_gnss_rtk_application_note_v1-0.pdf)
-	- :fontawesome-solid-file-pdf: [Base Station Mode Application Note](./assets/component_documentation/quectel_lg290p03_base_station_mode_application_note_v1-0.pdf)
+	- :fontawesome-solid-file-pdf: [Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf)
 	- :fontawesome-solid-file-pdf: [Hardware Design](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf)
-	- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](./assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf)
+	- :fontawesome-solid-file-pdf: [Application Note - RTK Corrections](./assets/component_documentation/quectel_lg290p03lgx80p03_rtk_application_note_v1-1.pdf)
+	- :fontawesome-solid-file-pdf: [Application Note - Base Station](./assets/component_documentation/quectel_lg290p03lgx80p_series_base_station_mode_application_note_v1-1.pdf)
+	- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](./assets/component_documentation/quectel_lg290p03lgx80p03_firmware_upgrade_guide_v1-1.pdf)
 - :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 - :material-github: [GitHub Repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System)
 
