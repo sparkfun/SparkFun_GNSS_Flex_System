@@ -247,8 +247,10 @@
 	
 	</div>
 
+
 	!!! note "mosaic-go Evaluation Kit"
 		The reset pin is exposed on 4-pin JST connector and the log pin is connected to the latch pin of the SD card slot.
+
 
 	!!! note "mosaic-5 Flex Module"
 		SparkPNT GNSS Flex modules are modular, *plug-in* boards that utilize a *carrier* board to access the pins of the GNSS Flex headers.
@@ -364,7 +366,7 @@ The mosaic-X5 GNSS Flex module has the following features:
 
 
 ## mosaic-X5 Module
-The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf) from [Septentrio](https://www.septentrio.com/en). Their mosaic modules are low-power, multi-band, multi-constellation GNSS receivers capable of delivering centimeter-level precision at high update rates. The modules also feature Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-resilient-and-secure-gnss/gps-receivers) for interference mitigation and anti-spoofing, which ensures their best-in-class reliability and scalable position accuracy.
+The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf) from [Septentrio](https://www.septentrio.com/en). Their mosaic modules are low-power, multi-band, multi-constellation GNSS receivers capable of delivering centimeter-level precision at high update rates. The modules also feature Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-resilient-and-secure-gnss/gps-receivers) for interference mitigation and anti-spoofing, which ensures their best-in-class reliability and scalable position accuracy.
 
 
 <div class="grid cards" markdown>
@@ -473,7 +475,7 @@ The mosaic-X5 module operates in three different power states.
 !!! info
 	By default, the board is hardwired to operate only in the **Active** and **Off** modes.
 
-	*For more information on the power management of the mosaic-X5 module, please refer to sections **3.4**, **3.5**, **4.1**, and **4.13** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf).*
+	*For more information on the power management of the mosaic-X5 module, please refer to sections **3.4**, **3.5**, **4.1**, and **4.13** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf).*
 
 ??? Tip "Enabling **Standby** Mode"
 	Users can enable **Standby** mode on the mosaic-X5, by modifying the `V_BATT` jumper *(see the **[Jumpers](#jumpers)** section)* and providing an external power source for the `V_BATT` pin *(3.3V)*. However, because the `ONOFF` pin isn't exposed users will need to power cycle the board to return to the **Active** state.
@@ -500,7 +502,7 @@ The power consumption of the mosaic-X5 module depends on the GNSS signals enable
 | All signals from all GNSS constellations +L-band | Static(1Hz) | 980 | 297 |
 | All signals from all GNSS constellations +L-band | Static (100Hz) | 1080 | 327 |
 
-*Source: [mosaic-X5 Hardware Manual](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf)*
+*Source: [mosaic-X5 Hardware Manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf)*
 
 </article>
 
@@ -523,7 +525,7 @@ The mosaic modules are multi-band, multi-constellation GNSS receivers. Below, ar
 
 
 !!! info
-	For a comparison of the frequency bands supported by the mosaic modules, refer to section **3.1** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf).
+	For a comparison of the frequency bands supported by the mosaic modules, refer to section **3.1** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf).
 
 
 	??? info "What are Frequency Bands?"

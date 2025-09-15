@@ -9,9 +9,9 @@
 	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
 	- :material-cube-outline: [STEP File](./assets/3d_model/cad_model.step)
 - Component Documentation
-	- :fontawesome-solid-file-pdf: [mosaic-X5 Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf)
+	- :fontawesome-solid-file-pdf: [mosaic-X5 Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf)
 	- :fontawesome-solid-file-pdf: [mosaic-X5 Brochure](./assets/component_documentation/Septentrio_mosaic-X5_LR.pdf)
-	- :fontawesome-solid-file-pdf: [Firmware Manual *(v4.14.10.1)*](./assets/component_documentation/firmware/mosaic-X5_firmware_v4.14.10.1_reference_guide.pdf)
+	- :fontawesome-solid-file-pdf: [Firmware Manual *(v4.15.0)*](./assets/component_documentation/firmware/mosaic-X5_Firmware_v4.15.0_Reference_Guide.pdf)
 - :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 - :material-github: [GitHub Repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System)
 
