@@ -2,7 +2,7 @@
 The mosaic-X5 module is capable of receiving most of the GNSS signals from the various frequency bands of each constellation. By default, the module is only configured to utilize signals (<span style="background-color:green;color:white;">marked in green</span>, in the table below) from specific satellites and frequency bands. Whereas, the <span style="background-color:var(--md-default-fg-color--lighter);">signals marked in grey</span> are also supported by the module, but each signal needs to be enabled before they can be integrated into the computed Position-Velocity-Time (PVT) solution. Meanwhile, any <span style="color:red;">~~signals colored in red and struck out~~</span> are not supported by the mosaic-X5 module; likely due to their proprietary nature, existence outside the module's frequency range, or are experimental/recently implemented.
 
 
-<center>
+<article style="text-align: center;" markdown>
 
 <table border="1">
 
@@ -103,7 +103,7 @@ The mosaic-X5 module is capable of receiving most of the GNSS signals from the v
 
 </table>
 
-</center>
+</article>
 
 !!! info "Legend for GNSS Signals"
 	- Supported; <span style="background-color:green;color:white;">Enabled by default</span>

@@ -16,8 +16,8 @@
 </article>
 
 
-!!! warning
-	Firmware updates can only be performed with the `UART1` interface.
+!!! warning "Firmware Update"
+	Firmware updates can only be performed with the `UART1` interface of the ZED-X20P. Additionally, when in the safe boot, the ZED-X20P requires an the training sequence to be enabled during the firmware update process.
 
 
 !!! info "Product Compatibility"
@@ -105,6 +105,12 @@ Users should [reference the user manual](https://www.u-blox.com/en/info/u-center
 <article class="video-container" style="text-align: center;" markdown>
 <iframe src="https://www.youtube.com/embed/RonjsBTdW3A" title="Firmware update on u-center 2 (ver. 23.03.)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ![QR code](./assets/img/qr_code/video-firmware_update.png){ .qr width="85px" }
+</article>
+
+
+<article class="video-container" style="text-align: center;" markdown>
+<iframe src="https://www.youtube.com/embed/OzMneApMMbs" title="How to get started with the u-blox EVK-X20P evaluation kit with u-center 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![QR code](./assets/img/qr_code/video-evk_getting_started.png){ .qr width="85" }
 </article>
 
 </div>

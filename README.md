@@ -85,8 +85,8 @@ Version History
 ---------------
 - [r2025-08](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-08) - Initial Release
 - [r2025-08a](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-08a) - Docs Update
-- [r2025-08b](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-08b) - Adds DAN-F10N GNSS Flex module
-
+- [r2025-09](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-09) - Adds DAN-F10N, ZED-X20P, and LG290P (w/ IMU) GNSS Flex modules
+- [r2025-09a](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-09a) - Adds GNSS Flex Breakout board and Docs Updates
 
 > [!NOTE]
 >

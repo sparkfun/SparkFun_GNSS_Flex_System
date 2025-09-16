@@ -38,3 +38,11 @@ In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "G
 </div>
 
 </div>
+
+
+!!! tip
+	For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable. Also, don't forget that GNSS signals are fairly weak and can't penetrate buildings or dense vegetation. The GNSS antenna should have an unobstructed view of the sky.
+
+
+	!!! note
+		Please keep in mind that these are general suggestions for our GNSS Flex modules. Some of these boards may have multiple GNSS antenna connections, an integrated antenna, support specific frequency bands, etc. For more details on a specific GNSS Flex module, please refer to their [hookup guide](modules.md).

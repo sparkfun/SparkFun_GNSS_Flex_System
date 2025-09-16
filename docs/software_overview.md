@@ -1,5 +1,11 @@
+!!! warning
+	Keep in mind that some of the software features may be limited by the capabilities of the GNSS module or the software application.
+
+	Please refer to the datasheet, user manual, and/or application notes of your GNSS receiver for the specific capabilities of the GNSS receiver and the manufacturer's software. Additionally, please refer to the user and/or API manuals for any third-party software or Arduino libraries for their specific capabilities.
+
+
 ## Manufacturer Software
-The software requirements of the GNSS Flex modules are usually specific to the GNSS receiver on the board. Below are general software resources that might be useful; however, users should refer to the **GNSS Flex Modules** section for details on their specific board.
+Most of the manufacturers will provide software that is designed to specifically operate and configure their GNSS receivers. Often, this is the simplest way to get started with any development. The software usually provides a graphical interface for evaluating the GNSS receiver's performance, configuring any settings, and upgrading the firmware. Below are general software resources that might be useful; however, users should refer to the [hookup guide of their GNSS Flex module](modules.md) for more details on a specific board.
 
 
 <div class="grid cards" markdown>

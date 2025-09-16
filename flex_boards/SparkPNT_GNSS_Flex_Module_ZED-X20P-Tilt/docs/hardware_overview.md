@@ -178,7 +178,7 @@ The ZED-X20P GNSS Flex module has the following features:
 
 
 ## ZED-X20P GNSS Receiver
-The centerpiece of this GNSS breakout board is the [ZED-X20P module](./assets/component_documentation/ZED-X20P_DataSheet_UBXDOC-963802114-13074.pdf) from [u-blox](https://www.u-blox.com/en); it features their latest X20 GNSS engine, a successor to their popular F9 engine. The ZED-X20P module is an all-band, high precision GNSS receiver that concurrently processes signals from the GPS, Galileo, BeiDou, QZSS, and NavIC constellations across all GNSS frequency bands, including L-band. With positioning algorithms for Real-time Kinematics (RTK), PPP-RTK, and Precise Point Positioning* (PPP) technologies, the module supports standard RTCM corrections for Virtual Reference Stations (VRS) in a Network RTK setup or a local base station setup. Additionally, L-band correction services are natively supported without the need to integrate an external receiver, such as the NEO-D9S.
+The centerpiece of this GNSS breakout board is the [ZED-X20P module](./assets/component_documentation/ZED-X20P-00B_DataSheet_UBXDOC-963802114-12690.pdf) from [u-blox](https://www.u-blox.com/en); it features their latest X20 GNSS engine, a successor to their popular F9 engine. The ZED-X20P module is an all-band, high precision GNSS receiver that concurrently processes signals from the GPS, Galileo, BeiDou, QZSS, and NavIC constellations across all GNSS frequency bands, including L-band. With positioning algorithms for Real-time Kinematics (RTK), PPP-RTK, and Precise Point Positioning* (PPP) technologies, the module supports standard RTCM corrections for Virtual Reference Stations (VRS) in a Network RTK setup or a local base station setup. Additionally, L-band correction services are natively supported without the need to integrate an external receiver, such as the NEO-D9S.
 
 With its very high update rate, the ZED-X20P module is ideal for control applications, ensuring smooth and reliable operation. The module also protects system integrity with multi-layered defenses, including a Root of Trust, jamming and spoofing detection, cryptographic authentication of navigation messages through Galileo OSNMA, and more. The module also accommodates users with a diverse choice of interfaces including USB, UART, SPI, and I^2^C.
 
@@ -189,7 +189,7 @@ With its very high update rate, the ZED-X20P module is ideal for control applica
 
 <article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/dRFR38xS2b4" title="u-blox launches the ZED-X20P. Our first all-band, global GNSS module." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-![QR code to play video](./assets/img/qr_code/video-ublox_x20p.png){ .qr }
+![QR code to play video](./assets/img/qr_code/video-ublox_x20.png){ .qr }
 </article>
 
 </div>
@@ -303,7 +303,7 @@ The power consumption of the ZED-X20P module depends on the GNSS signals enabled
 
 
 !!! info
-	For more information, please refer to the [ZED-X20P Datasheet](./assets/component_documentation/ZED-X20P_DataSheet_UBXDOC-963802114-13074.pdf).
+	For more information, please refer to the [ZED-X20P Datasheet](./assets/component_documentation/ZED-X20P-00B_DataSheet_UBXDOC-963802114-12690.pdf).
 
 </div>
 
@@ -641,6 +641,7 @@ Below, are the features that are available from the ZED-X20P GNSS receiver.
 - USB
 - UART x2 (1)
 - I^2^C
+	- Address: **`0x42` (Default)** *(7-bit)*
 - 1x External interrupt
 - 1x PPS output signal
 - 1x RTK Stat pin
@@ -841,30 +842,53 @@ Below, are the features that are available from the IM19 attitude module.
 === "I^2^C"
 	The ZED-X20P supports a single I^2^C interface. If available, this interface can be accessed through Qwiic connectors on a [GNSS Flex "carrier" board](../carriers.md).
 
+
 	<figure markdown>
 	[![I2C interface](./assets/img/hookup_guide/headers-i2c.png){ width="400" }](./assets/img/hookup_guide/headers-i2c.png "Click to enlarge")
 	<figcaption markdown>The I^2^C interface on the ZED-X20P GNSS Flex module.</figcaption>
 	</figure>
 
 
+	!!! tip "I2C Address"
+		The default I^2^C address for the ZED-X20P GNSS receiver is `0x42` *(7-bit)*. However, this can be altered with the `CFG-I2C-ADDRESS` message.
+
+		- **`0x42` (Default)** *(7-bit: `1000010`)*
+		- `0x84` (write)/`0x85` (read)
+
+
+	!!! info
+		For users interested in the specific details about the read and write access for th I^2^C bus, please refer to the [ZED-X20P integration manual](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_IntegrationManual_UBXDOC-963802114-12901.pdf)
+
+
 	??? tip "What is Qwiic?"
 
+		<div class="grid" markdown>
+
+		<div markdown>
+
 		<!-- Qwiic Banner -->
-		<center>
+		<article style="text-align: center;" markdown>
 		[![Qwiic Logo - light theme](../assets/img/qwiic/qwiic_logo-light.png#only-light){ width=400 }](https://www.sparkfun.com/qwiic)
 		[![Qwiic Logo - dark theme](../assets/img/qwiic/qwiic_logo-dark.png#only-dark){ width=400 }](https://www.sparkfun.com/qwiic)
-		</center>
+		</article>
 
 		---
 
-		The [Qwiic connect system](https://www.sparkfun.com/qwiic) is a solderless, polarized connection system that allows users to seamlessly daisy chain I<sup>2</sup>C boards together. Play the video below to learn more about the Qwiic connect system or click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
+		The [Qwiic connect system](https://www.sparkfun.com/qwiic) is a solderless, polarized connection system that allows users to seamlessly daisy chain I^2^C boards together. Play the video, to learn more about the Qwiic connect system or click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
 
-
-		<center>
-		<div class="video-500px">
-		<iframe src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
-		</center>
+
+
+		<div style="max-height=400px;" markdown>
+
+		<article class="video-500px" style="text-align: center; margin: auto;" markdown>
+		<iframe src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		![QR code to instructional video](../assets/img/qr_code/video-qwiic.png){ .qr width="85px" }
+		</article>
+
+		</div>
+
+		</div>
 
 
 		!!! info "Features of the Qwiic System"
@@ -890,7 +914,7 @@ Below, are the features that are available from the IM19 attitude module.
 				![daisy chainable - light theme](../assets/img/qwiic/daisy_chainable-light.png#only-light){ align="left" width="90" }
 				![daisy chainable - dark theme](../assets/img/qwiic/daisy_chainable-dark.png#only-dark){ align="left" width="90" }
 
-				It’s time to leverage the power of the I<sup>2</sup>C bus! Most Qwiic boards will have two or more connectors on them, allowing multiple devices to be connected.
+				It’s time to leverage the power of the I^2^C bus! Most Qwiic boards will have two or more connectors on them, allowing multiple devices to be connected.
 
 
 === "Event"
@@ -916,7 +940,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 
 	<figure markdown>
-	[![Reset I/O pin](./assets/img/hookup_guide/headers-reset.png){ width="250" }](./assets/img/hookup_guide/headers-vreset.png "Click to enlarge")
+	[![Reset I/O pin](./assets/img/hookup_guide/headers-reset.png){ width="250" }](./assets/img/hookup_guide/headers-reset.png "Click to enlarge")
 	<figcaption markdown>The `RESET` pin on the ZED-X20P GNSS Flex module.</figcaption>
 	</figure>
 
