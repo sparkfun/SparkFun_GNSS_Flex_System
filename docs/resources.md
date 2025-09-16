@@ -134,6 +134,22 @@
 	- :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 	- :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT)
 
+
+- **GNSS Flex Breakout Board**
+
+	---
+
+	- :material-folder-cog: Design Files:
+		- :fontawesome-solid-file-pdf: [Schematic](SparkFun_GNSS_Flex_Breakout/assets/board_files/schematic.pdf)
+		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkFun_GNSS_Flex_Breakout/assets/board_files/dimensions.pdf)
+		- :material-folder-zip: [KiCad Files](SparkFun_GNSS_Flex_Breakout/assets/board_files/kicad_files.zip)
+		- :material-cube-outline: [STEP File](SparkFun_GNSS_Flex_Breakout/assets/3d_model/cad_model.step)
+	- Component Documentation
+		- :fontawesome-solid-file-pdf: [CH342 Datasheet](SparkFun_GNSS_Flex_Breakout/assets/component_documentation/CH342%20Datasheet.pdf)
+		- :fontawesome-solid-file-pdf: [JST-GH Datasheet](SparkFun_GNSS_Flex_Breakout/assets/component_documentation/JST-GH_datasheet.pdf)
+		- :fontawesome-solid-file-pdf: [JST-SH Datasheet](SparkFun_GNSS_Flex_Breakout/assets/component_documentation/JST-SH_datasheet.pdf)
+	- :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_Flex_Breakout)
+
 </div>
 
 

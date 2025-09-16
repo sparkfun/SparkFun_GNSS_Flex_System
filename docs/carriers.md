@@ -20,4 +20,19 @@
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html){ .md-button .md-button--primary }
 	</article>
 
+
+- **SparkFun GNSS Flex Breakout Board**
+
+	---
+
+	<model-viewer src="../SparkFun_GNSS_Flex_Breakout/assets/3d_model/web_model.glb" camera-controls poster="../SparkFun_GNSS_Flex_Breakout/assets/3d_model/poster.png" tone-mapping="neutral" shadow-intensity="2" shadow-softness="0.2" camera-orbit="0deg 75deg 0.1623m" field-of-view="25.11deg" style="width: 100%; height: 250px;">
+	</model-viewer>
+
+	<article style="text-align: center;" markdown>
+	[Hookup Guide](./SparkFun_GNSS_Flex_Breakout/index.md){ .md-button .md-button--primary }
+
+	![QR code to product page](./SparkFun_GNSS_Flex_Breakout/assets/img/qr_code/product.png){ .tinyqr }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkfun-gnss-flex-breakout.html){ .md-button .md-button--primary }
+	</article>
+
 </div>
