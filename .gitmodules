@@ -1,3 +1,6 @@
 [submodule "flex_boards/SparkFun_GNSS_Flex_pHAT"]
 	path = flex_boards/SparkFun_GNSS_Flex_pHAT
 	url = https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT.git
+[submodule "flex_boards/SparkFun_GNSS_Flex_Breakout"]
+	path = flex_boards/SparkFun_GNSS_Flex_Breakout
+	url = https://github.com/sparkfun/SparkFun_GNSS_Flex_Breakout.git
