@@ -3504,13 +3504,17 @@
 </div>
 <div>
 <h3 id="uart-interface">UART Interface<a class="headerlink" data-preview="" href="#uart-interface" title="Permanent link"></a></h3>
-<p>A USB-C connector is provided on the GNSS Flex Breakout for the <code>UART1</code> and <code>UART2</code> interfaces of the GNSS receiver. <a data-preview="" href="../software_overview/#ch342-usb-driver">sdf</a></p>
+<p>A USB-C connector is provided on the GNSS Flex Breakout for the <code>UART1</code> and <code>UART2</code> interfaces of the GNSS receiver.</p>
 <figure>
 <p><a data-preview="" href="../assets/img/hookup_guide/assembly-uart.jpg" title="Click to enlarge"><img alt="USB connection - UART" src="../assets/img/hookup_guide/assembly-uart.jpg" width="400" /></a></p>
 <figcaption>
 <p>Connecting to the UART interfaces of the GNSS Flex module to a computer.</p>
 </figcaption>
 </figure>
+<div class="admonition tip">
+<p class="admonition-title">USB Driver</p>
+<p>Users may need to install the <a data-preview="" href="../software_overview/#ch342-usb-driver">USB driver</a> for the CH342 USB-to-serial converter chip.</p>
+</div>
 </div>
 </div>
 <h2 id="breakout-pins">Breakout Pins<a class="headerlink" data-preview="" href="#breakout-pins" title="Permanent link"></a></h2>
@@ -3578,8 +3582,11 @@
 <p>When connecting the GNSS Flex Breakout board to another device, users need to be aware of the pin connections and voltage ranges of the products. Below, are tables of the pin connections for each JST connector that users can reference.</p>
 <div class="grid">
 <article style="text-align: center;">
-<p><strong><code>COM1 + I<sup>2</sup>C</code></strong></p>
 <table border="1">
+<tr>
+<th align="center" colspan="7"><strong><code>COM1 + I<sup>2</sup>C</code></strong>
+</th>
+</tr>
 <tr>
 <th style="vertical-align:middle;">Pin Number</th>
 <td align="center">
@@ -3616,8 +3623,11 @@
 </table>
 </article>
 <article style="text-align: center;">
-<p><strong><code>COM2</code></strong></p>
 <table border="1">
+<tr>
+<th align="center" colspan="7"><strong><code>COM2</code></strong>
+</th>
+</tr>
 <tr>
 <th style="vertical-align:middle;">Pin Number</th>
 <td align="center">
@@ -3663,7 +3673,7 @@
 </figcaption>
 </figure>
 <h2 id="qwiic-devices">Qwiic Devices<a class="headerlink" data-preview="" href="#qwiic-devices" title="Permanent link"></a></h2>
-<p>The Qwiic system allows users to effortlessly prototype with a Qwiic compatible I<sup>2</sup>C device without soldering. Users can attach GNSS Flex breakout board along with other Qwiic <a href="https://www.sparkfun.com/special-categories/qwiic.html?sf_qwiic_product_type=8273%2C8279%2C8285%2C8288%2C8291%2C8294" target="_blank" rel="noopener">sensors or boards</a> to any <a href="https://www.sparkfun.com/development-boards/microcontrollers.html?sf_global_qwiic_connector=8262" target="_blank" rel="noopener">Qwiic compatible microcontroller</a>, with just a few <a href="https://www.sparkfun.com/sparkfun-qwiic-cable-kit.html" target="_blank" rel="noopener">Qwiic cables</a>. (<em>*The example below, is for demonstration purposes and is not pertinent to the board functionality or this tutorial.</em>)</p>
+<p>The Qwiic system allows users to effortlessly prototype with a Qwiic compatible I<sup>2</sup>C device without soldering. Users can attach GNSS Flex breakout board along with other Qwiic <a href="https://www.sparkfun.com/special-categories/qwiic.html?sf_qwiic_product_type=8273%2C8279%2C8285%2C8288%2C8291%2C8294" target="_blank" rel="noopener">sensors or boards</a> to any <a href="https://www.sparkfun.com/development-boards/microcontrollers.html?sf_global_qwiic_connector=8262" target="_blank" rel="noopener">Qwiic compatible microcontroller</a>, with just a few <a href="https://www.sparkfun.com/sparkfun-qwiic-cable-kit.html" target="_blank" rel="noopener">Qwiic cables</a>. <em>(The example below, is for demonstration purposes and is not pertinent to the board functionality or this tutorial.)</em></p>
 <figure>
 <p><a data-preview="" href="../assets/img/hookup_guide/assembly-qwiic.jpg" title="Click to enlarge"><img alt="Qwiic devices connected" src="../assets/img/hookup_guide/assembly-qwiic.jpg" width="400" /></a></p>
 <figcaption>

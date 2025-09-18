@@ -3624,6 +3624,7 @@
 </figure>
 </div>
 <div>
+<p>Breakout Pins and Exposed Interfaces:</p>
 <ul>
 <li>Power Pins<ul>
 <li>VIN</li>
@@ -3775,7 +3776,7 @@
 </figure></p>
 </div>
 <div class="tabbed-block">
-<p>The <code>ID</code> pin can be utilized to identify a connected GNSS Flex module.</p>
+<p>The <code>ID</code> pin can be utilized to identify the GNSS receiver of a connected GNSS Flex module.</p>
 <div class="grid cards" markdown>
 <div markdown>
 <p><figure markdown>
@@ -3788,38 +3789,34 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">ID Value</th>
 <th style="text-align: center;">GNSS Flex Module</th>
+<th style="text-align: center;">ID Resistors</th>
+<th style="text-align: center;">ID Value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><code>RX3</code></td>
 <td style="text-align: center;">mosaic-X5</td>
+<td style="text-align: center;">1.0k&ohm; + 47.0k&ohm;</td>
+<td style="text-align: center;">0.06875V</td>
 </tr>
 <tr>
-<td style="text-align: center;"><code>TX3</code></td>
 <td style="text-align: center;">LG290P</td>
+<td style="text-align: center;">3.3k&ohm; + 10.0k&ohm;</td>
+<td style="text-align: center;">0.81880V</td>
 </tr>
 <tr>
-<td style="text-align: center;"><code>RTS3</code></td>
 <td style="text-align: center;">DAN-F10</td>
+<td style="text-align: center;">5.62k&ohm; + 6.8k&ohm;</td>
+<td style="text-align: center;">1.49324V</td>
 </tr>
 <tr>
-<td style="text-align: center;"><code>CTS3</code></td>
 <td style="text-align: center;">ZED-X20P</td>
-</tr>
-<tr>
-<td style="text-align: center;"><code>TX3</code></td>
-<td style="text-align: center;">LG290P + IM19</td>
-</tr>
-<tr>
-<td style="text-align: center;"><code>CTS3</code></td>
-<td style="text-align: center;">ZED-X20P +IM19</td>
+<td style="text-align: center;">15.0k&ohm; + 12.1k&ohm;</td>
+<td style="text-align: center;">1.82657V</td>
 </tr>
 </tbody>
 </table>
-<!-- | <code>RX3</code>    | mosaic-X5 + IM19 | -->
 </article>
 </div>
 </div>
@@ -3893,13 +3890,16 @@
 </div>
 </div>
 </div>
-<details class="info">
+<details class="info" open="open">
 <summary>Pin Connections</summary>
 <p>Below, are tables of the pin connections of each JST connector:</p>
 <div class="grid" markdown>
 <article style="text-align: center;" markdown>
-<p><strong><code>COM1 + I<sup>2</sup>C</code></strong></p>
 <p><table border="1" markdown>
+<tr markdown>
+<th align="center" colspan="7" markdown><strong><code>COM1 + I<sup>2</sup>C</code></strong>
+</th>
+</tr>
 <tr markdown>
 <th style="vertical-align:middle;">Pin Number</th>
 <td align="center" markdown>
@@ -3936,8 +3936,11 @@
 </table></p>
 </article>
 <article style="text-align: center;" markdown>
-<p><strong><code>COM2</code></strong></p>
 <p><table border="1" markdown>
+<tr markdown>
+<th align="center" colspan="7" markdown><strong><code>COM2</code></strong>
+</th>
+</tr>
 <tr markdown>
 <th style="vertical-align:middle;">Pin Number</th>
 <td align="center" markdown>

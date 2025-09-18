@@ -2787,6 +2787,38 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manufacturer-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Manufacturer Software<a class="headerlink" data-preview="" href="#manufacturer-software" title="Permanent link"></a>
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#third-party-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Third-Party Software<a class="headerlink" data-preview="" href="#third-party-software" title="Permanent link"></a>
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Third-Party Software">
+      <ul class="md-nav__list">
+        
           <li class="md-nav__item">
   <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
@@ -3406,7 +3438,60 @@
 </div>
 <!-- Add snippet for the manufacturer's software and PyGPSClient -->
 <!-- ========================================================================================================== -->
-<p>--8&lt;-- (../software_overview.md)</p>
+
+<h2 id="manufacturer-software">Manufacturer Software<a class="headerlink" data-preview="" href="#manufacturer-software" title="Permanent link"></a></h2>
+<p>Most of the manufacturers will provide software that is designed to specifically operate and configure their GNSS receivers. Often, this is the simplest way to get started with any development. The software usually provides a graphical interface for evaluating the GNSS receiver's performance, configuring any settings, and upgrading the firmware. Below are general software resources that might be useful; however, users should refer to the <a href="modules.md">hookup guide of their GNSS Flex module</a> for more details on a specific board.</p>
+<div class="grid cards">
+<ul>
+<li>
+<p><strong>Septentrio</strong></p>
+<hr />
+<p>On Windows &amp; Linux platforms, Septentrio provides the RxTools software suite for their GNSS products:</p>
+<ul>
+<li><a href="https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools" target="_blank" rel="noopener">Software Page</a></li>
+<li><a href="https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools#resources" target="_blank" rel="noopener">Download &amp; User Manual</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLUxLg2_PvvdHZ73CnfhS7ZePIIIUR7bON" target="_blank" rel="noopener">Tutorial Videos</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Quectel</strong></p>
+<hr />
+<p>On Windows platforms, Quectel provides the QGNSS <em>(v2.0)</em> software application for their GNSS products:</p>
+<ul>
+<li><a href="https://www.quectel.com/download/qgnss_v2-1_en/" target="_blank" rel="noopener">Download &amp; User Manual</a></li>
+<li><a href="https://github.com/quectel-open-source/GNSSTool" target="_blank" rel="noopener">GitHub Repository</a></li>
+</ul>
+</li>
+<li>
+<p><strong>u-blox</strong></p>
+<hr />
+<p>On Windows platforms, u-blox provides the <a href="https://www.u-blox.com/en/u-center-2" target="_blank" rel="noopener">u-center 2</a> software application for their GNSS products:</p>
+<ul>
+<li><a href="https://www.u-blox.com/en/product/u-center" target="_blank" rel="noopener">Software Page</a></li>
+<li><a href="https://u-center2-updates.u-blox.com/u-center2-installer.exe" target="_blank" rel="noopener">Download</a></li>
+<li><a href="https://www.u-blox.com/en/info/u-center-2-user-guide" target="_blank" rel="noopener">User Manual</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZYttFyZ_7Uo" target="_blank" rel="noopener">Webinar</a></li>
+<li><a href="https://www.youtube.com/watch?v=UY2XTb72SXA&amp;list=PLSzSoRUA4EXuo9NTsbTnK84MiKvbVCEKt" target="_blank" rel="noopener">Tutorial Videos</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="third-party-software">Third-Party Software<a class="headerlink" data-preview="" href="#third-party-software" title="Permanent link"></a></h2>
+<p>In addition to any software provided by the manufacturers, there are a variety of third-party software options. The software implementation may even be unique to the available interfaces from an associated <em>carrier</em> board.</p>
+<div class="grid cards">
+<ul>
+<li>
+<p><strong>PyGPSClient</strong></p>
+<hr />
+<p>The <code>PyGPSClient</code> Python package is a graphical tool for evaluating the basic performance of GNSS receivers and is compatible with most of the major operating systems. The application parses and extrapolates a variety of data from the UART interface of GNSS receivers; with integrated support for the <strong>NMEA</strong>, <strong>UBX</strong>, <strong>RTCM</strong>, <strong>NTRIP</strong>, and <strong>SPARTN</strong> protocols. All GNSS information is then displayed neatly within its GUI for users to access or utilize.</p>
+<ul>
+<li><a href="https://pypi.org/project/pygpsclient/" target="_blank" rel="noopener">PyPI - Python Package</a></li>
+<li><a href="https://www.semuconsulting.com/pygpsclient/index.html" target="_blank" rel="noopener">User Manual</a></li>
+<li><a href="https://github.com/semuconsulting/PyGPSClient" target="_blank" rel="noopener">GitHub Repository</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <!--  -->
 
 <h3 id="installation">Installation<a class="headerlink" data-preview="" href="#installation" title="Permanent link"></a></h3>
@@ -3466,10 +3551,6 @@
 </div>
 <h2 id="arduino-libraries">Arduino Libraries<a class="headerlink" data-preview="" href="#arduino-libraries" title="Permanent link"></a></h2>
 <p>There are some compatible Arduino libraries available for users interested in connecting their GNSS Flex module to a microcontroller.</p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Please refer to the <a href="../../modules/">hookup guide of your GNSS Flex module</a> for more details.</p>
-</div>
 <h3 id="tinygps-library">TinyGPS++ Library<a class="headerlink" data-preview="" href="#tinygps-library" title="Permanent link"></a></h3>
 <p>For basic use cases, where users have already pre-configured their GNSS receiver, the <a href="https://github.com/mikalhart/TinyGPSPlus" target="_blank" rel="noopener">TinyGPS++ Arduino library</a> can be used to parse out pertinent data from the NMEA messages of their GNSS receiver. This is useful for extracting basic information, such as position, date, time, altitude, speed, and course from consumer GPS devices. This library can be installed from the library manager in the Arduino IDE by searching for:</p>
 <div class="language-text highlight"><pre><span></span><code>TinyGPSPlus
