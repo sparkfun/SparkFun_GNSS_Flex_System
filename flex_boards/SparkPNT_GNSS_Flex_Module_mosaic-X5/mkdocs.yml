@@ -18,5 +18,6 @@ nav:
   - Advanced Configurations:
     - Enable GNSS Signals: gnss_signals.md
     - Web Interface: web_interface.md
+    - RxTools Software Suite: rxtools.md
   - Troubleshooting Tips: troubleshooting_tips.md
   - Resources: resources.md
