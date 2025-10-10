@@ -1,0 +1,124 @@
+{
+    "Script": [
+        {
+            "CRCData": "",
+            "Delay": 5,
+            "Description": "Description",
+            "SendData": "$PQTMRESTOREPAR*13",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 5,
+            "Description": "Description",
+            "SendData": "$PQTMSAVEPAR*5A",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 2400,
+            "Description": "Description",
+            "SendData": "$PQTMSRR*4B",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 1,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,GSV,0*08",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 1,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,GSA,0*1F",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 1,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,GGA,0*0B",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 1,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RMC,0*16",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 1,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,GLL,0*0D",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 1,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,VTG,0*0F",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 1,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,THS,0*05",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 5,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,PQTMTAR,10,1*39",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMSAVEPAR*5A",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        }
+    ]
+}

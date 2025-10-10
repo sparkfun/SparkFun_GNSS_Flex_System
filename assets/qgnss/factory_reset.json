@@ -1,0 +1,34 @@
+{
+    "Script": [
+        {
+            "CRCData": "",
+            "Delay": 5,
+            "Description": "Description",
+            "SendData": "$PQTMRESTOREPAR*13",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 5,
+            "Description": "Description",
+            "SendData": "$PQTMSAVEPAR*5A",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMSRR*4B",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        }
+    ]
+}
