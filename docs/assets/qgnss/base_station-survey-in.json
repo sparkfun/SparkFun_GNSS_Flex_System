@@ -1,0 +1,194 @@
+{
+    "Script": [
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGFIXRATE,W,1000*59",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGRTCM,W,4,0,20,07,06,2,5*05",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RMC,0*16",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,GSV,0*08",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,GSA,0*1F",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,VTG,0*0F",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,GLL,0*0D",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,GGA,1*0A",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RTCM3-1019,1*54",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RTCM3-1020,1*5E",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RTCM3-1042,1*5A",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RTCM3-1046,1*5E",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RTCM3-107X,1,0*2F",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RTCM3-108X,1,0*20",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RTCM3-109X,1,0*21",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCFGMSGRATE,W,RTCM3-112X,1,0*2B",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMSAVEPAR*5A",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMSRR*4B",
+            "Suffix": 3,
+            "enable": true,
+            "format": 2,
+            "protocol": 1
+        },
+        {
+            "CRCData": "",
+            "Delay": 0,
+            "Description": "Description",
+            "SendData": "$PQTMCOLD*1C",
+            "Suffix": 3,
+            "enable": false,
+            "format": 2,
+            "protocol": 1
+        }
+    ]
+}
