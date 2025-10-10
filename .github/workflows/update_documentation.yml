@@ -25,6 +25,13 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          sparse-checkout: |
+            docs/modules.md
+            docs/carriers.md
+            docs/system_overview.md
+            docs/resources.md
+            flex_boards/
+            overrides/.icons/
 
       - name: Update submodules
         run: |
