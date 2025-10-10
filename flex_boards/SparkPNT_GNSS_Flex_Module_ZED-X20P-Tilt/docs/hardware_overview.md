@@ -23,7 +23,7 @@
 	</article>
 
 -   <a href="https://www.sparkfun.com/sparkpnt-gnss-flex-module-zed-x20p-im19-imu.html">
-	**SparkPNT GNSS Flex Module - ZED-X20P w/ IM19 IMU**<br>
+	**SparkPNT GNSS Flex Module - ZED-X20P & IM19 IMU**<br>
 	**SKU:** GPS-28997
 
 	---
@@ -198,7 +198,7 @@ With its very high update rate, the ZED-X20P module is ideal for control applica
 
 -   <figure markdown>
 	[![ZED-X20P module](./assets/img/hookup_guide/ZED-X20P.png){ width="400" }](./assets/img/hookup_guide/ZED-X20P.png "Click to enlarge")
-	<figcaption markdown>The ZED-X20P module on the breakout board.</figcaption>
+	<figcaption markdown>The ZED-X20P module on the ZED-X20P GNSS Flex module.</figcaption>
 	</figure>
 
 </div>
@@ -634,6 +634,7 @@ The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mat
 
 
 <div markdown>
+
 Below, are the features that are available from the ZED-X20P GNSS receiver.
 
 <article class="annotate" markdown>

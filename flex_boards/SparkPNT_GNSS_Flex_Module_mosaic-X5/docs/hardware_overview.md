@@ -365,7 +365,7 @@ The mosaic-X5 GNSS Flex module has the following features:
 
 
 
-## mosaic-X5 Module
+## mosaic-X5 GNSS Receiver
 The centerpiece of the mosaic-X5 GNSS Flex module, is the [mosaic-X5 module](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf) from [Septentrio](https://www.septentrio.com/en). Their mosaic modules are low-power, multi-band, multi-constellation GNSS receivers capable of delivering centimeter-level precision at high update rates. The modules also feature Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-resilient-and-secure-gnss/gps-receivers) for interference mitigation and anti-spoofing, which ensures their best-in-class reliability and scalable position accuracy.
 
 
@@ -640,6 +640,7 @@ The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mat
 
 
 <article class="annotate" markdown>
+
 Below, are the features that are available from the mosaic-X5 GNSS receiver.
 
 **Supported Interfaces:**
