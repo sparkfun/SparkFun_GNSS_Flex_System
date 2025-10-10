@@ -101,7 +101,7 @@ In the QGNSS software, users can click on the ++"Advance"++ button, at the botto
 
 	<figure markdown>
 	[![QConsole Toolbar](./assets/img/hookup_guide/qgnss-toolbar.gif){ width="400" }](./assets/img/hookup_guide/qgnss-toolbar.gif "Click to enlarge")
-	<figcaption markdown>	++"Right-click"++ on the mouse and select the `Show Tool` option, inside the QConsole.</figcaption>
+	<figcaption markdown>++"Right-click"++ on the mouse and select the `Show Tool` option, inside the QConsole.</figcaption>
 	</figure>
 
 

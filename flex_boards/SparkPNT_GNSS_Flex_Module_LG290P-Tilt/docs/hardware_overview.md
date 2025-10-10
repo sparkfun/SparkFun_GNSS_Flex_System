@@ -545,6 +545,7 @@ The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mat
 
 
 <div markdown>
+
 Below, are the features that are available from the LG290P GNSS receiver.
 
 <article class="annotate" markdown>
