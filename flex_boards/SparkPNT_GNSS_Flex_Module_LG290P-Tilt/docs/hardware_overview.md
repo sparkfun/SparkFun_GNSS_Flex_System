@@ -249,6 +249,9 @@ One of the centerpieces of the GNSS Flex module, is the [LG290P GNSS module](./a
 ### Power Consumption
 The power consumption of the LG290P GNSS module depends on the GNSS signals enabled and the positioning mode.
 
+
+<div class="grid" markdown>
+
 <article style="text-align: center;" markdown>
 
 | Mode        | Power (mW) | Current (mA) |
@@ -258,6 +261,26 @@ The power consumption of the LG290P GNSS module depends on the GNSS signals enab
 | Backup      | 39.6       | 0.012        |
 
 </article>
+
+
+<div markdown>
+
+!!! info "Power Modes"
+
+	**Acquisition:**
+	:   Module searches for satellites and to determine visible satellites, coarse frequency, and the code phase of satellite signals
+
+	**Tracking:**
+	:   Once acquisition is completed, the module tracks satellites and demodulates the navigation data from specific satellites
+
+	**Backup Mode:**
+	:   Reduces power consumption. Only backup domain is active and keeps track of time.
+
+</div>
+
+</div>
+
+
 
 ### Frequency Bands
 The LG290P module is a multi-band, multi-constellation GNSS receiver. Below, is a chart illustrating the frequency bands utilized by all the global navigation satellite systems; along with a list of the frequency bands and GNSS systems supported by the LG290P GNSS module.
@@ -647,14 +670,32 @@ Below, are the features that are available from the IM19 attitude module.
 
 
 	??? info "UART Protocols"
-		By default, these UART ports are configured to transmit and receive `NMEA 0183` and/or `RTCM 3.x` messages. These messages are generally used for transmitting PNT data; and providing or receiving RTK corrections, respectively. Quectel also implements a system of proprietary messages (`PQTM`) for users to configure the LG290P that follows a data format similar to the `NMEA` protocol. The expected structure of these proprietary messages is shown below:
+		### UART Protocols
+		By default, these UART ports are configured to transmit and receive `NMEA 0183`, `RTCM 3.x`, and/or `QGC` messages. These messages are generally used for transmitting PNT data; providing or receiving RTK corrections; and receiving PPP data, respectively. Quectel also implements a system of proprietary messages (`PQTM`) for users to configure the LG290P that follows a data format similar to the `NMEA` protocol. The expected structure of these proprietary messages is shown below:
 
+
+		<div class="grid" markdown>
+
+		<div markdown>
 
 		<figure markdown>
 		[![NMEA data structure](./assets/img/hookup_guide/nmea_protocol.png){ width="600" }](./assets/img/hookup_guide/nmea_protocol.png "Click to enlarge")
-		<figcaption markdown>The data structure of Quectel messages for the `NMEA` protocol.</figcaption>
+		<figcaption markdown>The data structure of Quectel messages for the `NMEA` and `PQTM` protocols.</figcaption>
 		</figure>
 
+		</div>
+
+
+		<div markdown>
+
+		<figure markdown>
+		[![QGC data structure](./assets/img/hookup_guide/qgc_protocol.png){ width="600" }](./assets/img/hookup_guide/qgc_protocol.png "Click to enlarge")
+		<figcaption markdown>The data structure of Quectel messages for the `QGC` protocol.</figcaption>
+		</figure>
+
+		</div>
+
+		</div>
 
 
 		=== "NMEA"
@@ -672,6 +713,12 @@ Below, are the features that are available from the IM19 attitude module.
 				| GSA | Output | GNSS DOP and Active Satellites           |
 				| VTG | Output | Course Over Ground & Ground Speed        |
 				| GLL | Output | Geographic Position – Latitude/Longitude |
+				| GBS | Output | GNSS Satellite Fault Detection           |
+				| GNS | Output | GNSS Fix Data                            |
+				| GST | Output | GNSS Pseudorange Error Statistics        |
+				| ZDA | Output | UTC Time & Date                          |
+				| HDT | Output | True Vessel Heading                      |
+				| THS | Output | True, Heading, and Status                |
 
 				</article>
 
@@ -686,50 +733,82 @@ Below, are the features that are available from the IM19 attitude module.
 				| Message            | Type Mode    | Message Description                              |
 				| :----------------- | :----------: | :----------------------------------------------- |
 				| PQTMVER            | Output       | Outputs the firmware version                     |
-				| PQTMCOLD           | Input        | Performs a cold start                            |
-				| PQTMWARM           | Input        | Performs a warm start                            |
-				| PQTMHOT            | Input        | Performs a hot start                             |
-				| PQTMSRR            | Input        | Performs a system reset and reboots the receiver |
-				| PQTMUNIQID         | Output       | Queries the module unique ID                     |
-				| PQTMSAVEPAR        | Input        | Saves the configurations into NVM                |
-				| PQTMRESTOREPAR     | Input        | Restores the parameters configured by all commands to their default values |
-				| PQTMVERNO          | Output       | Queries the firmware version                     |
-				| PQTMCFGUART        | Input/Output | Sets/gets the UART interface                     |
-				| PQTMCFGPPS         | Input/Output | Sets/gets the PPS feature                        |
-				| PQTMCFGPROT        | Input/Output | Sets/gets the input and output protocol for a specified port |
-				| PQTMCFGNMEADP      | Input/Output | Sets/gets the decimal places of standard NMEA messages |
+				| PQTMCOLD           | Command      | Performs a cold start                            |
+				| PQTMWARM           | Command      | Performs a warm start                            |
+				| PQTMHOT            | Command      | Performs a hot start                             |
+				| PQTMSRR            | Command      | Performs a system reset and reboots the receiver |
+				| PQTMUNIQID         | Command      | Queries the module unique ID                     |
+				| PQTMSAVEPAR        | Command      | Saves the configurations into NVM                |
+				| PQTMRESTOREPAR     | Command      | Restores the parameters configured by all commands to their default values |
+				| PQTMVERNO          | Command      | Queries the firmware version                     |
+				| PQTMCFGUART        | Set/Get      | Sets/gets the UART interface                     |
+				| PQTMCFGPPS         | Set/Get      | Sets/gets the PPS feature                        |
+				| PQTMCFGPROT        | Set/Get      | Sets/gets the input and output protocol for a specified port |
+				| PQTMCFGNMEADP      | Set/Get      | Sets/gets the decimal places of standard NMEA messages |
 				| PQTMEPE            | Output       | Outputs the estimated position error             |
-				| PQTMCFGMSGRATE     | Input/Output | Sets/gets the message output rate on the current interface |
+				| PQTMCFGMSGRATE     | Set/Get      | Sets/gets the message output rate on the current interface |
 				| PQTMVEL            | Output       | Outputs the velocity information                 |
-				| PQTMCFGGEOFENCE    | Input/Output | Sets/gets geofence feature                       |
+				| PQTMCFGGEOFENCE    | Set/Get      | Sets/gets geofence feature                       |
 				| PQTMGEOFENCESTATUS | Output       | Outputs the geofence status                      |
-				| PQTMGNSSSTART      | Input        | Starts GNSS engine                               |
-				| PQTMGNSSSTOP       | Input        | Stops GNSS engine                                |
+				| PQTMGNSSSTART      | Command      | Starts GNSS engine                               |
+				| PQTMGNSSSTOP       | Command      | Stops GNSS engine                                |
 				| PQTMTXT            | Output       | Outputs short text messages                      |
-				| PQTMCFGSVIN        | Input/Output | Sets/gets the Survey-in feature                  |
+				| PQTMCFGSVIN        | Set/Get      | Sets/gets the Survey-in feature                  |
 				| PQTMSVINSTATUS     | Output       | Outputs the Survey-in status                     |
 				| PQTMPVT            | Output       | Outputs the PVT (GNSS only) result               |
-				| PQTMCFGRCVRMODE    | Input/Output | Sets/gets the receiver working mode              |
-				| PQTMDEBUGON        | Input        | Enables debug log output                         |
-				| PQTMDEBUGOFF       | Input        | Disables debug log output                        |
-				| PQTMCFGFIXRATE     | Input/Output | Sets/gets the fix interval                       |
-				| PQTMCFGRTK         | Input/Output | Sets/gets the RTK mode                           |
-				| PQTMCFGCNST        | Input/Output | Sets/gets the constellation configuration        |
+				| PQTMCFGRCVRMODE    | Set/Get      | Sets/gets the receiver working mode              |
+				| PQTMDEBUGON        | Command      | Enables debug log output                         |
+				| PQTMDEBUGOFF       | Command      | Disables debug log output                        |
+				| PQTMCFGFIXRATE     | Set/Get      | Sets/gets the fix interval                       |
+				| PQTMCFGRTK         | Set/Get      | Sets/gets the RTK mode                           |
+				| PQTMCFGCNST        | Set/Get      | Sets/gets the constellation configuration        |
 				| PQTMDOP            | Output       | Outputs dilution of precision                    |
 				| PQTMPL             | Output       | Outputs protection level information             |
-				| PQTMCFGODO         | Input/Output | Sets/gets the odometer feature                   |
-				| PQTMRESETODO       | Input        | Resets the accumulated distance recorded by the odometer |
+				| PQTMCFGODO         | Set/Get      | Sets/gets the odometer feature                   |
+				| PQTMRESETODO       | Command      | Resets the accumulated distance recorded by the odometer |
 				| PQTMODO            | Output       | Outputs the odometer information                 |
-				| PQTMCFGSIGNAL      | Input/Output | Sets/gets GNSS signal mask                       |
-				| PQTMCFGSAT         | Input/Output | Sets/gets GNSS satellite mask                    |
-				| PQTMCFGRSID        | Input/Output | Sets/gets the reference station ID               |
-				| PQTMCFGRTCM        | Input/Output | Sets/gets RTCM                                   |
+				| PQTMCFGSIGNAL      | Set/Get      | Sets/gets GNSS signal mask                       |
+				| PQTMCFGSAT         | Set/Get      | Sets/gets GNSS satellite mask                    |
+				| PQTMCFGRSID        | Set/Get      | Sets/gets the reference station ID               |
+				| PQTMCFGRTCM        | Set/Get      | Sets/gets RTCM                                   |
+				| PQTMCFGSBAS        | Set/Get      | Configures SBAS                                  |
+				| PQTMCFGNMEATID     | Set/Get      | Configures the NMEA Talker ID                    |
+				| PQTMTAR            | Output       | Outputs the time and attitude                    |
+				| PQTMCFGBLD         | Set/Get      | Configures the baseline distance                 |
+				| PQTMCFGRTKSRCTYPE  | Set/Get      | Configures RTK differential source type          |
+				| PQTMSN             | Command      | Reads the SN of module                           |
+				| PQTMCFGANTINF      | Set/Get      | Configures the antenna information               |
+				| PQTMCFGANTDELTA    | Set/Get      | Configures the delta between antennas            |
+				| PQTMCFGSIGGRP      | Set/Get      | Configures the GNSS signal group                 |
+				| PQTMCFGSIGNAL2     | Set/Get      | Configures GNSS signal mask for second antenna   |
+				| PQTMCFGGEOSEP      | Set/Get      | Configures geoidal separation                    |
+				| PQTMCFGCNRTHD      | Set/Get      | Configures the CNR threshold for position engine |
+				| PQTMCFGELETHD      | Set/Get      | Configures the elevation threshold for position engine |
+				| PQTMNAV            | Output       | Outputs the navigation information               |
+				| PQTMEOE            | Output       | Outputs the end of epoch information             |
+				| PQTMCFGWN          | Set/Get      | Configures the reference start week number       |
+				| PQTMANTENNASTATUS  | Output       | Reports the antenna status                       |
+
+				</article>
+
+
+		=== "QGC"
+			A full list of QGC messages (proprietary protocol defined by Quectel) supported by LG290P, is provided in section **3. QGC Protocol** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf) manual. This protocol is used to output the PPP raw data.
+
+			??? abstract "List of Proprietary Quectel Messages"
+				<article style="text-align: center;" markdown>
+
+				| GQC Message Name | Message Group | Message Number | Type | Description |
+				| :--------- | :--: | :--: | :----: | :--------------------------------- |
+				| RAW-PPPB2B | 0x0A | 0xB2 | Output | BDS PPPB2B binary raw messages     |
+				| RAW-QZSSL6 | 0x0A | 0xB6 | Output | QZSSL6 binary raw messages         |
+				| RAW-HASE6  | 0x0A | 0xE6 | Output | Galileo HASE6 binary raw messages  |
 
 				</article>
 
 
 		=== "RTCM"
-			A full list of compatible `RTCM v3` messages, is provided in section **3. RTCM Protocol** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf) manual. This protocol is used for transferring GNSS raw measurement data, as detailed by the [Radio Technical Commission for Maritime Services](https://www.rtcm.org/) organization.
+			A full list of compatible `RTCM v3` messages, is provided in section **4. RTCM Protocol** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf) manual. This protocol is used for transferring GNSS raw measurement data, as detailed by the [Radio Technical Commission for Maritime Services](https://www.rtcm.org/) organization.
 
 
 			??? abstract "List of Supported RTCMv3 *(MSM)* Messages"
@@ -888,6 +967,10 @@ Below, are the features that are available from the IM19 attitude module.
 	[![Event trigger](./assets/img/hookup_guide/headers-event.png){ width="400" }](./assets/img/hookup_guide/headers-event.png "Click to enlarge")
 	<figcaption markdown>The event pin on the LG290P GNSS Flex module.</figcaption>
 	</figure>
+
+
+	!!! tip "Use Case"
+		Users could use this pin in conjunction with the PPS signal to synchronize two modules with each other.
 
 
 === "Reset"
