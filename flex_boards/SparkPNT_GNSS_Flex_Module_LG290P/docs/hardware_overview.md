@@ -23,7 +23,9 @@
 	</article>
 
 
--	This SparkPNT GNSS Flex module features the Quectel LG290P GNSS receiver. The LG290P module is a quad-band, multi-constellation, high-precision, RTK GNSS receiver. The module can simultaneously receive signals from the `L1`, `L2`, `L5`, and `L6`/`E6` frequency bands of the GPS, GLONASS, Galileo, BDS, QZSS, and NavIC GNSS constellations. In addition, the module supports SBAS augmentation systems (WASS, EGNOS, BDSBAS, MSAS, GAGAN, and SDCM), PPP services (Feature is still under development) (BDS PPP-B2b, QZSS CLAS, MADOCA-PPP, and Galileo HAS), RTCM, and RTK corrections for precision navigation with a fast convergence time and reliable performance.
+-	SparkPNT GNSS Flex modules are plug-in boards featuring different GNSS receivers. They are designed to be easily swapped for repairs and pin-compatible for upgrades. The boards have two 2x10-pin, 2mm pitch female headers connecting to carrier boards. For the LG290P GNSS receiver, these pins will break out the USB, UART (x3), and I^2^C* interfaces, along with the PPS and event signals using a standardized pinout.
+
+	This SparkPNT GNSS Flex module features the Quectel LG290P GNSS receiver. The LG290P module is a quad-band, multi-constellation, high-precision, RTK GNSS receiver. The module can simultaneously receive signals from the `L1`, `L2`, `L5`, and `L6`/`E6` frequency bands of the GPS, GLONASS, Galileo, BDS, QZSS, and NavIC GNSS constellations. In addition, the module supports SBAS augmentation systems (WASS, EGNOS, BDSBAS, MSAS, GAGAN, and SDCM), PPP services (Feature is still under development) (BDS PPP-B2b, QZSS CLAS, MADOCA-PPP, and Galileo HAS), RTCM, and RTK corrections for precision navigation with a fast convergence time and reliable performance.
 
 	The built-in NIC anti-jamming unit provides professional-grade interference signal detection and elimination algorithms, effectively mitigating multiple narrow-band interference sources and significantly improving signal reception performance in complex electromagnetic environments. Additionally, the embedded algorithms ensure reliable positioning in complex scenarios such as urban environments and deep tree cover.
 
@@ -145,7 +147,7 @@ The LG290P GNSS Flex module has the following features:
 
 
 
-## LG290P GNSS
+## LG290P GNSS Receiver
 The centerpiece of the LG290P GNSS Flex module, is the [LG290P GNSS module](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf) from [Quectel](https://www.quectel.com/). The LG290P is a low-power, multi-band, multi-constellation GNSS receiver capable of delivering centimeter-level precision at high update rates. The built-in NIC anti-jamming unit provides professional-grade interference signal detection and elimination algorithms, which effectively mitigate against multiple narrow-band interference sources and significantly improves the signal reception performance in complex electromagnetic environments. With its performance advantages of high-precision and power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
 
 
@@ -153,7 +155,7 @@ The centerpiece of the LG290P GNSS Flex module, is the [LG290P GNSS module](./as
 
 <div style="text-align: center;" markdown>
 
-![QR code to product video](./assets/img/qr_code/video-quectel_lg290p.png){ .qr width="85px" }
+![QR code to product video](./assets/img/qr_code/video-lg290p.png){ .qr width="85px" }
 
 <article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://player.vimeo.com/video/1000742664?dnt=1&amp;app_id=122963" title="Quectel: Product Intro for LG290P GNSS Module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -423,6 +425,7 @@ The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mat
 
 
 <div markdown>
+
 Below, are the features that are available from the LG290P GNSS receiver.
 
 **Supported Interfaces:**
@@ -441,7 +444,7 @@ Below, are the features that are available from the LG290P GNSS receiver.
 
 
 === "UART Ports"
-	The LG290P GNSS has three UART ports, which can be operated and configured separately.
+	The LG290P GNSS receiver has three UART ports, which can be operated and configured separately.
 
 	<div class="grid" markdown>
 
@@ -625,7 +628,7 @@ Below, are the features that are available from the LG290P GNSS receiver.
 
 
 === "LED Output"
-	The `RTK` [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pin operates as both the `RTK_LED` status indicator for the RTK positioning and `ANT_ON` power control for the external LNA or active antenna power.
+	The `RTK` pin operates as both the `RTK_LED` status indicator for the RTK positioning and `ANT_ON` power control for the external LNA or active antenna power.
 
 
 	<figure markdown>

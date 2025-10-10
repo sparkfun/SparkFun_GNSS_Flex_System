@@ -157,11 +157,12 @@ The DAN-F10N GNSS module comes with a 20 x 20 x 8 mm, integrated, Right Hand Cir
 
 <div class="grid cards" markdown>
 
-<div markdown>
+<div style="text-align: center;" markdown>
 
-<article class="video-500px" style="text-align: center; margin: auto;" markdown>
-<iframe src="https://www.youtube.com/embed/7_Pxe2rVFIQ" title="u-blox F10 GNSS platform for meter-level accuracy in urban environments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ![QR code](./assets/img/qr_code/video-ublox_f10.png){ .qr width="85" }
+
+<article class="video-500px" style="margin: auto;" markdown>
+<iframe src="https://www.youtube.com/embed/7_Pxe2rVFIQ" title="u-blox F10 GNSS platform for meter-level accuracy in urban environments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
 
 </div>
@@ -366,6 +367,7 @@ The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mat
 
 
 <div markdown>
+
 Below, are the features that are available from the DAN-F10N GNSS receiver.
 
 <article class="annotate" markdown>

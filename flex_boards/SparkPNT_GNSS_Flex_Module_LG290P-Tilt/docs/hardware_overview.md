@@ -157,7 +157,7 @@ The LG290P GNSS Flex module has the following features:
 
 
 
-## LG290P GNSS Module
+## LG290P GNSS Receiver
 One of the centerpieces of the GNSS Flex module, is the [LG290P GNSS module](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf) from [Quectel](https://www.quectel.com/). The LG290P is a low-power, multi-band, multi-constellation GNSS receiver capable of delivering centimeter-level precision at high update rates. The built-in NIC anti-jamming unit provides professional-grade interference signal detection and elimination algorithms, which effectively mitigate against multiple narrow-band interference sources and significantly improves the signal reception performance in complex electromagnetic environments. With its performance advantages of high-precision and power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
 
 
@@ -165,7 +165,7 @@ One of the centerpieces of the GNSS Flex module, is the [LG290P GNSS module](./a
 
 <div style="text-align: center;" markdown>
 
-![QR code to product video](./assets/img/qr_code/video-quectel_lg290p.png){ .qr width="85px" }
+![QR code to product video](./assets/img/qr_code/video-lg290p.png){ .qr width="85px" }
 
 <article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://player.vimeo.com/video/1000742664?dnt=1&amp;app_id=122963" title="Quectel: Product Intro for LG290P GNSS Module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -545,6 +545,7 @@ The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mat
 
 
 <div markdown>
+
 Below, are the features that are available from the LG290P GNSS receiver.
 
 <article class="annotate" markdown>
@@ -855,7 +856,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 
 === "LED Output"
-	The `RTK` [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pin operates as both the `RTK_LED` status indicator for the RTK positioning and `ANT_ON` power control for the external LNA or active antenna power.
+	The `RTK` pin operates as both the `RTK_LED` status indicator for the RTK positioning and `ANT_ON` power control for the external LNA or active antenna power.
 
 
 	<figure markdown>

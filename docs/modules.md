@@ -91,7 +91,7 @@
 	</article>
 
 
-- **SparkPNT GNSS Flex Module - ZED-X20P & IM19 IMU**
+- **SparkPNT GNSS Flex Module - ZED-X20P**
 
 	---
 

@@ -33,10 +33,10 @@
 	- Component Documentation
 		- :fontawesome-solid-file-pdf: [Product Specifications](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/Quectel_LG290P03_GNSS_Module_Specification_V1.2.pdf)
 		- :fontawesome-solid-file-pdf: [Protocol Specification](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf)
-		- :fontawesome-solid-file-pdf: [RTK Application Note](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p03_rtk_application_note_v1-1.pdf)
-		- :fontawesome-solid-file-pdf: [Base Station Mode Application Note](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p_series_base_station_mode_application_note_v1-1.pdf)
 		- :fontawesome-solid-file-pdf: [Hardware Design](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf)
 		- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p03_firmware_upgrade_guide_v1-1.pdf)
+		- :fontawesome-solid-file-pdf: [Application Note - RTK Corrections](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p03_rtk_application_note_v1-1.pdf)
+		- :fontawesome-solid-file-pdf: [Application Note - Base Station](SparkPNT_GNSS_Flex_Module_LG290P/assets/component_documentation/quectel_lg290p03lgx80p_series_base_station_mode_application_note_v1-1.pdf)
 	- :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 
 
@@ -49,9 +49,6 @@
 		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkPNT_GNSS_Flex_Module_DAN-F10N/assets/board_files/dimensions.pdf)
 		- :material-folder-zip: [KiCad Files](SparkPNT_GNSS_Flex_Module_DAN-F10N/assets/board_files/kicad_files.zip)
 		- :material-cube-outline: [STEP File](SparkPNT_GNSS_Flex_Module_DAN-F10N/assets/3d_model/cad_model.step)
-	- :fontawesome-solid-computer: [u-center 2 Software](https://www.u-blox.com/en/product/u-center)
-		- :material-cloud-download: [Download](https://u-center2-updates.u-blox.com/u-center2-installer.exe)
-		- :material-book-open-variant: [User Manual](https://www.u-blox.com/en/info/u-center-2-user-guide)
 	- Component Documentation
 		- :fontawesome-solid-file-pdf: [Datasheet](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_DataSheet_UBXDOC-963802114-13074.pdf)
 		- :fontawesome-solid-file-pdf: [Product Summary](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_ProductSummary_UBXDOC-963802114-13162.pdf)
@@ -97,10 +94,10 @@
 		- LG290P GNSS Module
 			- :fontawesome-solid-file-pdf: [Product Specifications](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/Quectel_LG290P03_GNSS_Module_Specification_V1.2.pdf)
 			- :fontawesome-solid-file-pdf: [Protocol Specification](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf)
-			- :fontawesome-solid-file-pdf: [RTK Application Note](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03lgx80p03_rtk_application_note_v1-1.pdf)
-			- :fontawesome-solid-file-pdf: [Base Station Mode Application Note](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03lgx80p_series_base_station_mode_application_note_v1-1.pdf)
 			- :fontawesome-solid-file-pdf: [Hardware Design](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf)
 			- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03lgx80p03_firmware_upgrade_guide_v1-1.pdf)
+			- :fontawesome-solid-file-pdf: [Application Note - RTK Corrections](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03lgx80p03_rtk_application_note_v1-1.pdf)
+			- :fontawesome-solid-file-pdf: [Application Note - Base Station](SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/component_documentation/quectel_lg290p03lgx80p_series_base_station_mode_application_note_v1-1.pdf)
 		- IM19 Attitude Module
 			- :fontawesome-solid-file-pdf: [Datasheet](./assets/component_documentation/IM19.pdf)
 			- :fontawesome-solid-file-pdf: [Integration Guide](./assets/component_documentation/IM19EI_v1.4.1.pdf)
