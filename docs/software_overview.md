@@ -10,7 +10,7 @@ Most of the manufacturers will provide software that is designed to specifically
 
 <div class="grid cards" markdown>
 
-- **Septentrio**
+- :septentrio:**septentrio**
 
 	---
 
@@ -21,7 +21,7 @@ Most of the manufacturers will provide software that is designed to specifically
 	- [Tutorial Videos](https://www.youtube.com/playlist?list=PLUxLg2_PvvdHZ73CnfhS7ZePIIIUR7bON)
 
 
-- **Quectel**
+- <span class="twemoji enlarge-logo" style="width: 100%;">:quectel-primary:</span>
 
 	---
 
@@ -31,7 +31,7 @@ Most of the manufacturers will provide software that is designed to specifically
 	- [GitHub Repository](https://github.com/quectel-open-source/GNSSTool)
 
 
-- **u-blox**
+- :ublox-primary:{ .icon-max-width }
 
 	---
 
