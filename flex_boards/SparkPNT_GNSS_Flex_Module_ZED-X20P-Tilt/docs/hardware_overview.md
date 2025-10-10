@@ -185,11 +185,12 @@ With its very high update rate, the ZED-X20P module is ideal for control applica
 
 <div class="grid cards" markdown>
 
-<div markdown>
+<div style="text-align: center;" markdown>
+
+![QR code to play video](./assets/img/qr_code/video-zed-x20p.png){ .qr width="85px" }
 
 <article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/dRFR38xS2b4" title="u-blox launches the ZED-X20P. Our first all-band, global GNSS module." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-![QR code to play video](./assets/img/qr_code/video-ublox_x20.png){ .qr }
 </article>
 
 </div>
