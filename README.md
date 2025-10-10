@@ -64,6 +64,7 @@ Product Variants
     - [GPS-28139](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p.html) - Quectel LG290P GNSS Flex module
     - [GPS-29061](https://www.sparkfun.com/sparkpnt-gnss-flex-module-dan-f10n.html) - u-blox DAN-F10N GNSS Flex module
     - [GPS-29362](https://www.sparkfun.com/sparkpnt-gnss-flex-module-zed-x20p.html) - u-blox ZED-X20P GNSS Flex module
+    - [GPS-28870](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg580p.html) - Quectel LG580P GNSS Flex module
   - GNSS Module w/ IMU:
     - [GPS-29469](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p-im19-imu.html) - Quectel LG290P GNSS Flex module + IM19 IMU
     - [GPS-28997](https://www.sparkfun.com/sparkpnt-gnss-flex-module-zed-x20p-im19-imu.html) - u-blox ZED-X20P GNSS Flex module + IM19 IMU
@@ -76,6 +77,7 @@ Product Variants
     - [GPS-28929](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html) - GNSS Flex pHAT w/ the Quectel LG290P GNSS Flex module
     - [GPS-29491](https://www.sparkfun.com/sparkfun-gnss-flex-phat-dan-f10n.html) - GNSS Flex pHAT w/ the u-blox DAN-F10N GNSS Flex module
     - [GPS-29887](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p.html) - GNSS Flex pHAT w/ the u-blox ZED-X20P GNSS Flex module
+    - [GPS-29890](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg580p.html) - GNSS Flex pHAT w/ the Quectel LG580P GNSS Flex module
   - pHAT + GNSS Module w/ IMU:
     - [GPS-29891](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p-im19-imu.html) - GNSS Flex pHAT w/ the Quectel LG290P GNSS Flex module + IM19 IMU
     - [GPS-29888](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p-im19-imu.html) - GNSS Flex pHAT w/ the u-blox ZED-X20P GNSS Flex module + IM19 IMU

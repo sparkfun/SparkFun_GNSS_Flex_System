@@ -171,6 +171,7 @@ plugins:
         'SparkPNT_GNSS_Flex_Module_mosaic-X5/index.md': 'SparkPNT_GNSS_Flex_Module_mosaic-X5/hardware_overview.md'
         'SparkPNT_GNSS_Flex_Module_LG290P/index.md': 'SparkPNT_GNSS_Flex_Module_LG290P/hardware_overview.md'
         'SparkPNT_GNSS_Flex_Module_LG290P-Tilt/index.md': 'SparkPNT_GNSS_Flex_Module_LG290P-Tilt/hardware_overview.md'
+        'SparkPNT_GNSS_Flex_Module_LG580P/index.md': 'SparkPNT_GNSS_Flex_Module_LG580P/hardware_overview.md'
         'SparkPNT_GNSS_Flex_Module_DAN-F10N/index.md': 'SparkPNT_GNSS_Flex_Module_DAN-F10N/hardware_overview.md'
         'SparkPNT_GNSS_Flex_Module_ZED-X20P-Tilt/index.md': 'SparkPNT_GNSS_Flex_Module_ZED-X20P-Tilt/hardware_overview.md'
         'SparkFun_GNSS_Flex_pHAT/index.md': 'SparkFun_GNSS_Flex_pHAT/hardware_overview.md'
@@ -449,6 +450,7 @@ nav:
     - DAN-F10N: '!include ./flex_boards/SparkPNT_GNSS_Flex_Module_DAN-F10N/mkdocs.yml'
     - LG290P (w/ IMU): '!include ./flex_boards/SparkPNT_GNSS_Flex_Module_LG290P-Tilt/mkdocs.yml'
     - ZED-X20P (w/ IMU): '!include ./flex_boards/SparkPNT_GNSS_Flex_Module_ZED-X20P-Tilt/mkdocs.yml'
+    - LG580P: '!include ./flex_boards/SparkPNT_GNSS_Flex_Module_LG580P/mkdocs.yml'
   - Carrier Boards:
     - carriers.md
     - pHAT: '!include ./flex_boards/SparkFun_GNSS_Flex_pHAT/mkdocs.yml'

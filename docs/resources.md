@@ -57,6 +57,25 @@
 		- :fontawesome-solid-file-pdf: [Product Summary](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_ProductSummary_UBXDOC-963802114-13162.pdf)
 		- :fontawesome-solid-file-pdf: [Integration Manual](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_IntegrationManual_UBXDOC-963802114-13252.pdf)
 
+
+- **LG580P**
+
+	---
+
+	- :material-folder-cog: Design Files:
+		- :fontawesome-solid-file-pdf: [Schematic](SparkPNT_GNSS_Flex_Module_LG580P/assets/board_files/schematic.pdf)
+		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkPNT_GNSS_Flex_Module_LG580P/assets/board_files/dimensions.pdf)
+		- :material-folder-zip: [KiCad Files](SparkPNT_GNSS_Flex_Module_LG580P/assets/board_files/kicad_files.zip)
+		- :material-cube-outline: [STEP File](SparkPNT_GNSS_Flex_Module_LG580P/assets/3d_model/cad_model.step)
+	- Component Documentation
+		- :fontawesome-solid-file-pdf: [Product Specifications](SparkPNT_GNSS_Flex_Module_LG580P/assets/component_documentation/Quectel_LG580P03_GNSS_Module_Specification_V1.0.pdf)
+		- :fontawesome-solid-file-pdf: [Protocol Specification](SparkPNT_GNSS_Flex_Module_LG580P/assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf)
+		- :fontawesome-solid-file-pdf: [Hardware Design](SparkPNT_GNSS_Flex_Module_LG580P/assets/component_documentation/quectel_lg580p03_hardware_design_v1-0.pdf)
+		- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](SparkPNT_GNSS_Flex_Module_LG580P/assets/component_documentation/quectel_lg290p03lgx80p03_firmware_upgrade_guide_v1-1.pdf)
+		- :fontawesome-solid-file-pdf: [Application Note - RTK Corrections](SparkPNT_GNSS_Flex_Module_LG580P/assets/component_documentation/quectel_lg290p03lgx80p03_rtk_application_note_v1-1.pdf)
+		- :fontawesome-solid-file-pdf: [Application Note - Base Station](SparkPNT_GNSS_Flex_Module_LG580P/assets/component_documentation/quectel_lg290p03lgx80p_series_base_station_mode_application_note_v1-1.pdf)
+		- :fontawesome-solid-file-pdf: [Application Note - Heading](SparkPNT_GNSS_Flex_Module_LG580P/assets/component_documentation/quectel_lg580p_series_dual-antenna_heading_application_note_v1-0.pdf)
+
 </div>
 
 
