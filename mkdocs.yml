@@ -355,6 +355,8 @@ markdown_extensions:
 
 
 extra:
+  # Configures the hyperlink for the logo in the header
+  homepage: modules
 
   # Configures how the "Made w/ Material for MkDocs" attribution is displayed in the footer
   # Options: true (defaults to left-side), false, or right
