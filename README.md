@@ -68,6 +68,7 @@ Product Variants
   - GNSS Module w/ IMU:
     - [GPS-29469](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p-im19-imu.html) - Quectel LG290P GNSS Flex module + IM19 IMU
     - [GPS-28997](https://www.sparkfun.com/sparkpnt-gnss-flex-module-zed-x20p-im19-imu.html) - u-blox ZED-X20P GNSS Flex module + IM19 IMU
+    - [GPS-29457](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5-im19-imu.html) - Septentrio mosaic-X5 GNSS Flex module + IM19 IMU
 - Carrier Boards:
   - [GPS-28137](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html) - GNSS Flex pHAT
   - [GPS-28962](https://www.sparkfun.com/sparkfun-gnss-flex-breakout.html) - GNSS Flex Breakout Board
@@ -81,6 +82,7 @@ Product Variants
   - pHAT + GNSS Module w/ IMU:
     - [GPS-29891](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p-im19-imu.html) - GNSS Flex pHAT w/ the Quectel LG290P GNSS Flex module + IM19 IMU
     - [GPS-29888](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p-im19-imu.html) - GNSS Flex pHAT w/ the u-blox ZED-X20P GNSS Flex module + IM19 IMU
+    - [GPS-29889](https://www.sparkfun.com/sparkpnt-gnss-flex-phat-mosaic-x5-im19-imu.html) - GNSS Flex pHAT w/ the Septentrio mosaic-X5 GNSS Flex module + IM19 IMU
 
 
 Version History
