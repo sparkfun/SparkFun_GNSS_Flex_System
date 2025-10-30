@@ -26,10 +26,10 @@ In order to connect to the LG580P properly, users will need to specify the setti
 </figure>
 
 
-Before users can connect to the LG580P GNSS Flex module, they will need to specify the connection settings in QGNSS. Once configured, users can select the ++"OK"++ button and QGNSS will automatically attempt to connect to the GNSS module.
+Before users can connect to the LG580P GNSS Flex module, they will need to specify the connection settings in QGNSS. Once configured, users can select the ++"OK"++ button and QGNSS will automatically attempt to connect to the GNSS receiver.
 
 
-- Select the `LG580P(03)` from the drop-down menu to configure the `Model` of the GNSS module being connected.
+- Select the `LG580P(03)` from the drop-down menu to configure the `Model` of the GNSS receiver being connected.
 - Below, is a list of the default settings for `UART` ports of the LG580P. These settings should be selected in the `Device Information` menu, unless configured differently.
 - For the `Port`, select the port associated with the connected USB-to-Serial converter.
 
@@ -133,9 +133,9 @@ In the event that users need to update the firmware on the LG580P module, please
 
 	1. Click the :material-file-send: button to select the receiver firmware
 	1. Click to choose the firmware upgrade package whose name is identifiable by the presence of `*.pkg` file extension
-	1. Click on the :fontawesome-solid-rotate-backward: button to reboot the GNSS module
+	1. Click on the :fontawesome-solid-rotate-backward: button to reboot the GNSS receiver
 	1. Click the :material-play: button to start the firmware upgrade process and wait for it to complete
-		1. If the GNSS module wasn't rebooted prior initializing the upgrade, the process will wait for the synchronization step. The user will then have 20 seconds to manually reboot the GNSS module; otherwise, the firmware upgrade process will fail.
+		1. If the GNSS receiver wasn't rebooted prior initializing the upgrade, the process will wait for the synchronization step. The user will then have 20 seconds to manually reboot the GNSS receiver; otherwise, the firmware upgrade process will fail.
 		1. Wait for the process to complete
 	1. After the firmware upgrade is complete, the module will automatically reboot
 
@@ -178,10 +178,10 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 
 
 ### Connecting to the LG580P
-Before users can connect to the LG580P GNSS Flex module, they will need to specify the settings of the UART port in PyGPSClient. Once configured, users can select the <kbd>:material-usb:</kbd> button and PyGPSClient will automatically attempt to connect to the GNSS module.
+Before users can connect to the LG580P GNSS Flex module, they will need to specify the settings of the UART port in PyGPSClient. Once configured, users can select the <kbd>:material-usb:</kbd> button and PyGPSClient will automatically attempt to connect to the GNSS receiver.
 
 
-- For the `Serial Port`, select the port associated with the GNSS module.
+- For the `Serial Port`, select the port associated with the GNSS receiver.
 
 
 <figure markdown>
@@ -192,7 +192,7 @@ Before users can connect to the LG580P GNSS Flex module, they will need to speci
 
 
 ### Terminal Emulator
-Another viable option for connecting to the LG580P GNSS Flex module, is to utilize a [terminal emulation program](https://learn.sparkfun.com/tutorials/112). While reading the data sent from the LG580P is relatively trivial, users will need to be more selective when choosing an emulator to configure the LG580P GNSS module. This is due to the unique data structure of the proprietary messages that Quectel implements to configure the LG580P *(see the [**Configure the LG580P**](#configure-the-lg580p) section, above)*.
+Another viable option for connecting to the LG580P GNSS Flex module, is to utilize a [terminal emulation program](https://learn.sparkfun.com/tutorials/112). While reading the data sent from the LG580P is relatively trivial, users will need to be more selective when choosing an emulator to configure the LG580P GNSS receiver. This is due to the unique data structure of the proprietary messages that Quectel implements to configure the LG580P *(see the [**Configure the LG580P**](#configure-the-lg580p) section, above)*.
 
 
 

@@ -25,7 +25,7 @@
 
 -   SparkPNT GNSS Flex modules are plug-in boards featuring different GNSS receivers. They are designed to be easily swapped for repairs and pin-compatible for upgrades. The boards have two 2x10-pin, 2mm pitch female headers connecting to carrier boards. For the LG580P GNSS receiver, these pins will break out the USB, UART (x3), and I^2^C* interfaces, along with the PPS and event signals using a standardized pinout.
 
-	This SparkPNT GNSS Flex module is an upgraded version of the [LG290P GNSS Flex module](../SparkPNT_GNSS_Flex_Module_LG290P). It features the Quectel LG580P quad-band, multi-constellation, high-precision, RTK and heading GNSS receiver with two antenna inputs for instantaneous heading determination down to 0.1&deg;. In traditional navigation systems, such as those used on your phone or car, previous navigation points are utilized to determine the course heading. This is the reason why the arrow indicator will spin or be oriented in the wrong directions when the navigation system first boots or has been stationary for extended periods of time. However, with the LG580 GNSS module, users are provided with a dedicated heading without relying on previous course data points, magnetometers/compasses, or gyroscopes in IMUs, which can introduce small errors.
+	This SparkPNT GNSS Flex module is an upgraded version of the [LG290P GNSS Flex module](../SparkPNT_GNSS_Flex_Module_LG290P). It features the Quectel LG580P quad-band, multi-constellation, high-precision, RTK and heading GNSS receiver with two antenna inputs for instantaneous heading determination down to 0.1&deg;. In traditional navigation systems, such as those used on your phone or car, previous navigation points are utilized to determine the course heading. This is the reason why the arrow indicator will spin or be oriented in the wrong directions when the navigation system first boots or has been stationary for extended periods of time. However, with the LG580 GNSS receiver, users are provided with a dedicated heading without relying on previous course data points, magnetometers/compasses, or gyroscopes in IMUs, which can introduce small errors.
 
 	The LG580P module offers a diverse choice of interfaces including UART, SPI*, I<sup>2</sup>C*, and CAN*. Additionally, the module is capable of simultaneously receiving signals from the `L1`, `L2`, `L5`, and `L6`/`E6` frequency bands of the GPS, GLONASS, Galileo, BDS, QZSS, and NavIC GNSS constellations. In addition, the module supports SBAS augmentation systems (WAAS, EGNOS, BDSBAS, MSAS, GAGAN, KASS, ASECNA, SouthPAN, and SDCM), PPP services* (BDS PPP-B2b, QZSS CLAS, MADOCA-PPP, and Galileo HAS), RTCM, and RTK corrections for precision navigation with a fast convergence time and reliable performance.
 
@@ -147,7 +147,7 @@ The LG580P GNSS Flex module has the following features:
 
 
 ## LG580P GNSS Receiver
-The centerpiece of the LG580P GNSS Flex module, is the [LG580P GNSS module](./assets/component_documentation/quectel_lg580p03_hardware_design_v1-0.pdf) from [Quectel](https://www.quectel.com/). The LG580P is a low-power, multi-band, multi-constellation GNSS receiver capable of delivering centimeter-level precision at high update rates. The built-in professional-grade interference signal detection and elimination algorithms, effectively mitigate multiple narrow-band interference sources and significantly improve signal reception performance in complex electromagnetic environments. In addition, the RTK and heading algorithms ensure reliable positioning in challenging scenarios such as urban environments and deep tree cover. With its performance advantages of high-precision and power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
+The centerpiece of the LG580P GNSS Flex module, is the [LG580P GNSS receiver](./assets/component_documentation/quectel_lg580p03_hardware_design_v1-0.pdf) from [Quectel](https://www.quectel.com/). The LG580P is a low-power, multi-band, multi-constellation GNSS receiver capable of delivering centimeter-level precision at high update rates. The built-in professional-grade interference signal detection and elimination algorithms, effectively mitigate multiple narrow-band interference sources and significantly improve signal reception performance in complex electromagnetic environments. In addition, the RTK and heading algorithms ensure reliable positioning in challenging scenarios such as urban environments and deep tree cover. With its performance advantages of high-precision and power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
 
 
 <div class="grid cards" markdown>
@@ -157,14 +157,14 @@ The centerpiece of the LG580P GNSS Flex module, is the [LG580P GNSS module](./as
 ![QR code to product video](./assets/img/qr_code/video-lg580p.png){ .qr width="85px" }
 
 <article class="video-500px" style="margin: auto;" markdown>
-<iframe src="https://player.vimeo.com/video/1115089915?h=127c90c2a9" title="Quectel: Product Intro for LG580P GNSS Module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/1115089915?h=127c90c2a9" title="Quectel: Product Intro for LG580P GNSS Receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
 
 </div>
 
 
 -   <figure markdown>
-	[![LG580P GNSS module](./assets/img/hookup_guide/LG580P.png){ width="300" }](./assets/img/hookup_guide/LG580P.png "Click to enlarge")
+	[![LG580P GNSS receiver](./assets/img/hookup_guide/LG580P.png){ width="300" }](./assets/img/hookup_guide/LG580P.png "Click to enlarge")
 	<figcaption markdown>The LG580P module on the LG580P GNSS Flex module.</figcaption>
 	</figure>
 
@@ -243,7 +243,7 @@ The centerpiece of the LG580P GNSS Flex module, is the [LG580P GNSS module](./as
 
 
 ### Power Consumption
-The power consumption of the LG580P GNSS module depends on the GNSS signals enabled and the positioning mode.
+The power consumption of the LG580P GNSS receiver depends on the GNSS signals enabled and the positioning mode.
 
 <div class="grid" markdown>
 
@@ -278,7 +278,7 @@ The power consumption of the LG580P GNSS module depends on the GNSS signals enab
 
 
 ### Frequency Bands
-The LG580P modules are multi-band, multi-constellation GNSS receivers. Below, is a chart illustrating the frequency bands utilized by all the global navigation satellite systems; along with a list of the frequency bands and GNSS systems supported by the LG580P GNSS module.
+The LG580P modules are multi-band, multi-constellation GNSS receivers. Below, is a chart illustrating the frequency bands utilized by all the global navigation satellite systems; along with a list of the frequency bands and GNSS systems supported by the LG580P GNSS receiver.
 
 
 <figure markdown>
@@ -342,7 +342,7 @@ The LG580P modules are multi-band, multi-constellation GNSS receivers. Below, is
 
 
 !!! info
-	For a comparison of the frequency bands supported by the LG580P GNSS modules, refer to sections **1.2**, **1.5**, and **1.6** of the [hardware design manual](./assets/component_documentation/quectel_lg580p03_hardware_design_v1-0.pdf).
+	For a comparison of the frequency bands supported by the LG580P GNSS receivers, refer to sections **1.2**, **1.5**, and **1.6** of the [hardware design manual](./assets/component_documentation/quectel_lg580p03_hardware_design_v1-0.pdf).
 
 
 ??? info "What are Frequency Bands?"
@@ -370,7 +370,7 @@ The LG580P modules are multi-band, multi-constellation GNSS receivers. Below, is
 
 <div markdown>
 
-The accuracy of the position reported from the LG580P GNSS module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
+The accuracy of the position reported from the LG580P GNSS receiver, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
 
 - RTK technique requires real-time correction data from a reference station or network of base stations.
 	- RTK corrections usually come from RTCM messages that are signal specific *(i.e. an RTK network may only provide corrections for specific signals; only `E5b` and not `E5a`)*.
@@ -478,7 +478,7 @@ Below, are the features that are available from the LG580P GNSS receiver.
 
 
 
-=== "UART"
+=== "UART Ports"
 	The LG580P GNSS receiver has three UART ports, which can be operated and configured separately.
 
 	<div class="grid" markdown>
@@ -573,7 +573,7 @@ Below, are the features that are available from the LG580P GNSS receiver.
 
 
 		=== "PQTM"
-			A full list of PQTM messages (proprietary NMEA messages defined by Quectel) supported by LG580P, is provided in section **2.3. PQTM Messages** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf) manual. This protocol is used to configure or read the settings for the LG580P GNSS module.
+			A full list of PQTM messages (proprietary NMEA messages defined by Quectel) supported by LG580P, is provided in section **2.3. PQTM Messages** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf) manual. This protocol is used to configure or read the settings for the LG580P GNSS receiver.
 
 
 			??? abstract "List of Proprietary Quectel Messages"
@@ -708,7 +708,7 @@ Below, are the features that are available from the LG580P GNSS receiver.
 
 
 
-=== "PPS"
+=== "PPS Output"
 	From the module, the [PPS](https://en.wikipedia.org/wiki/Pulse-per-second_signal "Pulse Per Second") output signal is a 3.3V signal output.
 
 
@@ -758,7 +758,7 @@ Below, are the features that are available from the LG580P GNSS receiver.
 
 
 === "Reset"
-	This pin can be used to reset the LG580P module if it enters an abnormal state. To reset the GNSS module, the pin must be low for more than 100ms.
+	This pin can be used to reset the LG580P module if it enters an abnormal state. To reset the GNSS receiver, the pin must be low for more than 100ms.
 
 
 	<figure markdown>
@@ -770,7 +770,7 @@ Below, are the features that are available from the LG580P GNSS receiver.
 ## U.FL Connectors
 Users will need to connect compatible GNSS antennas to the `Primary Antenna` and `Secondary Antenna` U.FL connectors. The type of antenna used with the LG580P module affects the overall accuracy of the position and attitude calculated by the GNSS receiver.
 
-- Passive antennas are not recommended for the LG580P GNSS module.
+- Passive antennas are not recommended for the LG580P GNSS receiver.
 - To mitigate the impact of out-of-band signals, utilize an active antenna whose SAW filter is placed in front of the LNA in the internal framework.
 	- **DO NOT** select an antenna with the LNA placed in the front.
 - There is no need to inject an external DC voltage for the GNSS antenna. Power is already provided from the LG580P module for the LNA of an active antenna.

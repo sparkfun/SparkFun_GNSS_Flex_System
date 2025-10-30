@@ -27,7 +27,7 @@
 
 
 ## 🏭&nbsp;Manufacturer's Resources
-u-blox also provides great resources for the DAN-F10N GNSS receiver module:
+u-blox also provides great resources for the DAN-F10N GNSS receiver:
 
 - [DAN-F10N Product Page](https://www.u-blox.com/en/product/dan-f10n-module)
 - :material-youtube: [u-blox YouTube Channel](https://www.youtube.com/@ublox)

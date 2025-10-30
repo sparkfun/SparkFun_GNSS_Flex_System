@@ -1,5 +1,5 @@
 ## Supported GNSS Signals
-The mosaic-X5 module is capable of receiving most of the GNSS signals from the various frequency bands of each constellation. By default, the module is only configured to utilize signals (<span style="background-color:green;color:white;">marked in green</span>, in the table below) from specific satellites and frequency bands. Whereas, the <span style="background-color:var(--md-default-fg-color--lighter);">signals marked in grey</span> are also supported by the module, but each signal needs to be enabled before they can be integrated into the computed Position-Velocity-Time (PVT) solution. Meanwhile, any <span style="color:red;">~~signals colored in red and struck out~~</span> are not supported by the mosaic-X5 module; likely due to their proprietary nature, existence outside the module's frequency range, or are experimental/recently implemented.
+The mosaic-X5 GNSS receiver is capable of receiving most of the GNSS signals from the various frequency bands of each constellation. By default, the module is only configured to utilize signals (<span style="background-color:green;color:white;">marked in green</span>, in the table below) from specific satellites and frequency bands. Whereas, the <span style="background-color:var(--md-default-fg-color--lighter);">signals marked in grey</span> are also supported by the module, but each signal needs to be enabled before they can be integrated into the computed Position-Velocity-Time (PVT) solution. Meanwhile, any <span style="color:red;">~~signals colored in red and struck out~~</span> are not supported by the mosaic-X5 GNSS receiver; likely due to their proprietary nature, existence outside the module's frequency range, or are experimental/recently implemented.
 
 
 <article style="text-align: center;" markdown>
@@ -113,7 +113,7 @@ The mosaic-X5 module is capable of receiving most of the GNSS signals from the v
 
 
 ## Enable Additional Signals
-Below, are instructions to configure the mosaic-X5 module to track any of the supported GNSS signals. Additionally, users can also configure whether the signals are utilized in the Position-Velocity-Time (PVT) computations or their navigation data is accessed.
+Below, are instructions to configure the mosaic-X5 GNSS receiver to track any of the supported GNSS signals. Additionally, users can also configure whether the signals are utilized in the Position-Velocity-Time (PVT) computations or their navigation data is accessed.
 
 !!! warning "Enabling the GPS-L5 Signal"
 	For users interested in the GPS-L5 signal, extra configuration steps are required to utilize this signal for evaluation and testing purposes.
@@ -194,7 +194,7 @@ Through the web interface, users will need to access the advanced settings of th
 
 
 ## Enable Additional Satellites
-Below, are instructions to configure the mosaic-X5 module to utilize additional GNSS satellites that weren't enabled by default. A satellite's tracking and usage must be enabled before their signals can be tracked or utilized.
+Below, are instructions to configure the mosaic-X5 GNSS receiver to utilize additional GNSS satellites that weren't enabled by default. A satellite's tracking and usage must be enabled before their signals can be tracked or utilized.
 
 
 

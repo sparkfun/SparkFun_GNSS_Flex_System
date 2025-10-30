@@ -24,12 +24,12 @@
 
 
 	??? info "Tilt Compensation"
-		The IM19 IMU from Feyman (FMI) fuses MEMS sensor and GNSS RTK positioning data to deliver high-precision attitude measurement, with roll and pitch accurate to within 0.05 degrees. This kind of superb accuracy has widespread uses in industrial applications such as tilt RTK surveys (where RTK poles need not be held straight vertical as the IM19 can calculate a virtual digital level at any tilt angle), agriculture machine automation, and dead reckoning.
+		The IM19 attitude module from Feyman (FMI) fuses MEMS IMU sensor data and GNSS RTK positioning to deliver high-precision attitude compensated measurements, with roll and pitch accurate to within 0.05 degrees. This kind of superb accuracy has widespread uses in industrial applications such as tilt RTK surveys (where RTK poles need not be held straight vertical as the IM19 can calculate a virtual digital level at any tilt angle), agriculture machine automation, and dead reckoning.
 
-		When configured, fed with the LG290P Pulse-Per-Second signal and NMEA GGA, RMC and GST messages, and calibrated, the IM19 will output proprietary NMEA messages containing the compensated position and roll, pitch and yaw. By default, the LG290P `COM3` `TX` is linked to the IM19 `UART2` `RX` to carry the required NMEA messages. However, this can be changed via jumper links on the Flex Module, if necessary.
+		When configured, fed with the LG290P Pulse-Per-Second signal and NMEA GGA, RMC, and GST messages; once calibrated, the IM19 will output proprietary NMEA messages containing the compensated position and roll, pitch and yaw. By default, the LG290P `COM3` `TX` is linked to the IM19 `UART2` `RX` to carry the required NMEA messages. However, this can be changed via jumper links on the Flex Module, if necessary.
 
 
--	SparkPNT GNSS Flex modules are plug-in boards featuring different GNSS receivers. They are designed to be easily swapped for repairs and pin-compatible for upgrades. The boards have two 2x10-pin, 2mm pitch female headers connecting to carrier boards. For the LG290P GNSS receiver, these pins will break out the UART (x2) and I^2^C* interfaces, along with the PPS and event signals using a standardized pinout. Additionally, these pins break out the two UART interfaces of the IM19 IMU.
+-   SparkPNT GNSS Flex modules are plug-in boards featuring different GNSS receivers. They are designed to be easily swapped for repairs and pin-compatible for upgrades. The boards have two 2x10-pin, 2mm pitch female headers connecting to carrier boards. For the LG290P GNSS receiver, these pins will break out the UART (x2) and I^2^C* interfaces, along with the PPS and event signals using a standardized pinout. Additionally, these pins break out the two UART interfaces of the IM19 IMU.
 
 	This SparkPNT GNSS Flex module combines the Quectel LG290P GNSS receiver with the IM19 Inertial Measurement Unit for tilt compensation or dead reckoning. The LG290P module is a quad-band, multi-constellation, high-precision, RTK GNSS receiver. The module can simultaneously receive signals from the `L1`, `L2`, `L5`, and `L6`/`E6` frequency bands of the GPS, GLONASS, Galileo, BDS, QZSS, and NavIC GNSS constellations. In addition, the module supports SBAS augmentation systems (WASS, EGNOS, BDSBAS, MSAS, GAGAN, and SDCM), PPP services* (BDS PPP-B2b, QZSS CLAS, MADOCA-PPP, and Galileo HAS), RTCM, and RTK corrections for precision navigation with a fast convergence time and reliable performance.
 
@@ -158,7 +158,7 @@ The LG290P GNSS Flex module has the following features:
 
 
 ## LG290P GNSS Receiver
-One of the centerpieces of the GNSS Flex module, is the [LG290P GNSS module](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf) from [Quectel](https://www.quectel.com/). The LG290P is a low-power, multi-band, multi-constellation GNSS receiver capable of delivering centimeter-level precision at high update rates. The built-in NIC anti-jamming unit provides professional-grade interference signal detection and elimination algorithms, which effectively mitigate against multiple narrow-band interference sources and significantly improves the signal reception performance in complex electromagnetic environments. With its performance advantages of high-precision and power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
+One of the centerpieces of the GNSS Flex module, is the [LG290P GNSS receiver](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf) from [Quectel](https://www.quectel.com/). The LG290P is a low-power, multi-band, multi-constellation GNSS receiver capable of delivering centimeter-level precision at high update rates. The built-in NIC anti-jamming unit provides professional-grade interference signal detection and elimination algorithms, which effectively mitigate against multiple narrow-band interference sources and significantly improves the signal reception performance in complex electromagnetic environments. With its performance advantages of high-precision and power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
 
 
 <div class="grid cards" markdown>
@@ -168,15 +168,15 @@ One of the centerpieces of the GNSS Flex module, is the [LG290P GNSS module](./a
 ![QR code to product video](./assets/img/qr_code/video-lg290p.png){ .qr width="85px" }
 
 <article class="video-500px" style="margin: auto;" markdown>
-<iframe src="https://player.vimeo.com/video/1000742664?dnt=1&amp;app_id=122963" title="Quectel: Product Intro for LG290P GNSS Module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/1000742664?dnt=1&amp;app_id=122963" title="Quectel: Product Intro for LG290P GNSS Receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
 
 </div>
 
 
 -   <figure markdown>
-	[![LG290P GNSS module](./assets/img/hookup_guide/LG290P.png){ width="300" }](./assets/img/hookup_guide/LG290P.png "Click to enlarge")
-	<figcaption markdown>The LG290P GNSS module on the LG290P GNSS Flex module.</figcaption>
+	[![LG290P GNSS receiver](./assets/img/hookup_guide/LG290P.png){ width="300" }](./assets/img/hookup_guide/LG290P.png "Click to enlarge")
+	<figcaption markdown>The LG290P GNSS receiver on the LG290P GNSS Flex module.</figcaption>
 	</figure>
 
 </div>
@@ -247,7 +247,7 @@ One of the centerpieces of the GNSS Flex module, is the [LG290P GNSS module](./a
 
 
 ### Power Consumption
-The power consumption of the LG290P GNSS module depends on the GNSS signals enabled and the positioning mode.
+The power consumption of the LG290P GNSS receiver depends on the GNSS signals enabled and the positioning mode.
 
 
 <div class="grid" markdown>
@@ -283,7 +283,7 @@ The power consumption of the LG290P GNSS module depends on the GNSS signals enab
 
 
 ### Frequency Bands
-The LG290P module is a multi-band, multi-constellation GNSS receiver. Below, is a chart illustrating the frequency bands utilized by all the global navigation satellite systems; along with a list of the frequency bands and GNSS systems supported by the LG290P GNSS module.
+The LG290P module is a multi-band, multi-constellation GNSS receiver. Below, is a chart illustrating the frequency bands utilized by all the global navigation satellite systems; along with a list of the frequency bands and GNSS systems supported by the LG290P GNSS receiver.
 
 
 <figure markdown>
@@ -347,7 +347,7 @@ The LG290P module is a multi-band, multi-constellation GNSS receiver. Below, is 
 
 
 !!! info
-	For a comparison of the frequency bands supported by the LG290P GNSS modules, refer to sections **1.2**, **1.5**, and **1.6** of the [hardware design manual](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf).
+	For a comparison of the frequency bands supported by the LG290P GNSS receivers, refer to sections **1.2**, **1.5**, and **1.6** of the [hardware design manual](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf).
 
 	??? info "What are Frequency Bands?"
 		A [frequency band](https://en.wikipedia.org/wiki/Frequency_band) is a section of the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum), usually denoted by the range of its upper and lower limits. In the [radio spectrum](https://en.wikipedia.org/wiki/Radio_spectrum), these frequency bands are usually regulated by region, often through a government entity. This regulation prevents the interference of RF communication; and often includes major penalties for any interference with critical infrastructure systems and emergency services.
@@ -373,7 +373,7 @@ The LG290P module is a multi-band, multi-constellation GNSS receiver. Below, is 
 
 <div markdown>
 
-The accuracy of the position reported from the LG290P GNSS module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
+The accuracy of the position reported from the LG290P GNSS receiver, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
 
 - RTK technique requires real-time correction data from a reference station or network of base stations.
 	- RTK corrections usually come from RTCM messages that are signal specific *(i.e. an RTK network may only provide corrections for specific signals; only `E5b` and not `E5a`)*.
@@ -459,7 +459,7 @@ The accuracy of the position reported from the LG290P GNSS module, can be improv
 ## IM19 IMU *(Optional)*
 The other centerpiece of the GNSS Flex module is the [IM19 attitude module](../assets/component_documentation/IM19EI_v1.4.1.pdf) from [Feyman Inc.](http://feymani.com/en/), which fuses MEMS sensor and GNSS RTK positioning data to deliver high-precision attitude measurement, with roll and pitch accurate to within 0.05 degrees. This kind of superb accuracy has widespread uses in industrial applications such as tilt RTK surveys (where RTK poles need not be held straight vertical as the IM19 can calculate a virtual digital level at any tilt angle), agriculture machine automation, and dead reckoning.
 
-When configured, fed with the LG290P Pulse-Per-Second signal and NMEA GGA, RMC and GST messages, and calibrated, the IM19 will output proprietary NMEA messages containing the compensated position and roll, pitch and yaw. By default, the LG290P `COM3` `TX` is linked to the IM19 `UART2` `RX` to carry the required NMEA messages. However, this can be changed via jumper links on the Flex Module, if necessary.
+When configured, fed with the LG290P Pulse-Per-Second signal and NMEA GGA, RMC, and GST messages; once calibrated, the IM19 will output proprietary NMEA messages containing the compensated position and roll, pitch and yaw. By default, the LG290P `COM3` `TX` is linked to the IM19 `UART2` `RX` to carry the required NMEA messages. However, this can be changed via jumper links on the Flex Module, if necessary.
 
 
 
@@ -536,8 +536,8 @@ When configured and calibrated, the IM19 attitude module can fuses its IMU senso
 </article>
 
 
-??? warning "LG290P GNSS Module"
-	The accuracy of the position reported from the LG290P GNSS module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy. Its accuracy, displayed in the table below, should also be considered when implemented.
+??? warning "LG290P GNSS Receiver"
+	The accuracy of the position reported from the LG290P GNSS receiver, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy. Its accuracy, displayed in the table below, should also be considered when implemented.
 
 
 	<article style="text-align: center;" markdown>
@@ -598,7 +598,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 </article>
 
-1. The timing signal comes from the LG290P GNSS module
+1. The timing signal comes from the LG290P GNSS receiver
 
 </div>
 
@@ -633,8 +633,8 @@ Below, are the features that are available from the IM19 attitude module.
 	</figure>
 
 
-	- The `UART1` and `UART2` ports of the LG290P GNSS module are broken out to the headers of the GNSS Flex system. These can be used to interact with the LG290P.
-	- The `TX` pin of the `UART3` port from the LG290P GNSS module is piped directly to the `RX` pin of the IM19 attitude module's `UART2` port.
+	- The `UART1` and `UART2` ports of the LG290P GNSS receiver are broken out to the headers of the GNSS Flex system. These can be used to interact with the LG290P.
+	- The `TX` pin of the `UART3` port from the LG290P GNSS receiver is piped directly to the `RX` pin of the IM19 attitude module's `UART2` port.
 
 
 	!!! info "Default Configuration"
@@ -724,7 +724,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 
 		=== "PQTM"
-			A full list of PQTM messages (proprietary NMEA messages defined by Quectel) supported by LG290P, is provided in section **2.3. PQTM Messages** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf) manual. This protocol is used to configure or read the settings for the LG290P GNSS module.
+			A full list of PQTM messages (proprietary NMEA messages defined by Quectel) supported by LG290P, is provided in section **2.3. PQTM Messages** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf) manual. This protocol is used to configure or read the settings for the LG290P GNSS receiver.
 
 
 			??? abstract "List of Proprietary Quectel Messages"
@@ -879,7 +879,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 	- The `UART1` port of the IM19 module is broken out to the headers of the GNSS Flex system, on pins `TXD3` and `RXD3`. These pins should be used to configure the IM19 module.
 	- The `UART2` port of the IM19 module is used to receive GNSS data from the GNSS receiver and output the tilt compensated data.
-		- By default, the `RX` pin receives data from the `UART3` port of the LG290P GNSS module.
+		- By default, the `RX` pin receives data from the `UART3` port of the LG290P GNSS receiver.
 			- Users can [modify the jumpers](#jumpers) on the top of the GNSS Flex module, to utilize the `TXD1`, `TXD2`, or `RXD4` pins *(of the GNSS Flex headers)* instead.
 		- Once IM19 module is configured and calibrated, the `TX` pin outputs the tilt compensated data to the `TXD4` pin on the GNSS Flex headers.
 
@@ -974,7 +974,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 
 === "Reset"
-	This pin can be used to reset both the LG290P GNSS module and IM19 attitude module. Driving the pin `LOW` for at least 100ms triggers a restart of both modules.
+	This pin can be used to reset both the LG290P GNSS receiver and IM19 attitude module. Driving the pin `LOW` for at least 100ms triggers a restart of both modules.
 
 
 	<figure markdown>
@@ -987,7 +987,7 @@ Below, are the features that are available from the IM19 attitude module.
 ## U.FL Connector
 Users will need to connect a compatible GNSS antenna to the `Antenna L1/L2/L5/E6` U.FL connector. The type of antenna used with the LG290P module affects the overall accuracy of the positions calculated by the GNSS receiver.
 
-- Passive antennas are not recommended for the LG290P GNSS module.
+- Passive antennas are not recommended for the LG290P GNSS receiver.
 - To mitigate the impact of out-of-band signals, utilize an active antenna whose SAW filter is placed in front of the LNA in the internal framework.
 	- **DO NOT** select an antenna with the LNA placed in the front.
 - There is no need to inject an external DC voltage for the GNSS antenna. Power is already provided from the LG290P module for the LNA of an active antenna.

@@ -26,10 +26,10 @@ In order to connect to the LG290P properly, users will need USB-to-Serial conver
 </figure>
 
 
-Before users can connect to the LG290P GNSS Flex module, they will need to specify the connection settings in QGNSS. Once configured, users can select the ++"OK"++ button and QGNSS will automatically attempt to connect to the GNSS module.
+Before users can connect to the LG290P GNSS Flex module, they will need to specify the connection settings in QGNSS. Once configured, users can select the ++"OK"++ button and QGNSS will automatically attempt to connect to the GNSS receiver.
 
 
-- Select the `LG290P(03)` from the drop-down menu to configure the `Model` of the GNSS module being connected.
+- Select the `LG290P(03)` from the drop-down menu to configure the `Model` of the GNSS receiver being connected.
 - Below, is a list of the default settings for `UART` ports of the LG290P. These settings should be selected in the `Device Information` menu, unless configured differently.
 - For the `Port`, select the port associated with the attached USB-to-Serial converter.
 
@@ -49,7 +49,7 @@ Before users can connect to the LG290P GNSS Flex module, they will need to speci
 <div markdown>
 
 !!! info "LG290P - Default Settings"
-	The UART ports of the LG290P GNSS module will have the following default configuration:
+	The UART ports of the LG290P GNSS receiver will have the following default configuration:
 
 	- Baudrate: 460800bps
 	- Data Bits: 8
@@ -160,7 +160,7 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 
 
 ### Connecting to the LG290P
-Before users can connect to the LG290P GNSS Flex module, they will need to specify the settings of the UART port in PyGPSClient. Once configured, users can select the <kbd>:material-usb:</kbd> button and PyGPSClient will automatically attempt to connect to the GNSS module.
+Before users can connect to the LG290P GNSS Flex module, they will need to specify the settings of the UART port in PyGPSClient. Once configured, users can select the <kbd>:material-usb:</kbd> button and PyGPSClient will automatically attempt to connect to the GNSS receiver.
 
 - Below, is a list of the default settings for `UART` ports of the LG290P. These settings should be selected in the configuration menu.
 - For the `Serial Port`, select the port associated with the attached USB-to-Serial converter.
@@ -181,7 +181,7 @@ Before users can connect to the LG290P GNSS Flex module, they will need to speci
 <div markdown>
 
 !!! info "LG290P - Default Settings"
-	The UART ports of the LG290P GNSS module will have the following default configuration:
+	The UART ports of the LG290P GNSS receiver will have the following default configuration:
 
 	- Baudrate: 460800bps
 	- Data Bits: 8

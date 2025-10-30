@@ -3,7 +3,7 @@
 	Currently, the u-center 2 software is only available for Windows operating systems.
 
 
-[u-center 2](https://www.u-blox.com/en/product/u-center) is u-blox's software application for configuration, evaluation, and debugging of u-blox GNSS receivers and services. The software provides a relatively, simple graphics user interface to assess and test u-blox GNSS modules for navigation and positioning performance. It also allows users to define or apply GNSS product configurations for specific use cases. Saving, restoring, or sharing configurations between different products is easy.
+[u-center 2](https://www.u-blox.com/en/product/u-center) is u-blox's software application for configuration, evaluation, and debugging of u-blox GNSS receivers and services. The software provides a relatively, simple graphics user interface to assess and test u-blox GNSS receivers for navigation and positioning performance. It also allows users to define or apply GNSS product configurations for specific use cases. Saving, restoring, or sharing configurations between different products is easy.
 
 
 <div class="grid cards" markdown>
@@ -21,7 +21,7 @@
 
 
 !!! info "Product Compatibility"
-	Gen 10 u-blox GNSS modules
+	Gen 10 u-blox GNSS receivers
 
 </div>
 
@@ -153,7 +153,7 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 
 
 ### Connecting to the ZED-X20P
-Before users can connect to the ZED-X20P GNSS Flex module, they will need to specify the settings of the UART port in PyGPSClient. Once configured, users can select the <kbd>:material-usb:</kbd> button and PyGPSClient will automatically attempt to connect to the GNSS module.
+Before users can connect to the ZED-X20P GNSS Flex module, they will need to specify the settings of the UART port in PyGPSClient. Once configured, users can select the <kbd>:material-usb:</kbd> button and PyGPSClient will automatically attempt to connect to the GNSS receiver.
 
 - Below, is a list of the default settings for `UART` ports of the ZED-X20P. These settings should be selected in the configuration menu.
 - For the `Serial Port`, select the port associated with the attached UART interface.
@@ -174,7 +174,7 @@ Before users can connect to the ZED-X20P GNSS Flex module, they will need to spe
 <div markdown>
 
 ???+ tip "Default Settings"
-	The UART ports of the ZED-X20P GNSS module will have the following default configuration:
+	The UART ports of the ZED-X20P GNSS receiver will have the following default configuration:
 
 	- Baudrate: 38400bps
 	- Data Bits: 8

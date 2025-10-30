@@ -28,7 +28,7 @@
 
 
 ## 🏭&nbsp;Manufacturer's Resources
-Quectel also provides great resources for the LG580P GNSS module:
+Quectel also provides great resources for the LG580P GNSS receiver:
 
 - :material-web: [Product Webpage](https://www.quectel.com/product/gnss-lg580p-03/)
 - :material-help-box: [Quectel Forum](https://forums.quectel.com/)

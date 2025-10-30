@@ -29,14 +29,18 @@ The entire ecosystem is centered around two 2x10-pin, 2mm pitch headers that mat
 > - For a sturdier connection, a SMA connector on a *carrier board* can utilized. Users can simply jumper the U.FL connectors between the SparkPNT GNSS Flex module and the *carrier board* with a short U.FL cable.
 
 
+
 Documentation
 --------------
+
 - **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_Flex_System/)** - A hookup guide for the entire ecosystem of SparkFun GNSS Flex carrier boards and SparkPNT GNSS Flex modules, hosted by GitHub pages.<br>
   [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/actions/workflows/build_documentation.yml/badge.svg)](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/actions/workflows/build_documentation.yml)
 
 
+
 Repository Contents
 -------------------
+
 - **[/docs](/docs/)** - Online documentation files
   - [/assets](/docs/assets/) - Assets files
     - [/component_documentation](/docs/assets/component_documentation/) - Datasheets for GNSS Flex system's standards
@@ -56,8 +60,10 @@ Repository Contents
       - /Production - Production files
 
 
+
 Product Variants
 ----------------
+
 - GNSS Modules:
   - GNSS Module *(only)*:
     - [GPS-28138](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html) - Septentrio mosaic-X5 GNSS Flex module
@@ -85,8 +91,10 @@ Product Variants
     - [GPS-29889](https://www.sparkfun.com/sparkpnt-gnss-flex-phat-mosaic-x5-im19-imu.html) - GNSS Flex pHAT w/ the Septentrio mosaic-X5 GNSS Flex module + IM19 IMU
 
 
+
 Version History
 ---------------
+
 - [r2025-08](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-08) - Initial Release
 - [r2025-08a](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-08a) - Docs Update
 - [r2025-09](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/releases/tag/r2025-09) - Adds DAN-F10N, ZED-X20P, and LG290P (w/ IMU) GNSS Flex modules
@@ -101,6 +109,7 @@ Version History
 > - **year:** `YYYY` Format
 > - **month:** `MM` Format
 > - **iteration:** Revisions for that month *(i.e. `none`, `a`, `b`, etc.)*
+
 
 
 License Information
