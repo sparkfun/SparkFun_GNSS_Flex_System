@@ -1,41 +1,15 @@
-!!! danger "Important: Read Before Use!"
+!!! danger
 	!!! warning "ESD Sensitivity"
 		The mosaic-X5 GNSS receiver is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.
 
 
 		??? info "ESD Precaution"
-			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module.
-
-			- The mosaic-X5 GNSS Flex module features ESD protection on the USB-C connector and breakout's I/O:
-				- USB data lines
-				- I/O PTH pads
-				- JST connector's pins
-			- The mosaic-X5 module features internal ESD protection to the `ANT_1` antenna input.
-
-
-			<div class="grid cards" markdown>
-
-			<div markdown>
+			As recommended by the manufacturer, we highly recommend that users take the necessary precautions to avoid damaging their module. For example, users can utilize the [iFixit Anti-Static Wrist Strap](https://www.sparkfun.com/ifixit-anti-static-wrist-strap.html).
 
 			<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 			![QR code to product video](./assets/img/qr_code/video-getting_started-mosaic-x5.png){ .qr width="85px" }
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</article>
-
-			</div>
-
-
-			-   <a href="https://www.sparkfun.com/ifixit-anti-static-wrist-strap.html">
-				<figure markdown>
-				![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/1/2/7/TOL-25572-Anti-Static-Wrist-Strap-Feature.jpg)
-				</figure>		
-
-				---
-
-				**iFixit Anti-Static Wrist Strap**<br>
-				TOL-25572</a>
-
-			</div>
 
 
 	!!! warning "Active Antenna"
