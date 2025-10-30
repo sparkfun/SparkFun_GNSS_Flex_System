@@ -190,7 +190,7 @@ With its very high update rate, the ZED-X20P module is ideal for control applica
 ![QR code to play video](./assets/img/qr_code/video-zed-x20p.png){ .qr width="85px" }
 
 <article class="video-500px" style="margin: auto;" markdown>
-<iframe src="https://www.youtube.com/embed/dRFR38xS2b4" title="u-blox launches the ZED-X20P. Our first all-band, global GNSS module." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/dRFR38xS2b4" title="u-blox launches the ZED-X20P. Our first all-band, global GNSS receiver." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
 
 </div>
@@ -414,7 +414,7 @@ The ZED-X20P module is an all-band, high precision GNSS receiver that concurrent
 
 <div markdown>
 
-The accuracy of the position reported from the ZED-X20P GNSS module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
+The accuracy of the position reported from the ZED-X20P GNSS receiver, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
 
 - RTK technique requires real-time correction data from a reference station or network of base stations.
 	- RTK corrections usually come from RTCM messages that are signal specific *(i.e. an RTK network may only provide corrections for specific signals; only `E5b` and not `E5a`)*.
@@ -586,8 +586,8 @@ When configured and calibrated, the IM19 attitude module can fuses its IMU senso
 </article>
 
 
-??? warning "ZED-X20P GNSS Module"
-	The accuracy of the position reported from the ZED-X20P GNSS module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy. Its accuracy, displayed in the table below, should also be considered when implemented.
+??? warning "ZED-X20P GNSS Receiver"
+	The accuracy of the position reported from the ZED-X20P GNSS receiver, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy. Its accuracy, displayed in the table below, should also be considered when implemented.
 
 
 	<article style="text-align: center;" markdown>
@@ -670,7 +670,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 </article>
 
-1. The timing signal comes from the ZED-X20P GNSS module
+1. The timing signal comes from the ZED-X20P GNSS receiver
 
 </div>
 
@@ -705,8 +705,8 @@ Below, are the features that are available from the IM19 attitude module.
 	</figure>
 
 
-	- The `UART1` and `UART2` ports of the ZED-X20P GNSS module are broken out to the headers of the GNSS Flex system. These can be used to interact with the ZED-X20P.
-	- The `TX` pin of the `UART1` port from the ZED-X20P GNSS module is also piped directly to the `RX` pin of the IM19 attitude module's `UART2` port.
+	- The `UART1` and `UART2` ports of the ZED-X20P GNSS receiver are broken out to the headers of the GNSS Flex system. These can be used to interact with the ZED-X20P.
+	- The `TX` pin of the `UART1` port from the ZED-X20P GNSS receiver is also piped directly to the `RX` pin of the IM19 attitude module's `UART2` port.
 
 
 	!!! warning
@@ -782,7 +782,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 	- The `UART1` port of the IM19 module is broken out to the headers of the GNSS Flex system, on pins `TXD3` and `RXD3`. These pins should be used to configure the IM19 module.
 	- The `UART2` port of the IM19 module is used to receive GNSS data from the GNSS receiver and output the tilt compensated data.
-		- By default, the `RX` pin receives data from the `UART1` port of the ZED-X20P GNSS module.
+		- By default, the `RX` pin receives data from the `UART1` port of the ZED-X20P GNSS receiver.
 			- Users can [modify the jumpers](#jumpers) on the top of the GNSS Flex module, to utilize the `TXD2` or `RXD4` pins *(of the GNSS Flex headers)* instead.
 		- Once IM19 module is configured and calibrated, the `TX` pin outputs the tilt compensated data to the `TXD4` pin on the GNSS Flex headers.
 
@@ -838,7 +838,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 
 	!!! note
-		The `SAFEBOOT_N` and `TIMEPULSE` (`PPS`) pins are internally connected in the ZED-X20P GNSS module, by a 1k&ohm; series resistor. When the `SAFEBOOT_N` pin is pulled `LOW` at starup, the ZED-X20P module will enter safeboot mode. Therefore, these pins have no load that could pull them low at startup; otherwise, the receiver will enter its safeboot mode.
+		The `SAFEBOOT_N` and `TIMEPULSE` (`PPS`) pins are internally connected in the ZED-X20P GNSS receiver, by a 1k&ohm; series resistor. When the `SAFEBOOT_N` pin is pulled `LOW` at starup, the ZED-X20P module will enter safeboot mode. Therefore, these pins have no load that could pull them low at startup; otherwise, the receiver will enter its safeboot mode.
 
 
 === "I^2^C"
@@ -1014,7 +1014,7 @@ Below, are the features that are available from the IM19 attitude module.
 ## U.FL Connector
 Users will need to connect a compatible GNSS antenna to the `L1/L2/L5/L6/L-Band` U.FL connector. The type of antenna used with the ZED-X20P module affects the overall accuracy of the positions calculated by the GNSS receiver.
 
-- Passive antennas are not recommended for the ZED-X20P GNSS module.
+- Passive antennas are not recommended for the ZED-X20P GNSS receiver.
 - There is no need to inject an external DC voltage for the GNSS antenna. Power is already provided from the ZED-X20P module for the LNA of an active antenna.
 
 

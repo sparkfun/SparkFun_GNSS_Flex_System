@@ -15,7 +15,7 @@ icon: sfe
 		If this is your first visit to our forum, you'll need to create a [Forum Account](https://community.sparkfun.com/signup) to post questions.
 
 ### Electrostatic Discharge
-The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.
+The mosaic-X5 GNSS receiver is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.
 
 
 !!! warning "ESD Precaution"
@@ -39,7 +39,7 @@ A USB driver is only required for Windows PCs *(see the [USB Driver](software_ov
 
 #### Power Input
 !!! danger "Active Antenna"
-	Never inject an external DC voltage into the SMA connector for the GNSS antenna, as it may damage the mosaic-X5 module. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
+	Never inject an external DC voltage into the SMA connector for the GNSS antenna, as it may damage the mosaic-X5 GNSS receiver. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
 
 #### Supported Frequency Bands
 For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable. Utilizing an antenna that doesn't match all the supported frequency bands of the mosaic-X5, will result in reduced performance and capabilities.
@@ -49,5 +49,5 @@ For data logging issues, here are some simple troubleshooting tips:
 
 - Make sure that your SD card is formatted to a `FAT32` file system.
 	- The `FAT32` file system also limits the maximum capacity of the card to less than **32GB** *(i.e. a 256GB SD card will not work)*.
-- Make sure that the mosaic-X5 module has a configured data stream output.
+- Make sure that the mosaic-X5 GNSS receiver has a configured data stream output.
 - Use the mosaic-X5 web page to verify that the SD card is mounted as a storage drive.

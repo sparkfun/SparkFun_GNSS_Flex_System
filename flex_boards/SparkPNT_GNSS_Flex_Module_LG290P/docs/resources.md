@@ -26,7 +26,7 @@
 
 
 ## 🏭&nbsp;Manufacturer's Resources
-Quectel also provides great resources for the LG290P GNSS module:
+Quectel also provides great resources for the LG290P GNSS receiver:
 
 - :material-web: [Product Webpage](https://www.quectel.com/product/gnss-lg290p/)
 - :material-help-box: [Quectel Forum](https://forums.quectel.com/)

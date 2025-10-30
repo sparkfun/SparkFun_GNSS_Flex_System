@@ -24,7 +24,7 @@
 <div markdown>
 
 - Component Documentation
-	- ZED-X20P GNSS Module
+	- ZED-X20P GNSS Receiver
 		- :fontawesome-solid-file-pdf: [Datasheet](https://www.u-blox.com/sites/default/files/documents/ZED-X20P-00B_DataSheet_UBXDOC-963802114-12690.pdf)
 		- :fontawesome-solid-file-pdf: [Product Summary](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_ProductSummary_UBXDOC-304424225-18238.pdf)
 		- :fontawesome-solid-file-pdf: [Integration Manual](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_IntegrationManual_UBXDOC-963802114-12901.pdf)
@@ -52,7 +52,7 @@
 
 
 ## 🏭&nbsp;Manufacturer's Resources
-u-blox also provides great resources for the ZED-X20P GNSS receiver module:
+u-blox also provides great resources for the ZED-X20P GNSS receiver:
 
 - :material-web: [ZED-X20P Product Page](https://www.u-blox.com/en/product/zed-x20p-module)
 - :material-youtube: [u-blox YouTube Channel](https://www.youtube.com/@ublox)

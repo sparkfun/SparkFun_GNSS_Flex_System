@@ -22,7 +22,7 @@
 
 
 ## 🏭&nbsp;Manufacturer's Resources
-Septentrio also provides great resources for the mossaic-X5 GNSS receiver module:
+Septentrio also provides great resources for the mossaic-X5 GNSS receiver:
 
 - [mosaic-X5 Product Page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5)
 - :material-youtube: [Septentrio YouTube Channel](https://www.youtube.com/channel/UCrA9wMw1y1f-KeOnnhq4lrA/feed)

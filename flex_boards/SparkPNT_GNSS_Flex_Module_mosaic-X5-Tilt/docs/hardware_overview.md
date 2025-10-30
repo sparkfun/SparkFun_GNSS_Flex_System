@@ -5,7 +5,7 @@
 
 !!! danger
 	!!! warning "ESD Sensitivity"
-		The mosaic-X5 module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.
+		The mosaic-X5 GNSS receiver is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.
 
 
 		??? info "ESD Precaution"
@@ -18,7 +18,7 @@
 
 
 	!!! warning "Active Antenna"
-		Never inject an external DC voltage with the GNSS antenna, as it may damage the mosaic-X5 module. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
+		Never inject an external DC voltage with the GNSS antenna, as it may damage the mosaic-X5 GNSS receiver. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
 
 
 
@@ -46,7 +46,7 @@
 
 	This SparkPNT GNSS Flex module features the [Septentrio mosaic-X5](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-x5), a compact, ultra-low power, multi-band, multi-constellation, high-precision GNSS receiver. The receiver supports the GPS (USA), GLONASS (Russia), Beidou (China), Galileo (Europe), and NavIC (India) constellations, including regional systems *(i.e. SBAS and QZSS)*. With its [**Real Time Kinematics**](https://learn.sparkfun.com/tutorials/813) (RTK) capabilities, the module can achieve a horizontal accuracy of 6mm (~0.25in), vertical accuracy of 1cm (~0.4in) using RTK, and timing precision of 5ns (5 billionths of a second). It also features Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-jamming-protection) for interference mitigation and anti-spoofing, ensuring best-in-class reliability and scalable position accuracy.
 
-	The mosaic-X5 is a sophisticated module with an internal web server that can be utilized with any web browser. On the GNSS Flex module, the web server can be accessed through the USB data pins on the standard GNSS Flex headers. To guide users through the configuration options, Septentrio provides dozens of [video tutorials](https://www.youtube.com/@SeptentrioGNSS/videos) about the web interface. For the users who prefer a command-line interface instead, Septentrio has you covered. Users can still control and configure the mosaic-X5 module through a CLI on the USB and UART interfaces, which is useful for scenarios such as production line testing *(in fact, that is how we test this board)* or remote access.
+	The mosaic-X5 is a sophisticated module with an internal web server that can be utilized with any web browser. On the GNSS Flex module, the web server can be accessed through the USB data pins on the standard GNSS Flex headers. To guide users through the configuration options, Septentrio provides dozens of [video tutorials](https://www.youtube.com/@SeptentrioGNSS/videos) about the web interface. For the users who prefer a command-line interface instead, Septentrio has you covered. Users can still control and configure the mosaic-X5 GNSS receiver through a CLI on the USB and UART interfaces, which is useful for scenarios such as production line testing *(in fact, that is how we test this board)* or remote access.
 
 
 	!!! info "Tilt Compensation"
@@ -402,7 +402,7 @@ The centerpiece of the mosaic-X5 & IM19 GNSS Flex module, is the [mosaic-X5 GNSS
 
 
 -   <figure markdown>
-	[![mosaic-X5 module](./assets/img/hookup_guide/mosaic-X5.png){ width="400" }](./assets/img/hookup_guide/mosaic-X5.png "Click to enlarge")
+	[![mosaic-X5 GNSS receiver](./assets/img/hookup_guide/mosaic-X5.png){ width="400" }](./assets/img/hookup_guide/mosaic-X5.png "Click to enlarge")
 	<figcaption markdown>The mosaic-X5 GNSS receiver on the mosaic-X5 & IM19 GNSS Flex module.</figcaption>
 	</figure>
 
@@ -467,7 +467,7 @@ The centerpiece of the mosaic-X5 & IM19 GNSS Flex module, is the [mosaic-X5 GNSS
 
 
 ### Power Modes
-The mosaic-X5 module operates in three different power states.
+The mosaic-X5 GNSS receiver operates in three different power states.
 
 <div class="annotate" markdown>
 
@@ -494,7 +494,7 @@ The mosaic-X5 module operates in three different power states.
 !!! info
 	By default, the board is hardwired to operate only in the **Active** and **Off** modes.
 
-	*For more information on the power management of the mosaic-X5 module, please refer to sections **3.4**, **3.5**, **4.1**, and **4.13** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf).*
+	*For more information on the power management of the mosaic-X5 GNSS receiver, please refer to sections **3.4**, **3.5**, **4.1**, and **4.13** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf).*
 
 ??? Tip "Enabling **Standby** Mode"
 	Users can enable **Standby** mode on the mosaic-X5, by modifying the `V_BATT` jumper *(see the **[Jumpers](#jumpers)** section)* and providing an external power source for the `V_BATT` pin *(3.3V)*. However, because the `ONOFF` pin isn't exposed users will need to power cycle the board to return to the **Active** state.
@@ -505,7 +505,7 @@ The mosaic-X5 module operates in three different power states.
 
 
 #### Power Consumption
-The power consumption of the mosaic-X5 module depends on the GNSS signals enabled and the positioning mode. The table below, lists the average power consumption for common configurations. The current listed, is based on a supply voltage of 3.3V.
+The power consumption of the mosaic-X5 GNSS receiver depends on the GNSS signals enabled and the positioning mode. The table below, lists the average power consumption for common configurations. The current listed, is based on a supply voltage of 3.3V.
 
 <article style="text-align: center;" markdown>
 
@@ -528,7 +528,7 @@ The power consumption of the mosaic-X5 module depends on the GNSS signals enable
 
 
 ### Frequency Bands
-The mosaic modules are multi-band, multi-constellation GNSS receivers. Below, are charts illustrating the frequency bands utilized by all the global navigation satellite systems and the ones supported by the mosaic-X5 module.
+The mosaic modules are multi-band, multi-constellation GNSS receivers. Below, are charts illustrating the frequency bands utilized by all the global navigation satellite systems and the ones supported by the mosaic-X5 GNSS receiver.
 
 
 <figure markdown>
@@ -572,7 +572,7 @@ The mosaic modules are multi-band, multi-constellation GNSS receivers. Below, ar
 
 <div markdown>
 
-The accuracy of the position reported from the mosaic-X5 module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
+The accuracy of the position reported from the mosaic-X5 GNSS receiver, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
 
 - RTK technique requires real-time correction data from a reference station or network of base stations.
 	- RTK corrections are signal specific *(i.e. an RTK network might provide corrections on only `E5b` and not `E5a`)*.
@@ -739,8 +739,8 @@ When configured and calibrated, the IM19 attitude module can fuses its IMU senso
 </article>
 
 
-??? warning "mosaic-X5 GNSS Module"
-	The accuracy of the position reported from the mosaic-X5 GNSS module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy. Its accuracy, displayed in the table below, should also be considered when implemented.
+??? warning "mosaic-X5 GNSS receiver"
+	The accuracy of the position reported from the mosaic-X5 GNSS receiver, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy. Its accuracy, displayed in the table below, should also be considered when implemented.
 
 
 	<article style="text-align: center;" markdown>
@@ -1104,7 +1104,7 @@ There are two jumpers on the back of the board that can be used to easily modify
 
 <figure markdown>
 [![Jumpers signals](./assets/img/hookup_guide/jumpers-signals.png){ width="400" }](./assets/img/hookup_guide/jumpers-signals.png "Click to enlarge")
-<figcaption markdown>The signals from the mosaic-X5 module to the `2V8` and `REF` jumpers on the board.</figcaption>
+<figcaption markdown>The signals from the mosaic-X5 GNSS receiver to the `2V8` and `REF` jumpers on the board.</figcaption>
 </figure>
 
 </div>

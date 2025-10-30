@@ -1,5 +1,5 @@
 !!! warning
-	Keep in mind that some of the software features may be limited by the capabilities of the GNSS module or the software application.
+	Keep in mind that some of the software features may be limited by the capabilities of the GNSS receiver or the software application.
 
 	Please refer to the datasheet, user manual, and/or application notes of your GNSS receiver for the specific capabilities of the GNSS receiver and the manufacturer's software. Additionally, please refer to the user and/or API manuals for any third-party software or Arduino libraries for their specific capabilities.
 

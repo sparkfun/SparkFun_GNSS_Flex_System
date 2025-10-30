@@ -10,7 +10,7 @@
 	- :material-cube-outline: [STEP File](./assets/3d_model/cad_model.step)
 - :fontawesome-solid-computer: [QGNSS Software *(v2.x)*](https://www.quectel.com/download/qgnss_v2-0_en/)
 - Component Documentation
-	- LG290P GNSS Module
+	- LG290P GNSS Receiver
 		- :fontawesome-solid-file-pdf: [Product Specifications](./assets/component_documentation/Quectel_LG290P03_GNSS_Module_Specification_V1.2.pdf)
 		- :fontawesome-solid-file-pdf: [Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf)
 		- :fontawesome-solid-file-pdf: [Hardware Design](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf)
@@ -29,7 +29,7 @@
 
 
 ## 🏭&nbsp;Manufacturer's Resources
-Quectel also provides great resources for the LG290P GNSS module:
+Quectel also provides great resources for the LG290P GNSS receiver:
 
 - :material-web: [Product Webpage](https://www.quectel.com/product/gnss-lg290p/)
 - :material-help-box: [Quectel Forum](https://forums.quectel.com/)

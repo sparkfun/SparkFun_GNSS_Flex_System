@@ -1,5 +1,5 @@
 ## Firmware Update
-Users can easily upgrade the firmware for the mosaic-X5 module through its webserver interface. This is useful for updating various features, such as the antenna calibration list.
+Users can easily upgrade the firmware for the mosaic-X5 GNSS receiver through its webserver interface. This is useful for updating various features, such as the antenna calibration list.
 
 <article style="text-align: center;" markdown>
 ![QR code - video](./assets/img/qr_code/video-update_firmware.png){ .qr width="85px" }
@@ -12,14 +12,14 @@ Users can easily upgrade the firmware for the mosaic-X5 module through its webse
 
 <div class="grid cards" markdown>
 
--   To check for the latest firmware published by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources) for the mosaic-X5 module. Users can click on the button below, to be redirected to the latest firmware for the mosaic-X5.
+-   To check for the latest firmware published by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources) for the mosaic-X5 GNSS receiver. Users can click on the button below, to be redirected to the latest firmware for the mosaic-X5.
 
 	<article style="text-align: center;" markdown>
 	[:septentrio: Find the Latest Firmware](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources){ .md-button .md-button--primary target="blank" }
 	</article>
 
 
--   Currently, at the time that this board was released, the firmware for the mosaic-X5 module was *v4.15.0*[^4]. Users can download [**version 4.15.0**](./assets/component_documentation/firmware/mosaic-X5_fwp_4.15.0.zip) of the firmware, by clicking on the button below.
+-   Currently, at the time that this board was released, the firmware for the mosaic-X5 GNSS receiver was *v4.15.0*[^4]. Users can download [**version 4.15.0**](./assets/component_documentation/firmware/mosaic-X5_fwp_4.15.0.zip) of the firmware, by clicking on the button below.
 
 	[^4]:
 		For the latest firmware published by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources).<br>
@@ -33,7 +33,7 @@ Users can easily upgrade the firmware for the mosaic-X5 module through its webse
 
 
 !!! info "Latest Firmware"
-	For the latest firmware released by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources) for the mosaic-X5 module.
+	For the latest firmware released by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5#resources) for the mosaic-X5 GNSS receiver.
 
 
 ## Record GNSS Data
@@ -53,7 +53,7 @@ This video illustrates how users can configure the settings for data logging to 
 
 
 <article class="video-500px" style="margin: auto;">
-<iframe src="https://www.youtube.com/embed/Y9tvOebnoxk" title="Septentrio: How to log data to the SD card of the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Y9tvOebnoxk" title="Septentrio: How to log data to the SD card of the Septentrio mosaic receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
 
 </div>
@@ -72,7 +72,7 @@ This video illustrates how users can configure and enable a data stream for a TC
 
 
 <article class="video-500px" style="margin: auto;">
-<iframe src="https://www.youtube.com/embed/ArtePkC58-o" title="Septentrio: How to output NMEA data on the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ArtePkC58-o" title="Septentrio: How to output NMEA data on the Septentrio mosaic receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
 
 
@@ -129,7 +129,7 @@ Without having to setup a personal base station, users can receive RTK correctio
 
 
 <article class="video-500px" style="margin: auto;">
-<iframe src="https://www.youtube.com/embed/aAPoRpSR0tY" title="Septentrio: How to receive corrections via NTRIP on the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/aAPoRpSR0tY" title="Septentrio: How to receive corrections via NTRIP on the Septentrio mosaic receiver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
 
 

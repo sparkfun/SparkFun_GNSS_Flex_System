@@ -3,7 +3,7 @@ In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "G
 
 
 ???+ warning "Antenna Specifications"
-	- Passive antennas are not recommended for the LG580P GNSS module.
+	- Passive antennas are not recommended for the LG580P GNSS receiver.
 	- To mitigate the impact of out-of-band signals, utilize an active antenna whose SAW filter is placed in front of the LNA in the internal framework.
 		- **DO NOT** select and antenna with the LNA placed in the front.
 	- There is no need to inject an external DC voltage for the GNSS antenna. Power is already provided from the LG580P module for the LNA of an active antenna.
