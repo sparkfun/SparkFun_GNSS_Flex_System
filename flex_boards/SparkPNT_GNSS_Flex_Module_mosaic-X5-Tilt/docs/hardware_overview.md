@@ -821,7 +821,7 @@ Below, are the features that are available from the IM19 attitude module.
 </div>
 
 
-=== "USB"
+=== "USB Interface"
 	For most users, this will be the primary interface for the mosaic-X5 GNSS receiver.
 
 
@@ -849,7 +849,7 @@ Below, are the features that are available from the IM19 attitude module.
 	1. On Linux, the standard Linux CDC-ACM driver is suitable.
 
 
-=== "UART"
+=== "UART Ports"
 	The headers of the GNSS Flex system supports up to four UART ports. On this GNSS Flex module, these are connected to both the GNSS receiver and IM19 attitude module as shown in the table below.
 
 
@@ -964,7 +964,7 @@ Below, are the features that are available from the IM19 attitude module.
 	</div>
 
 
-=== "PPS"	
+=== "PPS Output"	
 	From the mosaic-X5, the [PPS](https://en.wikipedia.org/wiki/Pulse-per-second_signal "Pulse Per Second") output signal's logic-level is 1.8V, but we have added a buffer to bumped up the signal's logic-level to 3.3V. The signal is then connected to the IM19 attitude module and `PPS1` pin of the GNSS Flex module. In order to receive tilt-compensated data from the IM19 attitude module, this pin needs to be configured to provide a timing pulse at the same rate as the PVT solutions.
 
 

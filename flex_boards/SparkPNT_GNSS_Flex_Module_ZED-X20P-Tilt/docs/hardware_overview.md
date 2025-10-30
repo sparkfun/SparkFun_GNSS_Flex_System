@@ -678,7 +678,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 
 
-=== "UART"
+=== "UART Ports"
 	The headers of the GNSS Flex system supports up to four UART ports. On this GNSS Flex module, these are connected to both the GNSS receiver and IM19 attitude module.
 
 
@@ -827,7 +827,7 @@ Below, are the features that are available from the IM19 attitude module.
 	</div>
 
 
-=== "PPS"
+=== "PPS Output"
 	The [`PPS1`](https://en.wikipedia.org/wiki/Pulse-per-second_signal "Pulse Per Second") pin is connected to the `TIMEPULSE` output signal from the ZED-X20P GNSS receiver and the `PPS` input for the IM19 attitude module. The period, length, and polarity (rising or falling edge) of the `TIMEPULSE` signal can be configured with the `CFG-TP-*` messages. In order to receive tilt-compensated data from the IM19 attitude module, this pin needs to be configured to provide a timing pulse at the same rate as the PVT solutions.
 
 

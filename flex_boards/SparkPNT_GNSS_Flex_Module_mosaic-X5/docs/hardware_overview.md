@@ -665,13 +665,13 @@ Below, are the features that are available from the mosaic-X5 GNSS receiver.
 </div>
 
 
-=== "USB"
+=== "USB Interface"
 	For most users, this will be the primary interface for the mosaic-X5 GNSS receiver.
 
 
 	<figure markdown>
 	[![USB interface](./assets/img/hookup_guide/headers-usb.png){ width="400" }](./assets/img/hookup_guide/headers-usb.png "Click to enlarge")
-	<figcaption markdown>USB-C connector on the mosaic-X5 GNSS Flex module.</figcaption>
+	<figcaption markdown>USB interface on the mosaic-X5 GNSS Flex module.</figcaption>
 	</figure>
 
 

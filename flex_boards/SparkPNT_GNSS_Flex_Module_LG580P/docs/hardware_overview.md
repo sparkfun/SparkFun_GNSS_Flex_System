@@ -478,7 +478,7 @@ Below, are the features that are available from the LG580P GNSS receiver.
 
 
 
-=== "UART"
+=== "UART Ports"
 	The LG580P GNSS receiver has three UART ports, which can be operated and configured separately.
 
 	<div class="grid" markdown>
@@ -708,7 +708,7 @@ Below, are the features that are available from the LG580P GNSS receiver.
 
 
 
-=== "PPS"
+=== "PPS Output"
 	From the module, the [PPS](https://en.wikipedia.org/wiki/Pulse-per-second_signal "Pulse Per Second") output signal is a 3.3V signal output.
 
 
