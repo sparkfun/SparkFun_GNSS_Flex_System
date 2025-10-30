@@ -3,7 +3,7 @@
 
 
 ## GNSS Flex System
-The GNSS Flex system is designed to be modular with a standardized pin layout that keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. The ecosystem is comprised of two boards, which mate through two 2x10-pin, 2mm pitch headers.
+The GNSS Flex system is designed to be modular with a standardized pin layout that keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. The ecosystem is comprised of two boards, which mate through two 2x10-pin, 2mm pitch headers. The **SparkPNT GNSS Flex modules** function as *plug-in* boards that feature different GNSS receivers. They are designed to mate with **GNSS Flex** *carrier* **boards** for various purposes; such as a breakout board, Raspberry Pi pHAT, SparkPNT product line, etc.
 
 
 <div class="grid" markdown>
@@ -21,7 +21,7 @@ The GNSS Flex system is designed to be modular with a standardized pin layout th
 
 <div markdown>
 
-???+ tip "Manipulate 3D Model"
+!!! tip "Manipulate 3D Model"
 	<article style="text-align: center;" markdown>
 
 	| Controls       | Mouse                    | Touchscreen    |
@@ -35,9 +35,6 @@ The GNSS Flex system is designed to be modular with a standardized pin layout th
 </div>
 
 </div>
-
-
-The SparkPNT GNSS Flex modules function as *plug-in* boards that feature different GNSS receivers. They are designed to mate with *carrier* boards for various purposes; such as a breakout board, Raspberry Pi pHAT, SparkPNT product line, etc.
 
 
 

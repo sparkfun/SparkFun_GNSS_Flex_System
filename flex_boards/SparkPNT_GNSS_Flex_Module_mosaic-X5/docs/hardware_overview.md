@@ -136,7 +136,7 @@
 			Yes<br>
 			<i>10/100 Base-T</i>
 		</td>
-		<td style="text-align:center; vertical-align:middle;">2x10 Header*</td>
+		<td style="text-align:center; vertical-align:middle;">GNSS Flex Headers*</td>
 		<td style="text-align:center; vertical-align:middle;">No</td>
 	</tr>
 	<tr>
@@ -153,6 +153,15 @@
 			Yes - Network Bridge<br>
 			<i>10 Base-T</i>
 		</td>
+	</tr>
+	<tr>
+		<td>Tilt Compensasion</td>
+		<td style="text-align:center">No</td>
+		<td style="text-align:center">No</td>
+		<td style="text-align:center">No</td>
+		<td style="text-align:center">No</td>
+		<td style="text-align:center">Yes*</td>
+		<td style="text-align:center">No</td>
 	</tr>
 	<tr>
 		<td style="vertical-align:middle;">COM Ports</td>
@@ -175,7 +184,7 @@
 		<td style="text-align:center">Yes</td>
 		<td style="text-align:center">Yes</td>
 		<td style="text-align:center">Yes</td>
-		<td style="text-align:center">2x10 Header*</td>
+		<td style="text-align:center">GNSS Flex Headers*</td>
 		<td style="text-align:center">Yes</td>
 	</tr>
 	<tr>
@@ -208,7 +217,7 @@
 		<td style="text-align:center">6-Pin JST Connector</td>
 		<td style="text-align:center">SMA Connector</td>
 		<td style="text-align:center">Screw Terminal</td>
-		<td style="text-align:center">2x10 Header*</td>
+		<td style="text-align:center">GNSS Flex Headers*</td>
 		<td style="text-align:center">No</td>
 	</tr>
 	<tr>
@@ -229,7 +238,7 @@
 			180.6 x 101.8 x 41mm<br>
 			<i>Enclosure Only</i>
 		</td>
-		<td style="text-align:center; vertical-align:middle;"></td>
+		<td style="text-align:center; vertical-align:middle;">44.5mm x 31.8mm x 10.4mm</td>
 		<td style="text-align:center; vertical-align:middle;"></td>
 	</tr>
 	<tr>
@@ -241,7 +250,7 @@
 			415.15g<br>
 			<i>Enclosure Only</i>
 		</td>
-		<td style="text-align:center; vertical-align:middle;"></td>
+		<td style="text-align:center; vertical-align:middle;">GNSS Only: 14.0g<br>IMU: 15.2g</td>
 		<td style="text-align:center; vertical-align:middle;"></td>
 	</tr>
 	
@@ -256,6 +265,9 @@
 
 	!!! note "mosaic-5 GNSS Flex Modules"
 		SparkPNT GNSS Flex modules are modular, *plug-in* boards that utilize a *carrier* board to access the pins of the GNSS Flex headers.
+
+		- The [GNSS only variant](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html) of the SparkPNT GNSS Flex module includes a middle header that breaks out the Ethernet PHY interface of the mosaic-X5.
+		- The [IMU variant](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5-im19-imu.html) of the SparkPNT GNSS Flex module includes the IM19 IMU for RK tilt-compensation applications with the mosaic-X5.
 
 
 
@@ -275,6 +287,7 @@
 	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
 	- :material-rotate-3d: [STEP File](./assets/3d_model/cad_model.step)
 	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf):
+		- 1.75" x 1.25" (44.45mm x 31.75mm)
 
 
 -   <!-- Boxes in tabs -->
@@ -819,18 +832,13 @@ In addition to the GNSS Flex headers, an extra 2x10 pin, 2mm pitch female header
 ## U.FL Connector
 Users will need to connect a compatible GNSS antenna to the `ANT1` U.FL connector. The type of antenna used with the mosaic-X5 GNSS receiver affects the overall accuracy of the positions calculated by the GNSS receiver.
 
-- An active antenna often features a [LNA](https://en.wikipedia.org/wiki/Low-noise_amplifier "low-noise amplifier"). This allows the module to boost the signal received by the GNSS module without degrading the [SNR](https://en.wikipedia.org/wiki/Signal-to-noise_ratio Signal-to-noise ratio).
-- The more bands an antenna supports, the greater the performance.
-	- Faster acquisition time.
-	- Access and support for the `L5` GPS band can potentially mitigate multi-path errors.
-	- Supporting more frequency bands, allows a GNSS receiver to be less susceptible to jamming and spoofing.
+
+- Passive antennas are not recommended for the mosaic-X5 GNSS receiver.
+- There is no need to inject an external DC voltage for the GNSS antenna. Power is already provided from the mosaic-X5 GNSS receiver for the LNA of an active antenna.
 
 
-!!! tip
-	For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable. Also, don't forget that GNSS signals are fairly weak and can't penetrate buildings or dense vegetation. The GNSS antenna should have an unobstructed view of the sky.
-
-
-There are some key parameters related to an antenna that can make or break the signal reception from the satellites. These include the operation frequency, gain, polarization, efficiency and overall loss.
+	!!! danger
+		Never inject an external DC voltage into the SMA connector for the GNSS antenna, as it may damage the mosaic-X5 GNSS receiver. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
 
 
 <figure markdown>
@@ -839,11 +847,8 @@ There are some key parameters related to an antenna that can make or break the s
 </figure>
 
 
-!!! info
-	The `VANT` pin provides **3.3V** of external power for an active antenna.
-
-	!!! danger
-		Never inject an external DC voltage into the SMA connector for the GNSS antenna, as it may damage the mosaic-X5 module. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
+!!! tip
+	For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable. Also, don't forget that GNSS signals are fairly weak and can't penetrate buildings or dense vegetation. The GNSS antenna should have an unobstructed view of the sky.
 
 
 
