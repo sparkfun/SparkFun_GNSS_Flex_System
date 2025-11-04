@@ -15,7 +15,7 @@
 
 /* Rotate objects */
 .rotate-90 {
-  transform: rotate(90deg); /* Equal to rotateZ(90deg) */
+  transform: rotate(-90deg); /* Equal to rotateZ(90deg) */
 }
 
 
