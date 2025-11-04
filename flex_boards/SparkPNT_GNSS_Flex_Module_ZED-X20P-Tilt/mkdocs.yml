@@ -19,5 +19,6 @@ nav:
     - Enable GPS L5: l5_signal.md
     - Configuration Settings: configuration_interface.md
     - UBX Protocol: ubx_protocol.md
+    - Firmware Update: firmware_update.md
   - Troubleshooting Tips: troubleshooting_tips.md
   - Resources: resources.md
