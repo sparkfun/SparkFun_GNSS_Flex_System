@@ -9,9 +9,13 @@
 	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
 	- :material-cube-outline: [STEP File](./assets/3d_model/cad_model.step)
 - Component Documentation
-	- :fontawesome-solid-file-pdf: [mosaic-X5 Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf)
-	- :fontawesome-solid-file-pdf: [mosaic-X5 Brochure](./assets/component_documentation/Septentrio_mosaic-X5_LR.pdf)
-	- :fontawesome-solid-file-pdf: [Firmware Manual *(v4.15.0)*](./assets/component_documentation/firmware/mosaic-X5_Firmware_v4.15.0_Reference_Guide.pdf)
+	- mosaic-X5 GNSS Receiver
+		- :fontawesome-solid-file-pdf: [mosaic-X5 Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf)
+		- :fontawesome-solid-file-pdf: [mosaic-X5 Brochure](./assets/component_documentation/Septentrio_mosaic-X5_LR.pdf)
+		- :fontawesome-solid-file-pdf: [Firmware Manual *(v4.15.0)*](./assets/component_documentation/firmware/mosaic-X5_Firmware_v4.15.0_Reference_Guide.pdf)
+	- IM19 Attitude Module
+		- :fontawesome-solid-file-pdf: [Datasheet](../assets/component_documentation/IM19.pdf)
+		- :fontawesome-solid-file-pdf: [Integration Guide](../assets/component_documentation/IM19EI_v1.4.1.pdf)
 - :material-github: [GitHub Repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System)
 
 
@@ -31,3 +35,11 @@ Septentrio also provides great resources for the mossaic-X5 GNSS receiver:
 		- [Community](https://www.septentrio.com/en/learn-more/community)
 		- [Agnostic Corrections Program](https://www.septentrio.com/en/products/correction-services/precise-point-positioning-services-land/agnostic-corrections-program-gnss-correction-services)
 - [JammerTest 2023 - Anti-Jamming and Anti-Spoofing Performance](https://www.septentrio.com/en/learn-more/insights/most-resilient-gnss-receiver-results-jammertest-norway)
+
+
+Feyman Inc. also provides some resources for the IM19 attitude module:
+
+- :material-web: [IM19 Product Page](https://global.feymani.com/product/attitede/im19ee/)
+	- :material-newspaper-variant: [Documentation](https://global.feymani.com/document/)
+- :material-web: [IM19 Product Page](http://feymani.com/en/show-53-2-1.html) *(alternate website)*
+- :material-youtube: [Feyman Inc. YouTube Channel](https://www.youtube.com/@FeymanIncFMI)

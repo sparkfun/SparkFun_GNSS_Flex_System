@@ -263,11 +263,11 @@
 		The reset pin is exposed on 4-pin JST connector and the log pin is connected to the latch pin of the SD card slot.
 
 
-	!!! note "mosaic-5 GNSS Flex Modules"
+	!!! note "mosaic-X5 GNSS Flex Modules"
 		SparkPNT GNSS Flex modules are modular, *plug-in* boards that utilize a *carrier* board to access the pins of the GNSS Flex headers.
 
 		- The [GNSS only variant](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html) of the SparkPNT GNSS Flex module includes a middle header that breaks out the Ethernet PHY interface of the mosaic-X5.
-		- The [IMU variant](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5-im19-imu.html) of the SparkPNT GNSS Flex module includes the IM19 IMU for RK tilt-compensation applications with the mosaic-X5.
+		- The [IMU variant](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5-im19-imu.html) of the SparkPNT GNSS Flex module includes the IM19 IMU for RTK tilt-compensation applications with the mosaic-X5.
 
 
 

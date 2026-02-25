@@ -25,7 +25,7 @@ Most of the manufacturers will provide software that is designed to specifically
 
 	---
 
-	On Windows platforms, Quectel provides the QGNSS *(v2.0)* software application for their GNSS products:
+	On Windows platforms, Quectel provides the QGNSS *(v2.x)* software application for their GNSS products:
 
 	- [Download & User Manual](https://www.quectel.com/download/qgnss_v2-1_en/)
 	- [GitHub Repository](https://github.com/quectel-open-source/GNSSTool)
