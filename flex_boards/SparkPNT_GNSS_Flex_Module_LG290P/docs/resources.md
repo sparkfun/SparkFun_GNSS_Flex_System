@@ -20,10 +20,6 @@
 - :material-github: [GitHub Repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System)
 
 
-### Additional Resources
-
-- :material-account-supervisor: [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance)
-
 
 ## 🏭&nbsp;Manufacturer's Resources
 Quectel also provides great resources for the LG290P GNSS receiver:

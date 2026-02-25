@@ -146,6 +146,25 @@
 			- :fontawesome-solid-file-pdf: [Datasheet](./assets/component_documentation/IM19.pdf)
 			- :fontawesome-solid-file-pdf: [Integration Guide](./assets/component_documentation/IM19EI_v1.4.1.pdf)
 
+
+- **mosaic-G5 P3**
+
+	---
+
+	- :material-folder-cog: Design Files:
+		- :fontawesome-solid-file-pdf: [Schematic](SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/board_files/schematic.pdf)
+		- :fontawesome-solid-file-pdf: [Board Dimensions](SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/board_files/dimensions.pdf)
+		- :material-folder-zip: [KiCad Files](SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/board_files/kicad_files.zip)
+		- :material-cube-outline: [STEP File](SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/3d_model/cad_model.step)
+	- Component Documentation
+		- mosaic-G5 P3 GNSS Module
+			- :fontawesome-solid-file-pdf: [mosaic-G5 P3 Datasheet](SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/component_documentation/mosaic-g5_hardware_manual_v1.1.1.pdf)
+			- :fontawesome-solid-file-pdf: [mosaic-G5 P3 Brochure](SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/component_documentation/Septentrio_mosaic-G5_P3_&_P3H.pdf)
+			- :fontawesome-solid-file-pdf: [Firmware Manual *(v1.0.1)*](SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/component_documentation/firmware/v1.0.1/mosaic-G5 Firmware v1.0.1 Reference Guide.pdf)
+		- IM19 Attitude Module
+			- :fontawesome-solid-file-pdf: [Datasheet](./assets/component_documentation/IM19.pdf)
+			- :fontawesome-solid-file-pdf: [Integration Guide](./assets/component_documentation/IM19EI_v1.4.1.pdf)
+
 </div>
 
 

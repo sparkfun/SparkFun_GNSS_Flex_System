@@ -20,12 +20,6 @@
 
 
 
-### Additional Resources
-
-- :material-account-supervisor: [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance)
-
-
-
 ## 🏭&nbsp;Manufacturer's Resources
 u-blox also provides great resources for the DAN-F10N GNSS receiver:
 

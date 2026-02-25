@@ -39,6 +39,7 @@
 
 </div>
 
+
 <div class="grid cards" markdown>
 
 -   SparkPNT GNSS Flex modules are plug-in boards featuring different GNSS receivers. They are designed to be easily swapped for repairs and pin-compatible for upgrades. The boards have two 2x10-pin, 2mm pitch female headers connecting to carrier boards. For the ZED-X20P GNSS receiver, these pins will break out the USB, UART (x2), and I^2^C interfaces, along with the PPS and event signals using a standardized pinout. When populated, these pins also break out the two UART interfaces of the IM19 attitude module.
@@ -163,13 +164,13 @@ The ZED-X20P GNSS Flex module has the following features:
 <div markdown>
 
 1. **ZED-X20P GNSS Receiver**
-:	The u-blox ZED-X20P GNSS receiver
+:   The u-blox ZED-X20P GNSS receiver
 1. **GNSS Flex Headers**
-:	Two sets of 2x10 pin, 2mm pitch female headers for connecting a GNSS Flex module to *carrier boards*
+:   Two sets of 2x10 pin, 2mm pitch female headers for connecting a GNSS Flex module to *carrier boards*
 1. **IM19 IMU** *(optional)*
-:	An optional Feyman IM19 attitude module to provide tilt compensation in surveying applications
+:   An optional Feyman IM19 attitude module to provide tilt compensation in surveying applications
 1. **`Antenna L1/L2/L5/E6` U.FL Connector**
-:	An U.FL connector for attaching an external GNSS antenna
+:   An U.FL connector for attaching an external GNSS antenna
 
 </div>
 
@@ -178,7 +179,7 @@ The ZED-X20P GNSS Flex module has the following features:
 
 
 ## ZED-X20P GNSS Receiver
-The centerpiece of this GNSS breakout board is the [ZED-X20P module](./assets/component_documentation/ZED-X20P-00B_DataSheet_UBXDOC-963802114-12690.pdf) from [u-blox](https://www.u-blox.com/en); it features their latest X20 GNSS engine, a successor to their popular F9 engine. The ZED-X20P module is an all-band, high precision GNSS receiver that concurrently processes signals from the GPS, Galileo, BeiDou, QZSS, and NavIC constellations across all GNSS frequency bands, including L-band. With positioning algorithms for Real-time Kinematics (RTK), PPP-RTK, and Precise Point Positioning* (PPP) technologies, the module supports standard RTCM corrections for Virtual Reference Stations (VRS) in a Network RTK setup or a local base station setup. Additionally, L-band correction services are natively supported without the need to integrate an external receiver, such as the NEO-D9S.
+The centerpiece of this GNSS Flex module is the [ZED-X20P module](./assets/component_documentation/ZED-X20P-00B_DataSheet_UBXDOC-963802114-12690.pdf) from [u-blox](https://www.u-blox.com/en); it features their latest X20 GNSS engine, a successor to their popular F9 engine. The ZED-X20P module is an all-band, high precision GNSS receiver that concurrently processes signals from the GPS, Galileo, BeiDou, QZSS, and NavIC constellations across all GNSS frequency bands, including L-band. With positioning algorithms for Real-time Kinematics (RTK), PPP-RTK, and Precise Point Positioning* (PPP) technologies, the module supports standard RTCM corrections for Virtual Reference Stations (VRS) in a Network RTK setup or a local base station setup. Additionally, L-band correction services are natively supported without the need to integrate an external receiver, such as the NEO-D9S.
 
 With its very high update rate, the ZED-X20P module is ideal for control applications, ensuring smooth and reliable operation. The module also protects system integrity with multi-layered defenses, including a Root of Trust, jamming and spoofing detection, cryptographic authentication of navigation messages through Galileo OSNMA, and more. The module also accommodates users with a diverse choice of interfaces including USB, UART, SPI, and I^2^C.
 
@@ -638,6 +639,7 @@ The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mat
 Below, are the features that are available from the ZED-X20P GNSS receiver.
 
 <article class="annotate" markdown>
+
 **Supported Interfaces:**
 
 - USB
@@ -771,7 +773,7 @@ Below, are the features that are available from the IM19 attitude module.
 
 	---
 
-	The IM19 attitude module has two UART ports, which operate separately.
+	The IM19 attitude module has two UART ports, which operate separately; and are available from the headers pins of the GNSS Flex module. To provide an accurate tilt compensated position, the IM19 attitude module also requires a [PPS signal](#pps-output) that corresponds with the GNSS solutions.
 
 
 	<figure markdown>

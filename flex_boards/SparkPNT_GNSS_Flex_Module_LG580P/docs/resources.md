@@ -21,12 +21,6 @@
 
 
 
-### Additional Resources
-
-- :material-account-supervisor: [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance)
-
-
-
 ## 🏭&nbsp;Manufacturer's Resources
 Quectel also provides great resources for the LG580P GNSS receiver:
 

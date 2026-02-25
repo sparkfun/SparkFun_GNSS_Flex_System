@@ -140,4 +140,39 @@
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5-im19-imu.html){ .md-button .md-button--primary }
 	</article>
 
+
+- **SparkPNT GNSS Flex Module - mosaic-G5 P3**
+
+	---
+
+	<model-viewer src="../SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/3d_model/web_model.glb" camera-controls poster="../SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/3d_model/poster.png" tone-mapping="neutral" shadow-intensity="2" shadow-softness="0.2" camera-orbit="0deg 75deg 0.103m" field-of-view="25.11deg" style="width: 100%; height: 250px;">
+	</model-viewer>
+
+
+	<article style="text-align: center;" markdown>
+	[Hookup Guide](./SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/index.md){ .md-button .md-button--primary }
+
+
+	<p style="margin-top: .75em; margin-bottom: 0px;" markdown>
+	**Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }**
+	</p>
+	<!-- <hr style="margin: 0px;"> -->
+	<article class="grid cards" style="margin-top: 0px; grid-template-columns: 1fr 1fr;" markdown>
+	<article style="text-align: right;" markdown>
+
+	![QR code to product page](./SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/img/qr_code/product.png){ .qr }
+	[<span style="text-align: center; font-size: minmax(calc(6px + 0.6vw), 19.2px)">GNSS *(only)*</span>](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-g5-p3.html){ .md-button .md-button--primary style="padding-left: calc(4px + .5vw); padding-right: calc(4px + .5vw);" }
+
+	</article>
+
+
+	<article style="text-align: left;" markdown>
+
+	![QR code to product page](./SparkPNT_GNSS_Flex_Module_mosaic-G5_P3-Tilt/assets/img/qr_code/product-imu.png){ .qr }
+	[<span style="text-align: center; font-size: minmax(calc(6px + 0.6vw), 19.2px)">GNSS + IMU</span>](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-g5-p3-im19-imu.html){ .md-button .md-button--primary style="padding-left: calc(4px + .5vw); padding-right: calc(4px + .5vw);" }
+
+	</article>
+
+	</article>
+
 </div>

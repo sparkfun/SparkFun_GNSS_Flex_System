@@ -18,7 +18,7 @@
 
 
 	!!! warning "Active Antenna"
-		Never inject an external DC voltage with the GNSS antenna, as it may damage the mosaic-X5 GNSS receiver. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
+		Never inject an external DC voltage into the GNSS antenna, as it may damage the mosaic-X5 GNSS receiver. For instance, when using a splitter to distribute the antenna signal to several GNSS receivers, make sure that no more than one output of the splitter passes DC. Use [DC-blocks](https://en.wikipedia.org/wiki/DC_block) otherwise.
 
 
 
@@ -267,11 +267,11 @@
 		The reset pin is exposed on 4-pin JST connector and the log pin is connected to the latch pin of the SD card slot.
 
 
-	!!! note "mosaic-5 GNSS Flex Modules"
+	!!! note "mosaic-X5 GNSS Flex Modules"
 		SparkPNT GNSS Flex modules are modular, *plug-in* boards that utilize a *carrier* board to access the pins of the GNSS Flex headers.
 
-		- The [GNSS only variant](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5-im19-imu.html) of the SparkPNT GNSS Flex module includes a middle header that breaks out the Ethernet PHY interface of the mosaic-X5.
-		- The [IMU variant](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5-im19-imu.html) of the SparkPNT GNSS Flex module includes the IM19 IMU for RK tilt-compensation applications with the mosaic-X5.
+		- The [GNSS only variant](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html) of the SparkPNT GNSS Flex module includes a middle header that breaks out the Ethernet PHY interface of the mosaic-X5.
+		- The [IMU variant](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5-im19-imu.html) of the SparkPNT GNSS Flex module includes the IM19 IMU for RTK tilt-compensation applications with the mosaic-X5.
 
 
 
@@ -370,13 +370,13 @@ The mosaic-X5 & IM19 GNSS Flex module has the following features:
 <div markdown>
 
 1. **mosaic-X5 GNSS Receiver**
-:	The Septentrio mosaic-X5 GNSS receiver
+:   The Septentrio mosaic-X5 GNSS receiver
 1. **GNSS Flex Headers**
-:	Two sets of 2x10 pin, 2mm pitch female headers for connecting a GNSS Flex module to *carrier boards*
+:   Two sets of 2x10 pin, 2mm pitch female headers for connecting a GNSS Flex module to *carrier boards*
 1. **IM19 IMU**
-:	The Feyman IM19 attitude module to provide tilt compensation in surveying applications
+:   The Feyman IM19 attitude module to provide tilt compensation in surveying applications
 1. **`L1/L2/L5` U.FL Connector**
-:	An U.FL connector for attaching an external GNSS antenna
+:   An U.FL connector for attaching an external GNSS antenna
 
 </div>
 
@@ -657,9 +657,6 @@ The accuracy of the position reported from the mosaic-X5 GNSS receiver, can be i
 
 
 
-
-
-
 ## IM19 IMU
 The other centerpiece of the GNSS Flex module is the [IM19 attitude module](../assets/component_documentation/IM19EI_v1.4.1.pdf) from [Feyman Inc.](http://feymani.com/en/), which fuses MEMS sensor and GNSS RTK positioning data to deliver high-precision attitude measurement, with roll and pitch accurate to within 0.05 degrees. This kind of superb accuracy has widespread uses in industrial applications such as tilt RTK surveys (where RTK poles need not be held straight vertical as the IM19 can calculate a virtual digital level at any tilt angle), agriculture machine automation, and dead reckoning.
 
@@ -691,12 +688,13 @@ When configured, fed with the LG290P Pulse-Per-Second signal and NMEA GGA, RMC, 
 
 **Features:**
 
-- Self-calibration Technique
-- Initialization: <2s
 - Power: 0.33W
 - Data Rate: 100Hz
-- Attitude Accuracy: &plusmn;0.05&deg; *(Pitch/Roll)*
-- Heading Accuracy: &plusmn;0.5&deg; *(Yaw)*
+- IMU Accuracy: &le;1% * D（1&sigma;, vehicle)
+- Gyroscope
+	- ARW: 0.17&deg;/&radic;(h)
+	- Bias Stability: &plusmn;4.5&deg;/h
+	- Range: &plusmn;1000&deg;/s
 
 </div>
 
@@ -705,12 +703,14 @@ When configured, fed with the LG290P Pulse-Per-Second signal and NMEA GGA, RMC, 
 
 <br>
 
-- Gyroscope
-	- Bias Stability: &plusmn;0.2&deg;/s
-	- Range: &plusmn;1000&deg;/s
 - Accelerometer
-	- Bias Stability: &plusmn;5mg
-	- Range: &plusmn;8g
+	- Speed RW: 0.04m/s/&radic;(h)
+	- Bias Stability: &plusmn;0.3mg
+	- Range: &plusmn;16g
+- Roll and Pitch: &le;0.02&deg;（1&sigma;）
+- Heading/Yaw: &le;0.2&deg;（1&sigma;）
+- Initialization: 1s (95%)
+- Self-calibration Technique
 
 </div>
 
@@ -759,13 +759,20 @@ When configured and calibrated, the IM19 attitude module can fuses its IMU senso
 ## GNSS Flex Headers
 The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows boards to be easily swapped for repairs. For the mosaic-X5 GNSS receiver, these pins will breakout the USB, UART (x4), and SD card interfaces along with a configurable PPS signal, two event signals, and two LED status indication signals from the GNSS receiver.
 
+<!-- Redundant
+<figure markdown>
+[![Peripherals and I/O pins](./assets/img/hookup_guide/pinout-full.png){ width="400" }](./assets/img/hookup_guide/pinout-full.png "Click to enlarge")
+<figcaption markdown>The peripherals and I/O pins on the mosaic-X5 & IM19 GNSS Flex module.</figcaption>
+</figure>
+ -->
+
 
 <div class="grid" markdown>
 
 <div markdown>
 
 <figure markdown>
-[![ZED-X20P I/O pins](./assets/img/hookup_guide/headers-gnss.png){ width="400" }](./assets/img/hookup_guide/headers-gnss.png "Click to enlarge")
+[![mosaic-X5 I/O pins](./assets/img/hookup_guide/headers-gnss.png){ width="400" }](./assets/img/hookup_guide/headers-gnss.png "Click to enlarge")
 <figcaption markdown>The peripherals and I/O pins for the mosaic-X5 GNSS receiver.</figcaption>
 </figure>
 
@@ -780,9 +787,9 @@ The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mat
 
 <div markdown>
 
-<article class="annotate" markdown>
-
 Below, are the features that are available from the mosaic-X5 GNSS receiver.
+
+<article class="annotate" markdown>
 
 **Supported Interfaces:**
 
@@ -964,7 +971,7 @@ Below, are the features that are available from the IM19 attitude module.
 	</div>
 
 
-=== "PPS Output"	
+=== "PPS Output"
 	From the mosaic-X5, the [PPS](https://en.wikipedia.org/wiki/Pulse-per-second_signal "Pulse Per Second") output signal's logic-level is 1.8V, but we have added a buffer to bumped up the signal's logic-level to 3.3V. The signal is then connected to the IM19 attitude module and `PPS1` pin of the GNSS Flex module. In order to receive tilt-compensated data from the IM19 attitude module, this pin needs to be configured to provide a timing pulse at the same rate as the PVT solutions.
 
 
