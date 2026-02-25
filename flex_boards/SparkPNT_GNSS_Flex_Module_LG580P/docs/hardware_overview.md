@@ -423,7 +423,7 @@ The accuracy of the position reported from the LG580P GNSS receiver, can be impr
 
 	-   <a href="https://www.septentrio.com/en/learn-more/insights/gnss-corrections-demystified">
 		<figure markdown>
-		![Tutorial Thumbnail](https://www.septentrio.com/sites/default/files/styles/blog_picture_v2/public/blog/Septentrio-GNSS-corrections-map-world-web.png)
+		![Tutorial Thumbnail](https://www.septentrio.com/sites/default/files/styles/blog_picture_v2/public/blog/Septentrio-GNSS-corrections-map-world-web.png?itok=3nUvB3xn)
 		</figure>
 
 		---
