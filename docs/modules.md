@@ -87,7 +87,7 @@
 	[Hookup Guide](./SparkPNT_GNSS_Flex_Module_LG290P-Tilt/index.md){ .md-button .md-button--primary }
 
 	![QR code to product page](./SparkPNT_GNSS_Flex_Module_LG290P-Tilt/assets/img/qr_code/product.png){ .qr }
-	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p.html){ .md-button .md-button--primary }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkpnt-gnss-flex-module-lg290p-im19-imu.html){ .md-button .md-button--primary }
 	</article>
 
 
