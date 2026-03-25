@@ -51,13 +51,13 @@ Repository Contents
       - /assets - Assets files for the board
         - /3d_model - 3D models for the board
         - /board_files - Design files for the board
-          - KiCad Design Files (.zip)
-          - Schematic (.pdf)
-          - Dimensions (.pdf)
+          - `kicad_files.zip` - KiCad files for the board
+          - `schematic.pdf` - Schematic for the board
+          - `dimensions.pdf` - Dimensions for the board
         - /component_documentation - Datasheets for the board
         - /img/hookup_guide - Hookup guide images for the board
-    - /Hardware - Hardware design files (.brd, .sch)
-      - /Production - Production files
+    - /hardware - Hardware design files (.brd, .sch)
+      - /production - Production files
 
 
 

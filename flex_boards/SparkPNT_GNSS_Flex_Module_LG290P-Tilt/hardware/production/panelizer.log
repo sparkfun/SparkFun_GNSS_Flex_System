@@ -1,0 +1,14 @@
+2025-06-11 15:36:27,000 - panelizer_logger - INFO - Running Panelizer
+2025-06-11 15:36:27,004 - panelizer_logger - INFO - ['--panelx', '190.500000', '--panely', '139.700000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialstb']
+2025-06-11 15:36:27,006 - panelizer_logger - INFO - PANELIZER START: 2025-06-11T15:36:27.006757
+2025-06-11 15:36:32,719 - panelizer_logger - INFO - 
+START: 2025-06-11T15:36:27.006757
+Board saved by user.
+Zones filled by Panelizer.
+
+Board: C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Flex_Modules/LG290P-Tilt/Hardware\Production\SparkFun_GNSS_Flex_Module_LG290P-Tilt_panelized.kicad_pcb
+Board dimensions: 34.00 x 44.00 mm.
+You can fit 5 x 3 boards on the panel.
+Zones refilled by Panelizer.
+
+2025-06-11 15:36:34,661 - panelizer_logger - INFO - Panelizer complete
