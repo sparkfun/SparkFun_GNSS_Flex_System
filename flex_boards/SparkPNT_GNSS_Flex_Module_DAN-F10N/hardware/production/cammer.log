@@ -1,0 +1,25 @@
+2025-04-16 09:37:52,674 - cammer_logger - INFO - Running CAMmer
+2025-04-16 09:37:52,675 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-04-16 09:37:52,676 - cammer_logger - INFO - CAMMER START: 2025-04-16T09:37:52.676186
+2025-04-16 09:37:57,592 - cammer_logger - INFO - Running CAMmer
+2025-04-16 09:37:57,593 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-04-16 09:37:57,593 - cammer_logger - INFO - CAMMER START: 2025-04-16T09:37:57.593493
+2025-04-16 09:38:00,107 - cammer_logger - INFO - 
+START: 2025-04-16T09:37:57.593493
+Board saved by user.
+Zones filled by CAMmer.
+Deleting existing C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GTL
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-F_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GTL
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-In1_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GL2
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-In2_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GL3
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-B_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GBL
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-F_Paste.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GTP
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-B_Paste.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GBP
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-F_Silkscreen.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GTO
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-B_Silkscreen.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GBO
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-F_Mask.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GTS
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-B_Mask.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GBS
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized-Edge_Cuts.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\SparkFun_GNSS_Flex_Module_DAN-F10N_panelized.GKO
+Drill report: C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_Flex_Modules\DAN-F10N\Hardware\Production\drill_report.rpt
+
+2025-04-16 09:38:01,223 - cammer_logger - INFO - CAMmer complete

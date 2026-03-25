@@ -1,0 +1,21 @@
+2025-03-20 16:55:45,108 - cammer_logger - INFO - Running CAMmer
+2025-03-20 16:55:45,109 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-03-20 16:55:45,110 - cammer_logger - INFO - CAMMER START: 2025-03-20T16:55:45.110700
+2025-03-20 16:55:48,733 - cammer_logger - INFO - 
+START: 2025-03-20T16:55:45.110700
+Board saved by user.
+Zones filled by CAMmer.
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-F_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GTL
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-In1_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GL2
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-In2_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GL3
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-B_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GBL
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-F_Paste.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GTP
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-B_Paste.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GBP
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-F_Silkscreen.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GTO
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-B_Silkscreen.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GBO
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-F_Mask.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GTS
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-B_Mask.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GBS
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized-Edge_Cuts.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_Plug-In_Modules/mosaic-X5/Hardware/Production/SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.GKO
+Drill report: C:\Users\pc235\Documents\GitHub\SparkFun_GNSS_Plug-In_Modules\mosaic-X5\Hardware\Production\drill_report.rpt
+
+2025-03-20 16:55:50,457 - cammer_logger - INFO - CAMmer complete

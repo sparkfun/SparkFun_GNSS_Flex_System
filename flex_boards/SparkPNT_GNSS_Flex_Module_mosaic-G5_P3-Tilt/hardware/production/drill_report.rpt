@@ -1,0 +1,26 @@
+Drill report for mosaic-G5_P3_Tilt_panelized.kicad_pcb
+Created on 2025-05-21T12:48:53+0100
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'mosaic-G5_P3_Tilt_panelized.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.305mm  0.0120"  (2475 holes)
+
+    Total plated holes count 2475
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T2  1.200mm  0.0472"  (60 holes)
+    T3  3.100mm  0.1220"  (60 holes)
+
+    Total unplated holes count 120

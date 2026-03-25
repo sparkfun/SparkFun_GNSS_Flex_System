@@ -1,0 +1,14 @@
+2025-03-20 16:54:43,274 - panelizer_logger - INFO - Running Panelizer
+2025-03-20 16:54:43,275 - panelizer_logger - INFO - ['--panelx', '101.600000', '--panely', '114.300000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialstb']
+2025-03-20 16:54:43,276 - panelizer_logger - INFO - PANELIZER START: 2025-03-20T16:54:43.276240
+2025-03-20 16:54:49,902 - panelizer_logger - INFO - 
+START: 2025-03-20T16:54:43.276240
+Board saved by user.
+Zones filled by Panelizer.
+
+Board: C:\Users\pc235\Documents\GitHub\SparkFun_GNSS_Plug-In_Modules\mosaic-X5\Hardware\Production\SparkFun_GNSS_Flex_Module_mosaic-X5_panelized.kicad_pcb
+Board dimensions: 44.00 x 34.00 mm.
+You can fit 2 x 3 boards on the panel.
+Zones refilled by Panelizer.
+
+2025-03-20 16:54:51,709 - panelizer_logger - INFO - Panelizer complete
